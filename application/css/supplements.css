@@ -179,10 +179,11 @@ section p.title {
   color: #FFFFFF;
   border-radius: 0;
   border: none;
-  width: 100%;
   padding: 10px 20px;
   font-size: 15px;
   font-weight: bold;
+  text-decoration: none;
+  text-align: center;
 }
 
 /* #endregion ----------------------------------------------- Pills */
