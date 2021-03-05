@@ -71,7 +71,29 @@ body {
         .slide-top {
             width: 95%;
             margin: 0 auto;
-            overflow: auto;       
+            overflow: auto;      
+            .top-intro-container {
+                margin: 35px 0;
+                display: flex;
+                justify-content: space-around;
+                .top-intro {
+                    .title {
+                        color: $neurotransmetter-title-color;
+                        font-size: medium;
+                        text-align: center;
+                    }
+                }
+            }
+            .optimization-container {
+                margin: 30px 0;
+                p {
+                    margin-bottom: 30px;
+                    font-size: large;
+                }
+            }
+            .desc-img {
+                margin: 0 0 35px 0;
+            }
         }
 
         .slide-radios {
@@ -95,10 +117,17 @@ body {
         }
 
         .duree {
+            color: $question-color;
+            font-size: $font-size-big;
             font-weight: bold;
 
             span {
                 color: $progress-color;
+            }
+            .highlight-text {
+                color: $neurotransmetter-title-color;
+                font-size: $font-size-big;
+                font-weight: bold;
             }
         }
     }
@@ -142,8 +171,15 @@ body {
     }
     .section {
         color: $sub-title-color;
-        font-size: $font-size-small;
+        font-size: medium;
         font-weight: normal;
+    }
+    .question-title {
+        color: $question-color;
+        font-size: $font-size-big;
+        font-weight: bold;
+        
+        overflow: auto;
     }
     .question {
         color: $question-color;
@@ -151,7 +187,13 @@ body {
         font-weight: bold;
         
         overflow: auto;
-    }    
+        margin: 40% 0;
+    }
+    .highlight-text {
+        color: $neurotransmetter-title-color;
+        font-size: $font-size-big;
+        font-weight: bold;
+    }
     img {
         width: 90%;
     }
@@ -159,9 +201,11 @@ body {
         list-style: none;
         li {
             text-align: left;
+            font-size: large;
             &:before {            
-                content: '✓ ';
-              }
+                content: url('../img/icons/check_icon.svg');
+                margin-right: 10px;
+            }
         }
     }
 }

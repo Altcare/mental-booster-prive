@@ -11,7 +11,7 @@ body {
   overflow: hidden;
 }
 
-/* #ensregion ----------------------------------------------- SUPPLEMENTS BODY */
+/* #endregion ----------------------------------------------- SUPPLEMENTS BODY */
 /* #region ----------------------------------------------- TABS */
 .tabset > input[name=tabset] {
   display: none;
@@ -23,7 +23,7 @@ body {
 
 #tab1:checked ~ .tab-panels,
 #tab2:checked ~ .tab-panels {
-  height: 88vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -50,6 +50,11 @@ body {
 
 .tab-panel {
   padding: 5px 30px;
+}
+
+.trademark {
+  color: gray;
+  text-align: right;
 }
 
 /* #endregion ----------------------------------------------- TABS */
@@ -131,7 +136,7 @@ section p.title {
 }
 
 .label::before {
-  content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMCAxMCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogI2YwZjsKICAgICAgICBvcGFjaXR5OiAwOwogICAgICB9CgogICAgICAuY2xzLTIgewogICAgICAgIGZpbGw6ICM3MDcwNzA7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgPC9kZWZzPgogIDxnIGlkPSJDaGV2cm9uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4KSByb3RhdGUoOTApIj4KICAgIDxyZWN0IGlkPSJGcmFtZSIgY2xhc3M9ImNscy0xIiB3aWR0aD0iMTAiIGhlaWdodD0iNiIvPgogICAgPHBhdGggaWQ9IlNoYXBlIiBjbGFzcz0iY2xzLTIiIGQ9Ik0xMCwxQTEsMSwwLDAsMCw4LjI5My4yOTNMNSwzLjU4NiwxLjcwNy4yOTNBMSwxLDAsMSwwLC4yOTMsMS43MDdsNCw0YTEsMSwwLDAsMCwxLjQxNSwwbDQtNEExLDEsMCwwLDAsMTAsMVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIgOCkgcm90YXRlKC05MCkiLz4KICA8L2c+Cjwvc3ZnPgo=);
+  content: url("../img/icons/keyboard_arrow_down-24px.svg");
   display: inline-block;
   width: 25px;
   height: 25px;

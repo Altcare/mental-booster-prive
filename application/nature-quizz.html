@@ -10,17 +10,6 @@
 
         <link rel="stylesheet" href="css/normalize.min.css" />
         <link rel="stylesheet" href="css/style.css" />
-
-        <style>
-            .top-intro {
-                display: inline-block;
-                width: 80px;                
-            }
-            .top-intro .title {
-                font-size: 11px;
-                color: #AE3EC9;
-            }        
-        </style>
     </head>
     <body>
         <img src="img/phone-menu.jpg" width="100%" class="calc-header"/>
@@ -33,11 +22,10 @@
                 <div class="slide-item info">  
                     <div class="slide-top">  
                         <img class="logo" src="img/logo.jpg"/>
-                        <p class="question">Boostez votre cerveau en rééquilibrant sa neurochimie sur 4 paramètres principaux</p>
+                        <p class="question-title">Boostez votre cerveau en rééquilibrant sa neurochimie sur 4 paramètres principaux</p>
 
                         <div>
-                            <p>À partir de ce test que nous vous proposons, vous pouvez optimiser:</p>
-                            <div>
+                            <div class="top-intro-container">
                                 <div class="top-intro">
                                     <img src="img/icons/energie.svg" height="50" width="50"/>
                                     <div class="title">Energie</div>
@@ -55,13 +43,17 @@
                                     <div class="title">Mémoire</div>
                                 </div>                                                                                                
                             </div>
-                            <ul>
-                                <li>votre régime alimentaire</li>
-                                <li>votre mode de vie</li>
-                                <li>vos compléments nutritionnels</li>
-                            </ul>
 
-                            <p class="duree">Durée totale <span>10 min</spann></p>
+                            <div class="optimization-container">
+                                <p>À partir de ce test que nous vous proposons, vous pouvez optimiser:</p>
+                                <ul>
+                                    <li>votre régime alimentaire</li>
+                                    <li>votre mode de vie</li>
+                                    <li>vos compléments nutritionnels</li>
+                                </ul>
+                            </div>
+
+                            <p class="duree">Durée totale <span class="highlight-text">10 min</span></p>
                         </div>
                     </div>
                     <div class="slide-radios">
@@ -76,8 +68,8 @@
             <div id="slide-start" class="slide-container">
                 <div class="slide-item info">
                     <div class="slide-top scrollable">
-                        <p class="title">Déterminer votre nature dominante Durée 6 min</p>
-                        <img src="img/Nature-dominante.svg"/>
+                        <p class="question-title">Déterminer votre nature dominante Durée <span class="highlight-text">6 min</span></p>
+                        <img src="img/Nature-dominante.svg" class="desc-img" />
                         <div class="section justify">
                             Répondez à chaque question en sélectionnant <b>Vrai</b> ou <b>Faux</b>.
                             Répondez aux questions en fonction de ce que vous ressentez la <b>plupart du temps</b>.
@@ -96,7 +88,7 @@
             <div id="slide-finish" class="slide-container">
                 <div class="slide-item info">
                     <div class="slide-top">
-                        <p class="question">Bravo! vous avez terminé le test du profil dominant, nous allons pouvoir vous présenter vos résultats</p>
+                        <p class="question-title">Bravo! vous avez terminé le test du profil dominant, nous allons pouvoir vous présenter vos résultats</p>
                         <img src="img/profil-dominant-resultat.svg"/>
                     </div>
                     <div class="slide-radios">
