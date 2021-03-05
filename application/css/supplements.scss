@@ -7,9 +7,16 @@
 .tabset .tab-panel {
     display: none;
 }
+#tab1:checked ~ .tab-panels,
+#tab2:checked ~ .tab-panels {
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+}
 #tab1:checked ~ .tab-panels > #supplements,
 #tab2:checked ~ .tab-panels > #products {
     display: block;
+    overflow: auto;
 }
 /* Styling */
 .tabset > label {

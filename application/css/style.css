@@ -9,13 +9,11 @@
 /* Arial, Bold, Regular : 15pt, 20pt */
 /* #region CSS Slider */
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *:before, *:after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 html, body {
@@ -30,30 +28,20 @@ html, body {
 }
 
 .slides {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  align-items: flex-start;
   overflow-x: scroll;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
   /* Enabled: slides scroll from side to side */
 }
-
 .slides .slide-container {
   scroll-snap-align: start;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .slides::-webkit-scrollbar {
@@ -74,76 +62,68 @@ html, body {
   margin: 10px auto;
   overflow: hidden;
 }
-
 .progress div {
   height: 100%;
   width: 0;
   background-color: #AE3EC9;
-  -webkit-transition: width  0.5s;
-  transition: width  0.5s;
+  transition: width 0.5s;
 }
 
 .slide-item {
   width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
   /* Overrides for Info slides */
 }
-
 .slide-item.info {
   width: 100%;
 }
-
 .slide-item.info .slide-top {
   width: 95%;
   margin: 0 auto;
+  overflow: auto;
 }
-
 .slide-item.info .slide-radios {
   width: 100%;
+  margin: 0 auto;
 }
-
 .slide-item.info .radio-item {
   margin: 10px 0 0 0;
 }
-
 .slide-item.info .radio-item .button {
   background-color: #AE3EC9;
   color: #FFFFFF;
   border-radius: 0;
 }
-
 .slide-item .title {
   color: #922692;
   font-size: 20px;
   font-weight: bold;
 }
-
 .slide-item .section {
   color: #697DA5;
   font-size: 15px;
   font-weight: normal;
 }
-
 .slide-item .question {
   color: #203B72;
   font-size: 20px;
   font-weight: bold;
   overflow: auto;
 }
-
 .slide-item img {
   width: 90%;
 }
-
 .slide-item ul {
   list-style: none;
 }
-
 .slide-item ul li {
   text-align: left;
 }
-
 .slide-item ul li:before {
-  content: '✓ ';
+  content: "✓ ";
 }
 
 .justify {
@@ -154,6 +134,7 @@ html, body {
 .slide-radios {
   width: 95%;
   display: inline-block;
+  margin: 0 auto;
 }
 
 /* #region Quizz Buttons */
@@ -161,22 +142,18 @@ html, body {
   margin: 10px;
   display: block;
 }
-
-.radio-item input[type="radio"] {
+.radio-item input[type=radio] {
   opacity: 0;
   position: fixed;
   width: 0;
 }
-
-.radio-item input[type="radio"]:focus + label {
+.radio-item input[type=radio]:focus + label {
   border: 1px solid #C8C3C3;
 }
-
-.radio-item input[type="radio"]:checked + label {
+.radio-item input[type=radio]:checked + label {
   background-color: #e0b6ea;
   border-color: #000000;
 }
-
 .radio-item label, .radio-item .button {
   cursor: pointer;
   display: block;
@@ -190,11 +167,9 @@ html, body {
   -webkit-text-decoration: auto;
           text-decoration: auto;
 }
-
 .radio-item label:hover, .radio-item .button:hover {
   background-color: #e0b6ea;
   border-color: #000000;
 }
 
-/* #endregion */
-/*# sourceMappingURL=style.css.map */
+/* #endregion *//*# sourceMappingURL=style.css.map */

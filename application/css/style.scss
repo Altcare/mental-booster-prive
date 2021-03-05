@@ -75,18 +75,23 @@ body {
 
 .slide-item {
     width: 95%;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
     /* Overrides for Info slides */
     &.info {
         width: 100%;
 
         .slide-top {
             width: 95%;
-            margin: 0 auto;            
+            margin: 0 auto;
+            overflow: auto;       
         }
 
         .slide-radios {
             width: 100%;
+            margin: 0 auto;
         }
 
         .radio-item {
@@ -140,6 +145,7 @@ body {
 .slide-radios {
     width: 95%;
     display: inline-block;
+    margin: 0 auto;
 }
 
 /* #region Quizz Buttons */

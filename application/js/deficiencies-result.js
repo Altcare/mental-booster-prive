@@ -108,7 +108,7 @@
      */
     function resize(origin) {
         // comment to deactivate and test via CSS
-        //return;
+        return;
         
         // what is the viewport height ?
         var viewPortHeight = win.innerHeight;
