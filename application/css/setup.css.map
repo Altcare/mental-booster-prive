@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,mBAAmB;AAEnB,iBAAiB;AAEjB,aAAa;AAEb,eAAe;AAEf,aAAa;AAEb,eAAe;AAEf,mBAAmB;AAMnB,uCAAuC",
+    "sources": [
+        "setup.scss"
+    ],
+    "names": [],
+    "file": "setup.css"
+}

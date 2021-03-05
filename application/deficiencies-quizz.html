@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+        <title>Carences : Quizz</title>
+        <link rel="manifest" href="manifest.json" />
+        <link rel="icon" type="image/png" href="img/icons/icon-512x512.png" />
+
+        <link rel="stylesheet" href="css/normalize.min.css" />
+        <link rel="stylesheet" href="css/style.css" />        
+    </head>
+    <body>
+        <img src="img/phone-menu.jpg" width="100%" class="placeholder"/>
+        
+        <div class="slides">
+            <!-- Start Slides -->
+
+            <!-- Slide Intro -->
+            <div id="slide-start" class="slide-container">
+                <div class="slide-item info">
+                    <div class="slide-top scrollable">
+                        <p class="question">Déterminer vos carences <br>Durée 4 min</p>
+                        <img src="img/test-carences.svg"/>
+                        <div class="section justify">
+                            Répondez à chaque question en sélectionnant <b>Vrai</b> ou <b>Faux</b>. La deuxième évaluation déterminera si vous êtes déficient dans l'un des quatre produits biochimiques, y compris celui qui régit votre nature. De nombreuses questions portent sur des symptômes que vous pourriez ressentir actuellement. Répondez aux questions en fonction de ce que vous ressentez <b>en ce moment</b> ; peu importe depuis combien de temps vous ressentez ces symptômes, ou même s'ils sont apparus aujourd'hui pour la première fois.
+                        </div>
+                    </div>
+                    <div class="slide-radios">
+                        <div class="radio-item">
+                            <a class="button" href="#slide-1">Start</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide Finish -->
+            <div id="slide-finish" class="slide-container">
+                <div class="slide-item info">
+                    <div class="slide-top scrollable">
+                        <p class="question">Bravo! vous avez terminé le test de carences, nous allons pouvoir vous présenter vos résultats</p>
+                        <img src="img/resultat-carences.svg"/>
+                    </div>
+                    <div class="slide-radios">
+                        <div class="radio-item">
+                            <a class="button" href="deficiencies-result.html">Découvrir mes carences</a>
+                        </div>
+                    </div>
+                </div>
+            </div>             
+        </div>
+        
+
+        <script src="js/jquery2.min.js"></script>     
+        <script src="js/deficiencies-quizz.js"></script>
+    </body>
+</html>

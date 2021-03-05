@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#203b72"/>
+      <stop offset="0.374" stop-color="#4b347f"/>
+      <stop offset="1" stop-color="#922692"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_1858" data-name="Groupe 1858" transform="translate(-92 -506)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="25" cy="25" r="25" transform="translate(92 506)" fill="url(#linear-gradient)"/>
+    <g id="noun_sun_12294" transform="translate(81.5 495.5)">
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="6.356" cy="6.356" r="6.356" transform="translate(29.144 29.144)" fill="#fff"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="1.271" cy="1.271" r="1.271" transform="translate(43.89 34.229)" fill="#fff"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="1.271" cy="1.271" r="1.271" transform="translate(47.958 34.229)" fill="#fff"/>
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="1.271" cy="1.271" r="1.271" transform="translate(20.5 34.229)" fill="#fff"/>
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="1.271" cy="1.271" r="1.271" transform="translate(24.568 34.229)" fill="#fff"/>
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="1.271" cy="1.271" r="1.271" transform="translate(41.06 41.06)" fill="#fff"/>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="1.271" cy="1.271" r="1.271" transform="translate(43.937 43.937)" fill="#fff"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="1.271" cy="1.271" r="1.271" transform="translate(24.521 24.521)" fill="#fff"/>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="1.271" cy="1.271" r="1.271" transform="translate(27.397 27.397)" fill="#fff"/>
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="1.271" cy="1.271" r="1.271" transform="translate(27.397 41.06)" fill="#fff"/>
+      <circle id="Ellipse_12" data-name="Ellipse 12" cx="1.271" cy="1.271" r="1.271" transform="translate(24.522 43.937)" fill="#fff"/>
+      <circle id="Ellipse_13" data-name="Ellipse 13" cx="1.271" cy="1.271" r="1.271" transform="translate(43.937 24.521)" fill="#fff"/>
+      <circle id="Ellipse_14" data-name="Ellipse 14" cx="1.271" cy="1.271" r="1.271" transform="translate(41.061 27.397)" fill="#fff"/>
+      <circle id="Ellipse_15" data-name="Ellipse 15" cx="1.271" cy="1.271" r="1.271" transform="translate(34.229 43.89)" fill="#fff"/>
+      <circle id="Ellipse_16" data-name="Ellipse 16" cx="1.271" cy="1.271" r="1.271" transform="translate(34.229 47.958)" fill="#fff"/>
+      <circle id="Ellipse_17" data-name="Ellipse 17" cx="1.271" cy="1.271" r="1.271" transform="translate(34.229 20.5)" fill="#fff"/>
+      <circle id="Ellipse_18" data-name="Ellipse 18" cx="1.271" cy="1.271" r="1.271" transform="translate(34.229 24.568)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

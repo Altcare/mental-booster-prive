@@ -1,0 +1,242 @@
+{
+    "title": "products",
+    "version": "1.0",
+    "items": [
+        {
+            "neuro": "Acétylcholine",
+            "title": "Vitamines B",
+            "desc": "2 gélules/jour",
+            "dMin": "0",
+            "dMoy": "1",
+            "dMax": "1",
+            "file": "vitaminesb.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Acétylcholine",
+            "title": "NATURA MEMO",
+            "desc": "2 gélules/jour",
+            "dMin": "0",
+            "dMoy": "1",
+            "dMax": "0",
+            "file": "memo.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Acétylcholine",
+            "title": "OMEGA 3 DHA+",
+            "desc": "2 capsules/jour",
+            "dMin": "1",
+            "dMoy": "0",
+            "dMax": "0",
+            "file": "dha.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Acétylcholine",
+            "title": "GINSENG ROUGE DE COREE",
+            "desc": "Prendre 500 mg",
+            "dMin": "0",
+            "dMoy": "0",
+            "dMax": "1",
+            "file": "ginseng.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Acétylcholine",
+            "title": "COGNIREL",
+            "desc": "2 gélules/jour",
+            "dMin": "1",
+            "dMoy": "0",
+            "dMax": "0",
+            "file": "cognirel.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Acétylcholine",
+            "title": "GINKGO BILOBA",
+            "desc": "1 gélule/jour",
+            "dMin": "0",
+            "dMoy": "0",
+            "dMax": "1",
+            "file": "gingo-biloba.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Dopamine",
+            "title": "POSITIREL",
+            "desc": "2 gélules/jour",
+            "dMin": "0",
+            "dMoy": "0",
+            "dMax": "1",
+            "file": "positirel.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Dopamine",
+            "title": "NATURA-DOPA",
+            "desc": "2 gélules/jour",
+            "dMin": "1",
+            "dMoy": "0",
+            "dMax": "0",
+            "file": "natura-dopa.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Dopamine",
+            "title": "GINKGO BILOBA",
+            "desc": "1 gélule/jour",
+            "dMin": "0",
+            "dMoy": "0",
+            "dMax": "1",
+            "file": "gingo-biloba.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Dopamine",
+            "title": "DopaTropic",
+            "desc": "1 cuillère à café",
+            "dMin": "0",
+            "dMoy": "1",
+            "dMax": "0",
+            "file": "dopatropic.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Dopamine",
+            "title": "Vitamines B",
+            "desc": "2 gélules/jour",
+            "dMin": "0",
+            "dMoy": "1",
+            "dMax": "1",
+            "file": "vitaminesb.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "GABA",
+            "title": "MELATONINE",
+            "desc": "1 à 2 gélules",
+            "dMin": "0",
+            "dMoy": "1",
+            "dMax": "1",
+            "file": "melatonine.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "GABA",
+            "title": "PASSIFLORE BIO",
+            "desc": "2 gélules/jour",
+            "dMin": "0",
+            "dMoy": "1",
+            "dMax": "0",
+            "file": "passiflore.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "GABA",
+            "title": "L-GLUTAMINE",
+            "desc": "1 sachet/jour",
+            "dMin": "0",
+            "dMoy": "0",
+            "dMax": "1",
+            "file": "l-glutamine.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "GABA",
+            "title": "NUITAREL",
+            "desc": "2 gélules/jour le soir",
+            "dMin": "1",
+            "dMoy": "0",
+            "dMax": "0",
+            "file": "nuitarel.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "GABA",
+            "title": "Vitamines B",
+            "desc": "1 gélule/jour",
+            "dMin": "1",
+            "dMoy": "0",
+            "dMax": "0",
+            "file": "vitaminesb.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Sérotonine",
+            "title": "Vitamines B",
+            "file": "vitaminesb.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Sérotonine",
+            "title": "NATURA TONINE",
+            "desc": "2 gélules/jour",
+            "dMin": "1",
+            "dMoy": "0",
+            "dMax": "0",
+            "file": "sero.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Sérotonine",
+            "title": "ZENIREL",
+            "desc": "3 gélules/jour",
+            "dMin": "1",
+            "dMoy": "0",
+            "dMax": "0",
+            "file": "zenirel.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Sérotonine",
+            "title": "OMEGAREL",
+            "desc": "2 capsules/jour",
+            "dMin": "0",
+            "dMoy": "1",
+            "dMax": "0",
+            "file": "omegarel.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Sérotonine",
+            "title": "NUITAREL",
+            "file": "nuitarel.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Sérotonine",
+            "title": "HYPERICUM",
+            "desc": "3 gélules/jour",
+            "dMin": "0",
+            "dMoy": "0",
+            "dMax": "1",
+            "file": "hypericum.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Sérotonine",
+            "title": "MAGNESIUM",
+            "dMin": "0",
+            "dMoy": "1",
+            "dMax": "1",
+            "file": "magnesium.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Sérotonine",
+            "title": "MELATONINE",
+            "dMin": "0",
+            "dMoy": "1",
+            "dMax": "0",
+            "file": "melatonine.jpg",
+            "link": "http://www.google.com"
+        },
+        {
+            "neuro": "Sérotonine",
+            "title": "KUDZU",
+            "file": "kudzu.jpg",
+            "link": "http://www.google.com"
+        }
+    ]
+}

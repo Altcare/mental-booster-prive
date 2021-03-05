@@ -1,0 +1,23 @@
+<div id="slide-{id}" class="slide-container calc-page">
+    <div class="slide-item calc-middle">
+        <div class="scrollable">
+            <div class="progress">
+                <div></div>
+            </div>        
+            <p class="title">{na}</p>
+            <p class="section">{sect}</p>
+            <p class="question">{desc}</p>
+        </div>
+        <div class="slide-radios calc-footer">
+            <div class="radio-item" onclick="quizz.nextSlide({id}, true, this)">
+                <input id="q{id}-true" class="questions" data-text="OUI" name="q{id}" type="radio">
+                <label for="q{id}-true">OUI</label>
+            </div>
+
+            <div class="radio-item" onclick="quizz.nextSlide({id}, false, this)">
+                <input id="q{id}-false" data-text="NON" name="q{id}" type="radio">
+                <label for="q{id}-false">NON</label>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,185 @@
+@import "setup.scss";
+/* #region CSS Slider */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+html, body {
+    height: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+
+    overflow-x: hidden;
+    background-color: $backgground-color;
+    color: $question-color;
+    font-family: $font-family;
+    font-size: $font-size-small;    
+}
+body {
+    // Utiliser pour ajouster en fonction du site client
+    // padding-top: 50px;
+}
+
+.slides {
+    display: flex;
+    align-items: flex-start;
+    
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    /* Enabled: slides scroll from side to side */    
+    // scroll-behavior: smooth;
+
+    // disable slider (logical only)
+    // touch-action: none;
+
+    .slide-container {
+        scroll-snap-align: start;
+        flex-shrink: 0;
+        width: 100%;
+        // margin-right: 50px;
+        // position: relative;
+        display: flex;
+
+        text-align: center;
+        justify-content: center;
+    }    
+}
+
+
+.slides::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.slides::-webkit-scrollbar-track {
+    background: transparent;
+}
+/* #endregion */
+
+.progress {   
+    height: 11px;
+    width: 80%;
+    border: 1px solid $progress-color;
+    border-radius: 11px;
+    margin: 10px auto;
+    overflow: hidden;
+
+    div {
+        height: 100%;
+        width: 0;
+        background-color: $progress-color;
+        transition: width  0.5s;
+    }
+}
+
+.slide-item {
+    width: 95%;
+
+    /* Overrides for Info slides */
+    &.info {
+        width: 100%;
+
+        .slide-top {
+            width: 95%;
+            margin: 0 auto;            
+        }
+
+        .slide-radios {
+            width: 100%;
+        }
+
+        .radio-item {
+            margin: 10px 0 0 0;
+
+            .button {
+                background-color: $progress-color;
+                color: $backgground-color;
+                border-radius: 0;
+            }
+        }
+    }
+
+    .title {
+        color: $neurotransmetter-title-color;
+        font-size: $font-size-big;
+        font-weight: bold;
+    }
+    .section {
+        color: $sub-title-color;
+        font-size: $font-size-small;
+        font-weight: normal;
+    }
+    .question {
+        color: $question-color;
+        font-size: $font-size-big;
+        font-weight: bold;
+        
+        overflow: auto;
+    }    
+    img {
+        width: 90%;
+    }
+    ul {
+        list-style: none;
+        li {
+            text-align: left;
+            &:before {            
+                content: '✓ ';
+              }
+        }
+    }
+}
+
+.justify {
+    text-align: justify;
+}
+
+
+/* #endregion */
+.slide-radios {
+    width: 95%;
+    display: inline-block;
+}
+
+/* #region Quizz Buttons */
+.radio-item {
+    margin: 10px;
+    display: block;
+
+    input[type="radio"] {
+        opacity: 0;
+        position: fixed;
+        width: 0;
+
+        &:focus + label {
+            border: 1px solid $button-border-color;
+        }
+        
+        &:checked + label {
+            background-color: $button-selected-bg-color;
+            border-color: $button-selected-border-color;
+        }
+    }    
+
+    label, .button {
+        cursor: pointer;
+        display: block;
+        background-color: $button-bg-color;
+        padding: 10px 20px;
+
+        font-size: $font-size-small;
+        font-weight: bold;
+        border: 1px solid $button-border-color;
+        border-radius: 3px;
+        color: $question-color;
+
+        text-decoration: auto;
+
+        &:hover {
+            background-color: $button-selected-bg-color;
+            border-color: $button-selected-border-color;
+        }
+    }    
+}
+/* #endregion */

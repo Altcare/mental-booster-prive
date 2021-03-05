@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#203b72"/>
+      <stop offset="0.374" stop-color="#4b347f"/>
+      <stop offset="1" stop-color="#922692"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_1902" data-name="Groupe 1902" transform="translate(-212 -254)">
+    <g id="Groupe_1860" data-name="Groupe 1860" transform="translate(120 -252)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="25" cy="25" r="25" transform="translate(92 506)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="noun_meditation_3550488" transform="translate(202.484 245.95)">
+      <g id="Groupe_1897" data-name="Groupe 1897" transform="translate(20 19)">
+        <circle id="Ellipse_19" data-name="Ellipse 19" cx="3.387" cy="3.387" r="3.387" transform="translate(11.129)" fill="#fff"/>
+        <path id="Tracé_16" data-name="Tracé 16" d="M20,45.774h1.935a11.187,11.187,0,0,0,7.258-2.7v6.571h-.968a4.839,4.839,0,1,0,0,9.677H40.806a4.839,4.839,0,0,0,0-9.677h-.968V43.074a11.187,11.187,0,0,0,7.258,2.7h1.935v-2.9H47.1a8.265,8.265,0,0,1-6.581-3.29L40.081,39H28.952l-.435.581a8.265,8.265,0,0,1-6.581,3.29H20Zm22.742,8.71a1.935,1.935,0,0,1-1.935,1.935H28.226a1.935,1.935,0,1,1,0-3.871H40.806A1.935,1.935,0,0,1,42.742,54.484ZM32.1,49.645V41.9h4.839v7.742Z" transform="translate(-20 -29.323)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="manifest" href="manifest.json" />
+        <link rel="icon" type="image/png" href="img/icons/icon-512x512.png" />
+
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/supplements.css" />
+    </head>
+    <body>
+        <img src="img/phone-menu.jpg" width="100%" class="placeholder calc-header"/>
+
+        <div class="tabset calc-page">
+           
+            <!-- Tab 1 -->
+            <input type="radio" name="tabset" id="tab1" aria-controls="supplements" checked>
+            <label for="tab1" onclick="$('.scrollable').scrollTop(0)"><img src="img/icons/supplements.svg"></label>
+            <!-- Tab 2 -->
+            <input type="radio" name="tabset" id="tab2" aria-controls="products">
+            <label for="tab2" onclick="$('.scrollable').scrollTop(0)"><img src="img/icons/shop.svg"></label>
+     
+            <div class="tab-panels calc-middle">
+                <section id="supplements" class="tab-panel scrollable">
+                    <p class="title">Mes recommandations personnalisés</p>                
+                </section>
+
+                <section id="products" class="tab-panel scrollable">
+                    <p class="title">Mes recommandations personnalisés</p>
+                </section>
+
+                <button class="pill recommendations calc-footer">Recevoir mes recommandations par email</button>
+            </div>
+        </div>
+
+        <script src="js/jquery2.min.js"></script>
+        <script src="js/supplements.js"></script>    
+    </body>
+</html>

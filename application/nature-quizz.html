@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+        <title>Nature Dominante : Quizz</title>
+        <link rel="manifest" href="manifest.json" />
+        <link rel="icon" type="image/png" href="img/icons/icon-512x512.png" />        
+
+        <link rel="stylesheet" href="css/normalize.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+
+        <style>
+            .top-intro {
+                display: inline-block;
+                width: 80px;                
+            }
+            .top-intro .title {
+                font-size: 11px;
+                color: #AE3EC9;
+            }          
+        </style>
+    </head>
+    <body>
+        <img src="img/phone-menu.jpg" width="100%" class="calc-header"/>
+        
+        <div class="slides">
+            <!-- Start Slides -->          
+
+            <!-- Slide Info -->
+            <div id="slide-info" class="slide-container">                
+                <div class="slide-item info">  
+                    <div class="slide-top">                 
+                        <p class="question">Boostez votre cerveau en rééquilibrant sa neurochimie sur 4 paramètres principaux</p>
+
+                        <div>
+                            <p>À partir de ce test que nous vous proposons, vous pouvez optimiser:</p>
+                            <div>
+                                <div class="top-intro">
+                                    <img src="img/icons/energie.svg" height="50" width="50"/>
+                                    <div class="title">Energie</div>
+                                </div>
+                                <div class="top-intro">
+                                    <img src="img/icons/focus.svg" height="50" width="50"/>
+                                    <div class="title">Concentration</div>
+                                </div>
+                                <div class="top-intro">
+                                    <img src="img/icons/serenite.svg" height="50" width="50"/>
+                                    <div class="title">Sérénité</div>
+                                </div>
+                                <div class="top-intro">
+                                    <img src="img/icons/memoire.svg" height="50" width="50"/>
+                                    <div class="title">Mémoire</div>
+                                </div>                                                                                                
+                            </div>
+                            <ul>
+                                <li>votre régime alimentaire</li>
+                                <li>votre mode de vie</li>
+                                <li>vos compléments nutritionnels</li>
+                            </ul>
+
+                            <p>Durée totale 10 min</p>
+                        </div>
+                    </div>
+                    <div class="slide-radios">
+                        <div class="radio-item">
+                            <a class="button" href="#slide-start">Suivant</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+
+            <!-- Slide Intro -->
+            <div id="slide-start" class="slide-container">
+                <div class="slide-item info">
+                    <div class="slide-top scrollable">
+                        <p class="title">Déterminer votre nature dominante Durée 6 min</p>
+                        <img src="img/Nature-dominante.svg"/>
+                        <div class="section justify">
+                            Répondez à chaque question en sélectionnant <b>Vrai</b> ou <b>Faux</b>.
+                            Répondez aux questions en fonction de ce que vous ressentez la <b>plupart du temps</b>.
+                            Par exemple, si vous avez eu une mauvaise nuit de sommeil et que vous vous sentez fatigué aujourd'hui, répondez aux questions relatives à votre niveau d'énergie en vous basant sur la façon dont vous vous sentez lors d'une journée plus moyenne.                            
+                        </div>
+                    </div>
+                    <div class="slide-radios">
+                        <div class="radio-item">
+                            <a class="button" href="#slide-1">Démarrer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide Finish -->
+            <div id="slide-finish" class="slide-container">
+                <div class="slide-item info">
+                    <div class="slide-top">
+                        <p class="question">Bravo! vous avez terminé le test du profil dominant, nous allons pouvoir vous présenter vos résultats</p>
+                        <img src="img/profil-dominant-resultat.svg"/>
+                    </div>
+                    <div class="slide-radios">
+                        <div class="radio-item">
+                            <a class="button" href="nature-result.html">Découvrir mon profil</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+        </div>
+        
+        <script src="js/jquery2.min.js"></script>      
+        <script src="js/nature-quizz.js"></script>
+    </body>
+</html>

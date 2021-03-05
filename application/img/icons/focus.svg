@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#203b72"/>
+      <stop offset="0.374" stop-color="#4b347f"/>
+      <stop offset="1" stop-color="#922692"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_1901" data-name="Groupe 1901" transform="translate(-126 -254)">
+    <g id="Groupe_1859" data-name="Groupe 1859" transform="translate(34 -252)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="25" cy="25" r="25" transform="translate(92 506)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="noun_focus_2640256" transform="translate(125.043 88.73)">
+      <g id="Groupe_1896" data-name="Groupe 1896" transform="translate(11.457 176.22)">
+        <path id="Tracé_15" data-name="Tracé 15" d="M176.434,176.434h9v2.924h-6.08v6.08h-2.924Zm-.214,14.786,6.051-3.084V194.3Zm11.916,8.949H194.3l-3.084,6.051Zm3.084-23.949,3.084,6.051h-6.168Zm15,15-6.051,3.084v-6.168Zm-19.174,0,4.174-4.174,4.174,4.174-4.174,4.174ZM179.358,197v6.08h6.08v2.924h-9v-9ZM197,176.434h9v9h-2.924v-6.08H197Zm9,20.568v9h-9v-2.924h6.08V197Z" transform="translate(-176.22 -176.22)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
