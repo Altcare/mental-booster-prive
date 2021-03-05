@@ -1,5 +1,5 @@
-<div id="slide-{id}" class="slide-container calc-page">
-    <div class="slide-item calc-middle">        
+<div id="slide-{id}" class="slide-container">
+    <div class="slide-item">        
         <div class="scrollable">
             <div class="back" onclick="quizz.previousSlide({id})">
                 <img height="28" width="28" src="img/icons/keyboard_arrow_left-24px.svg" />
@@ -13,11 +13,11 @@
                     <div></div>
                 </div>        
             </div>
-            
+
             <p class="section">{sect}</p>
             <p class="question">{desc}</p>
         </div>
-        <div class="slide-radios calc-footer">
+        <div class="slide-radios">
             <div class="radio-item" onclick="quizz.nextSlide({id}, true, this)">
                 <input id="q{id}-true" class="questions" data-text="OUI" name="q{id}" type="radio">
                 <label for="q{id}-true">OUI</label>
