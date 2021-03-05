@@ -12,9 +12,9 @@
         <link rel="stylesheet" href="css/supplements.css" />
     </head>
     <body>
-        <img src="img/phone-menu.jpg" width="100%" class="placeholder calc-header"/>
+        <img src="img/phone-menu.jpg" width="100%" class="placeholder"/>
 
-        <div class="tabset calc-page">
+        <div class="tabset">
            
             <!-- Tab 1 -->
             <input type="radio" name="tabset" id="tab1" aria-controls="supplements" checked>
@@ -23,16 +23,16 @@
             <input type="radio" name="tabset" id="tab2" aria-controls="products">
             <label for="tab2" onclick="$('.scrollable').scrollTop(0)"><img src="img/icons/shop.svg"></label>
      
-            <div class="tab-panels calc-middle">
+            <div class="tab-panels">
                 <section id="supplements" class="tab-panel scrollable">
-                    <p class="title">Mes recommandations personnalisées</p>                
+                    <p class="title">Mes recommandations personnalisés</p>                
                 </section>
 
                 <section id="products" class="tab-panel scrollable">
-                    <p class="title">Mes recommandations personnalisées</p>
+                    <p class="title">Mes recommandations personnalisés</p>
                 </section>
 
-                <button class="pill recommendations calc-footer">Recevoir mes recommandations par email</button>
+                <a class="pill recommendations" href="email.html">Recevoir mes recommandations par email</a>
             </div>
         </div>
 

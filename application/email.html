@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+        <title>Mes recommandations par email</title>
+        <link rel="manifest" href="manifest.json" />
+        <link rel="icon" type="image/png" href="img/icons/icon-512x512.png" />
+
+        <link rel="stylesheet" href="css/normalize.min.css" />
+        <link rel="stylesheet" href="css/style.css" />        
+    </head>
+    <body>
+        <img src="img/phone-menu.jpg" width="100%" class="placeholder"/>
+        
+        <div class="slides">
+            <!-- Start Slides -->
+            <!-- Slide Finish -->
+            <div id="slide-finish" class="slide-container">
+                <div class="slide-item info">                    
+                    <div class="slide-top scrollable">
+                        <img height="50" src="img/icons/send.svg" style="margin: 20px;"/>
+                        <p class="question">Nous avons envoyé vos recommandations personnalisées sur someone@gmail.com</p>
+                        <img src="img/send-email.svg"/>
+                    </div>
+                    <div class="slide-radios">
+                        <div class="radio-item">
+                            <a class="button">Découvrir mes programmes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>             
+        </div>
+        <script src="js/jquery2.min.js"></script>     
+        <script src="js/deficiencies-quizz.js"></script>
+        <script>
+            /** 
+             * Pour envoyer un mail il suffis de lire l'objet
+             * Les correspondances sont dans AirTable
+             * 
+             * L'URL de destination est en haut dans supplements.js dans "_affiliateURL"
+             * 
+             * window.localStorage.getItem("supplements");
+            */
+
+            //console.log(window.localStorage.getItem("recommendations"));
+        </script>
+    </body>
+</html>

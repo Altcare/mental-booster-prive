@@ -63,13 +63,10 @@
             
                 _deficiencies.nbrQuestions = l;
                 _deficiencies.progessStep  = 100/l;
-
-                console.log(_deficiencies)
         });
     }      
 
     function nextSlide(id, choice, ele) {
-        console.log(ele.closest(".slide-container").id);
         var current   = parseInt(id);
         var next      = current + 1;      
         var nextSlide = "#slide-" + next;
@@ -79,7 +76,7 @@
             win.location.href = nextSlide;
 
             if (current == 1) {
-                $(".slide-item .back").show();
+                $(".slide-item .back").css("visibility", "visible"); 
             }
                         
             $(".progress div").css("width", (_deficiencies.progessStep * current) + '%');            
@@ -96,7 +93,7 @@
         var previousSlide = "#slide-" + previous;
 
         if (current == 2) {
-            $(".slide-item .back").hide();
+            $(".slide-item .back").css("visibility", "hidden");
         }        
 
         win.location.href = previousSlide;
@@ -108,7 +105,6 @@
 
     function pageChanged(page) {
         //$(".progress").toggle(/[0-9]]$/.test(page));
-        //console.log( page );
     }
 
     // #region Exports

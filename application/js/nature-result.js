@@ -63,7 +63,6 @@
 
     function pageChanged(page) {
         //$(".progress").toggle(/[0-9]]$/.test(page));
-        //console.log( page );
     }
 
     // #region Exports
@@ -77,8 +76,7 @@
 
     // init
     $(doc).ready(function() {
-        var score = getNatureScore();
-        console.log(score)        
+        var score = getNatureScore();      
         showScore(score);
 
         $(doc).keypress(function (event) {

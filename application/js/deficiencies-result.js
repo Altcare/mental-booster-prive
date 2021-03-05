@@ -89,17 +89,10 @@
         var nature = items.reduce(function(accumulator, currentValue) {
             return (currentValue.v > 0) ? currentValue : accumulator;
         })
-
-/*         $(".slide-container").css("display", "none");
-        $(nature).each(function(data) {
-            //console.log(data,123);
-            //$("#slide-"+e.n+".slide-container").css("display", "block");
-        }); */
-    }    
+    }
 
     function pageChanged(page) {
         //$(".progress").toggle(/[0-9]]$/.test(page));
-        //console.log( page );
     }
 
     // #region Exports
@@ -114,7 +107,6 @@
     // init
     $(doc).ready(function() {                
         var score = getDeficiencyScore();
-        console.log(score);
         showDeficiencies(score);
 
         $(doc).keypress(function (event) {

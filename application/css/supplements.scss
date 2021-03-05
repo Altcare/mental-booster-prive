@@ -14,7 +14,7 @@ body {
 }
 #tab1:checked ~ .tab-panels,
 #tab2:checked ~ .tab-panels {
-    height: 85vh;
+    height: 88vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -37,10 +37,6 @@ body {
 }
 .tab-panel {
     padding: 5px 30px;
-}
-.trademark {
-    color: gray;
-    text-align: right;
 }
 /* #endregion ----------------------------------------------- TABS */
 
@@ -102,30 +98,33 @@ section p.title {
 }
 
 /* #region : expandable */
-.item .bottom .bottom .description {
-    font-family: Arial;
-    font-size: 15px;
-    margin: 0;
-    padding: 0 10px 10px 10px;
-    text-align: left;
-    color: $sub-title-color;
-}
-.item > .bottom > .bottom {
-    text-align: right;
-}
-.item .bottom .show {
-    display: none;
-}
-.item .bottom .show:not(:checked) ~.description {
-    display: none;
-}
-.label::before {
-    content: url('../img/icons/keyboard_arrow_down-24px.svg');
-    display: inline-block;
-    width: 25px; 
-    height: 25px;
-    margin: -10px 10px 10px 0;
-    transform: rotate(0deg);
+#supplements {
+    .item .bottom .bottom .description {
+        font-family: Arial;
+        font-size: 15px;
+        margin: 0;
+        padding: 0 10px 10px 10px;
+        text-align: left;
+        color: $sub-title-color;
+    }
+    .item > .bottom > .bottom {
+        text-align: right;
+    }
+    .item .bottom .show {
+        display: none;
+    }
+    .item .bottom .show:not(:checked) ~.description {
+        display: none;
+    }
+    .label img {
+        height: 35px;
+        width: 35px;
+        margin: 0 15px 0 0;   
+        transition: transform 0.3s;     
+    }
+    .show:checked ~img {
+        transform: rotate(90deg);
+    }
 }
 /* endregion : expandable */
 
@@ -150,10 +149,11 @@ section p.title {
         color: $backgground-color;
         border-radius: 0;
         border: none;
-        width: 100%;
         padding: 10px 20px;
         font-size: 15px;
         font-weight: bold;
+        text-decoration: none;
+        text-align: center;
     }
 }
 /* #endregion ----------------------------------------------- Pills */

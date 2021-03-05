@@ -1,8 +1,13 @@
 (function(win, $) {
     // #region setup
     var doc = win.document;
-    var _supplements = {};
-    var _products    = {};    
+
+    //! https does not work on this machine
+    var _affiliateURL = "http://51.210.245.108:81/mentalbooster/redirect.php?productId={productId}";
+
+    var _supplements     = {};
+    var _products        = {};   
+    var _recommendations = []; 
     // #endregion    
 
     // #region  --------------------------------------------- LOADING    
@@ -67,15 +72,18 @@
                 
                     var l  = _products.items.length;
                     for (var i=0; i<l; i++) {
+                        let link = _affiliateURL.replaceAll("{productId}" , _products.items[i].productId);
+
                         var content = template
-                                        .replaceAll("{title}", _products.items[i].title)
-                                        .replaceAll("{file}" , _products.items[i].file)
-                                        .replaceAll("{neuro}", _products.items[i].neuro)
-                                        .replaceAll("{dMin}" , _products.items[i].dMin)
-                                        .replaceAll("{dMoy}" , _products.items[i].dMoy)
-                                        .replaceAll("{dMax}" , _products.items[i].dMax)
-                                        .replaceAll("{desc}" , _products.items[i].desc)
-                                        .replaceAll("{link}" , _products.items[i].link)
+                                        .replaceAll("{title}"     , _products.items[i].title)
+                                        .replaceAll("{file}"      , _products.items[i].file)
+                                        .replaceAll("{neuro}"     , _products.items[i].neuro)
+                                        .replaceAll("{dMin}"      , _products.items[i].dMin)
+                                        .replaceAll("{dMoy}"      , _products.items[i].dMoy)
+                                        .replaceAll("{dMax}"      , _products.items[i].dMax)
+                                        .replaceAll("{desc}"      , _products.items[i].desc)
+                                        .replaceAll("{productId}" , _products.items[i].productId)                                        
+                                        .replaceAll("{link}"      , link)
 
                     $("#products").append(content);
                 }
@@ -183,12 +191,17 @@
                         || (dmoy && data.level == 2)
                         || (dMax && data.level == 3)
                         ) {
-                            item.show();
+                            item.show();                            
+                            _recommendations.push(item.data("productid"));
                     }
                 });                
             }
         }  
-    }    
+    }   
+    
+    function saveRecommendations() {    
+        win.localStorage.setItem("recommendations", _recommendations);
+    }
 
     // #region Exports
     var public =  {
@@ -207,6 +220,7 @@
             getProducts().done(() => {
                 //? this could be moved to getProducts() if resize is not needed
                 filterProducts();
+                saveRecommendations();
             });
         });        
     });
