@@ -95,6 +95,11 @@ body {
             }
         }
 
+        .question {
+            // undo margin set in other pages with .question class
+            margin: revert;
+        }          
+
         .intro {
             width: 80%;
             margin: 50px auto;
@@ -144,21 +149,36 @@ body {
         vertical-align: super;
     } 
 
-    .progress {   
-        height: 11px;
+    .progress-wrapper {
         width: 80%;
-        border: 1px solid $progress-color;
-        border-radius: 11px;
-        margin: 10px auto;
-        overflow: hidden;
-    
-        div {
-            height: 100%;
-            width: 0;
-            background-color: $progress-color;
-            transition: width  0.5s;
+        margin: 25px auto;
+
+        .title {
+            text-align: left;
         }
-    }   
+
+        .progress {   
+            height: 11px;
+            border: 1px solid $progress-color;
+            border-radius: 11px;
+            margin: 10px auto;
+            overflow: hidden;
+        
+            div {
+                height: 100%;
+                width: 0;
+                background-color: $progress-color;
+                transition: width  0.5s;
+            }
+        }          
+    }
+
+    .question {
+        color: $question-color;
+        font-size: $font-size-big;
+        font-weight: bold;
+        margin: 50px 30px;
+    }      
 
     .title {
         color: $neurotransmetter-title-color;
@@ -169,14 +189,8 @@ body {
         color: $sub-title-color;
         font-size: $font-size-small;
         font-weight: normal;
-    }
-    .question {
-        color: $question-color;
-        font-size: $font-size-big;
-        font-weight: bold;
-        
-        overflow: auto;
-    }    
+        margin: 40px 0;
+    }  
     img {
         width: 90%;
     }

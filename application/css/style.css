@@ -111,6 +111,10 @@ html, body {
   border-radius: 0;
 }
 
+.slide-item.info .question {
+  margin: revert;
+}
+
 .slide-item.info .intro {
   width: 80%;
   margin: 50px auto;
@@ -163,21 +167,36 @@ html, body {
   vertical-align: super;
 }
 
-.slide-item .progress {
-  height: 11px;
+.slide-item .progress-wrapper {
   width: 80%;
+  margin: 25px auto;
+}
+
+.slide-item .progress-wrapper .title {
+  text-align: left;
+}
+
+.slide-item .progress-wrapper .progress {
+  height: 11px;
   border: 1px solid #AE3EC9;
   border-radius: 11px;
   margin: 10px auto;
   overflow: hidden;
 }
 
-.slide-item .progress div {
+.slide-item .progress-wrapper .progress div {
   height: 100%;
   width: 0;
   background-color: #AE3EC9;
   -webkit-transition: width  0.5s;
   transition: width  0.5s;
+}
+
+.slide-item .question {
+  color: #203B72;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 50px 30px;
 }
 
 .slide-item .title {
@@ -190,13 +209,7 @@ html, body {
   color: #697DA5;
   font-size: 15px;
   font-weight: normal;
-}
-
-.slide-item .question {
-  color: #203B72;
-  font-size: 20px;
-  font-weight: bold;
-  overflow: auto;
+  margin: 40px 0;
 }
 
 .slide-item img {
