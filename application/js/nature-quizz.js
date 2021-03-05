@@ -105,7 +105,6 @@
 
     function pageChanged(page) {
         //$(".progress").toggle(/[0-9]]$/.test(page));
-        //console.log( page );
     }
 
 

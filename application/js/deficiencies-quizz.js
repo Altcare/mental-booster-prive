@@ -63,13 +63,10 @@
             
                 _deficiencies.nbrQuestions = l;
                 _deficiencies.progessStep  = 100/l;
-
-                console.log(_deficiencies)
         });
     }      
 
     function nextSlide(id, choice, ele) {
-        console.log(ele.closest(".slide-container").id);
         var current   = parseInt(id);
         var next      = current + 1;      
         var nextSlide = "#slide-" + next;
@@ -108,7 +105,6 @@
 
     function pageChanged(page) {
         //$(".progress").toggle(/[0-9]]$/.test(page));
-        //console.log( page );
     }
 
     // #region Exports

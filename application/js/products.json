@@ -10,7 +10,7 @@
             "dMoy": "1",
             "dMax": "1",
             "file": "vitaminesb.jpg",
-            "link": "http://www.google.com"
+            "productId": "recgQeFCcozZMx7kX"
         },
         {
             "neuro": "Acétylcholine",
@@ -20,7 +20,7 @@
             "dMoy": "1",
             "dMax": "0",
             "file": "memo.jpg",
-            "link": "http://www.google.com"
+            "productId": "recgQDb1KQRq62GSz"
         },
         {
             "neuro": "Acétylcholine",
@@ -30,7 +30,7 @@
             "dMoy": "0",
             "dMax": "0",
             "file": "dha.jpg",
-            "link": "http://www.google.com"
+            "productId": "recsM9Z0jZlJMnd13"
         },
         {
             "neuro": "Acétylcholine",
@@ -40,7 +40,7 @@
             "dMoy": "0",
             "dMax": "1",
             "file": "ginseng.jpg",
-            "link": "http://www.google.com"
+            "productId": "recvQLElSeFMKTDuz"
         },
         {
             "neuro": "Acétylcholine",
@@ -50,7 +50,7 @@
             "dMoy": "0",
             "dMax": "0",
             "file": "cognirel.jpg",
-            "link": "http://www.google.com"
+            "productId": "recRrScaTxXGXMCiG"
         },
         {
             "neuro": "Acétylcholine",
@@ -60,7 +60,7 @@
             "dMoy": "0",
             "dMax": "1",
             "file": "gingo-biloba.jpg",
-            "link": "http://www.google.com"
+            "productId": "rec113AIi6JgesdM6"
         },
         {
             "neuro": "Dopamine",
@@ -70,7 +70,7 @@
             "dMoy": "0",
             "dMax": "1",
             "file": "positirel.jpg",
-            "link": "http://www.google.com"
+            "productId": "recJSIRWaDT6LJkWI"
         },
         {
             "neuro": "Dopamine",
@@ -80,7 +80,7 @@
             "dMoy": "0",
             "dMax": "0",
             "file": "natura-dopa.jpg",
-            "link": "http://www.google.com"
+            "productId": "recRidqCqt7rYbnYd"
         },
         {
             "neuro": "Dopamine",
@@ -90,7 +90,7 @@
             "dMoy": "0",
             "dMax": "1",
             "file": "gingo-biloba.jpg",
-            "link": "http://www.google.com"
+            "productId": "recYxnL4vYJ5ddsA2"
         },
         {
             "neuro": "Dopamine",
@@ -100,17 +100,17 @@
             "dMoy": "1",
             "dMax": "0",
             "file": "dopatropic.jpg",
-            "link": "http://www.google.com"
+            "productId": "recArqC65GlSAUyD3"
         },
         {
             "neuro": "Dopamine",
             "title": "Vitamines B",
             "desc": "2 gélules/jour",
-            "dMin": "0",
+            "dMin": "1",
             "dMoy": "1",
-            "dMax": "1",
+            "dMax": "0",
             "file": "vitaminesb.jpg",
-            "link": "http://www.google.com"
+            "productId": "recXlBjnmUPtHOXnG"
         },
         {
             "neuro": "GABA",
@@ -120,7 +120,7 @@
             "dMoy": "1",
             "dMax": "1",
             "file": "melatonine.jpg",
-            "link": "http://www.google.com"
+            "productId": "recHRtkl8tW8uh1TA"
         },
         {
             "neuro": "GABA",
@@ -130,7 +130,7 @@
             "dMoy": "1",
             "dMax": "0",
             "file": "passiflore.jpg",
-            "link": "http://www.google.com"
+            "productId": "recILMLxhX4cRXGf3"
         },
         {
             "neuro": "GABA",
@@ -140,7 +140,7 @@
             "dMoy": "0",
             "dMax": "1",
             "file": "l-glutamine.jpg",
-            "link": "http://www.google.com"
+            "productId": "recn98eUDooViXVrT"
         },
         {
             "neuro": "GABA",
@@ -150,7 +150,7 @@
             "dMoy": "0",
             "dMax": "0",
             "file": "nuitarel.jpg",
-            "link": "http://www.google.com"
+            "productId": "recCYEk2Ejf9cBIMf"
         },
         {
             "neuro": "GABA",
@@ -160,13 +160,17 @@
             "dMoy": "0",
             "dMax": "0",
             "file": "vitaminesb.jpg",
-            "link": "http://www.google.com"
+            "productId": "recReiLJYftqj7CdH"
         },
         {
             "neuro": "Sérotonine",
             "title": "Vitamines B",
+            "desc": "1 gélule/jour",
+            "dMin": "1",
+            "dMoy": "0",
+            "dMax": "0",
             "file": "vitaminesb.jpg",
-            "link": "http://www.google.com"
+            "productId": "recmbjZ2EW5pcq1gw"
         },
         {
             "neuro": "Sérotonine",
@@ -176,7 +180,7 @@
             "dMoy": "0",
             "dMax": "0",
             "file": "sero.jpg",
-            "link": "http://www.google.com"
+            "productId": "recFeOizNqBs1OHOJ"
         },
         {
             "neuro": "Sérotonine",
@@ -186,7 +190,7 @@
             "dMoy": "0",
             "dMax": "0",
             "file": "zenirel.jpg",
-            "link": "http://www.google.com"
+            "productId": "recGCTHzVCKVf4KJY"
         },
         {
             "neuro": "Sérotonine",
@@ -196,13 +200,17 @@
             "dMoy": "1",
             "dMax": "0",
             "file": "omegarel.jpg",
-            "link": "http://www.google.com"
+            "productId": "recN39rQBzs7rl1mZ"
         },
         {
             "neuro": "Sérotonine",
             "title": "NUITAREL",
+            "desc": "4 gélules/jour",
+            "dMin": "0",
+            "dMoy": "1",
+            "dMax": "0",
             "file": "nuitarel.jpg",
-            "link": "http://www.google.com"
+            "productId": "reckMfjeHK5BLrGl1"
         },
         {
             "neuro": "Sérotonine",
@@ -212,31 +220,27 @@
             "dMoy": "0",
             "dMax": "1",
             "file": "hypericum.jpg",
-            "link": "http://www.google.com"
+            "productId": "recQEVkx8bsORZWV4"
         },
         {
             "neuro": "Sérotonine",
             "title": "MAGNESIUM",
+            "desc": "1 à 2 gélules/jour",
             "dMin": "0",
             "dMoy": "1",
             "dMax": "1",
             "file": "magnesium.jpg",
-            "link": "http://www.google.com"
+            "productId": "recS00SYT1Sv6tTZg"
         },
         {
             "neuro": "Sérotonine",
             "title": "MELATONINE",
+            "desc": "2 gélules/jour",
             "dMin": "0",
-            "dMoy": "1",
-            "dMax": "0",
+            "dMoy": "0",
+            "dMax": "1",
             "file": "melatonine.jpg",
-            "link": "http://www.google.com"
-        },
-        {
-            "neuro": "Sérotonine",
-            "title": "KUDZU",
-            "file": "kudzu.jpg",
-            "link": "http://www.google.com"
+            "productId": "recViOeKYEeg4S23F"
         }
     ]
 }
