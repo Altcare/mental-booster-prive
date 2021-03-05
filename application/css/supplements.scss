@@ -1,4 +1,9 @@
 @import "setup.scss";
+/* #region ----------------------------------------------- SUPPLEMENTS BODY */
+body {
+    overflow: hidden;
+}
+/* #endregion ----------------------------------------------- SUPPLEMENTS BODY */
 
 /* #region ----------------------------------------------- TABS */
 .tabset > input[name="tabset"] {
@@ -12,6 +17,7 @@
     height: 88vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 #tab1:checked ~ .tab-panels > #supplements,
 #tab2:checked ~ .tab-panels > #products {
