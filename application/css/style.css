@@ -66,23 +66,6 @@ html, body {
 }
 
 /* #endregion */
-.progress {
-  height: 11px;
-  width: 80%;
-  border: 1px solid #AE3EC9;
-  border-radius: 11px;
-  margin: 10px auto;
-  overflow: hidden;
-}
-
-.progress div {
-  height: 100%;
-  width: 0;
-  background-color: #AE3EC9;
-  -webkit-transition: width  0.5s;
-  transition: width  0.5s;
-}
-
 .slide-item {
   width: 95%;
   display: -webkit-box;
@@ -124,6 +107,19 @@ html, body {
   border-radius: 0;
 }
 
+.slide-item.info .logo {
+  height: 80px;
+  width: 110px;
+}
+
+.slide-item.info .duree {
+  font-weight: bold;
+}
+
+.slide-item.info .duree span {
+  color: #AE3EC9;
+}
+
 .slide-item .back {
   display: none;
   color: #203B72;
@@ -140,6 +136,23 @@ html, body {
 .slide-item .back div {
   display: inline-block;
   vertical-align: super;
+}
+
+.slide-item .progress {
+  height: 11px;
+  width: 80%;
+  border: 1px solid #AE3EC9;
+  border-radius: 11px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.slide-item .progress div {
+  height: 100%;
+  width: 0;
+  background-color: #AE3EC9;
+  -webkit-transition: width  0.5s;
+  transition: width  0.5s;
 }
 
 .slide-item .title {
