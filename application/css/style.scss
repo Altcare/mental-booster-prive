@@ -105,6 +105,21 @@ body {
         }
     }
 
+    .back {
+        display: none;
+        color: $question-color;
+        font-weight: bold;
+        text-align: left;
+        height: 30px;
+    }
+    .back img {
+        width: auto;
+    }
+    .back div {
+        display: inline-block;
+        vertical-align: super;
+    }    
+
     .title {
         color: $neurotransmetter-title-color;
         font-size: $font-size-big;

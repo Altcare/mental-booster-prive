@@ -1,1 +1,9 @@
-{"version":3,"sources":["setup.scss"],"names":[],"mappings":"AAAA,kBAAA;AAEA,gBAAA;AAEA,YAAA;AAEA,cAAA;AAEA,YAAA;AAEA,cAAA;AAEA,kBAAA;AAMA,sCAAA","file":"setup.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,mBAAmB;AAEnB,iBAAiB;AAEjB,aAAa;AAEb,eAAe;AAEf,aAAa;AAEb,eAAe;AAEf,mBAAmB;AAMnB,uCAAuC",
+    "sources": [
+        "setup.scss"
+    ],
+    "names": [],
+    "file": "setup.css"
+}

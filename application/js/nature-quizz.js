@@ -74,12 +74,29 @@
         _nature.items[current-1].resp = choice;
         if (next <= _nature.nbrQuestions) {            
             win.location.href = nextSlide;
+
+            if (current == 1) {
+                $(".slide-item .back").show();
+            }
+            
             $(".progress div").css("width", (_nature.progessStep * current) + '%');            
         }
         else {
             saveQuizz();
             win.location.href = "#slide-finish";
         }
+    }
+
+    function previousSlide(id) {
+        var current       = parseInt(id);
+        var previous      = current - 1;      
+        var previousSlide = "#slide-" + previous;
+
+        if (current == 2) {
+            $(".slide-item .back").hide();
+        }        
+
+        win.location.href = previousSlide;
     }
 
     function saveQuizz() {
@@ -94,7 +111,8 @@
 
     // #region Exports
     var public =  {
-        nextSlide: nextSlide
+        nextSlide    : nextSlide,
+        previousSlide: previousSlide,
     };
 
     win.quizz = public;
