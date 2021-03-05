@@ -98,30 +98,32 @@ section p.title {
 }
 
 /* #region : expandable */
-.item .bottom .bottom .description {
-    font-family: Arial;
-    font-size: 15px;
-    margin: 0;
-    padding: 0 10px 10px 10px;
-    text-align: left;
-    color: $sub-title-color;
-}
-.item > .bottom > .bottom {
-    text-align: right;
-}
-.item .bottom .show {
-    display: none;
-}
-.item .bottom .show:not(:checked) ~.description {
-    display: none;
-}
-.label::before {
-    content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMCAxMCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogI2YwZjsKICAgICAgICBvcGFjaXR5OiAwOwogICAgICB9CgogICAgICAuY2xzLTIgewogICAgICAgIGZpbGw6ICM3MDcwNzA7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgPC9kZWZzPgogIDxnIGlkPSJDaGV2cm9uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4KSByb3RhdGUoOTApIj4KICAgIDxyZWN0IGlkPSJGcmFtZSIgY2xhc3M9ImNscy0xIiB3aWR0aD0iMTAiIGhlaWdodD0iNiIvPgogICAgPHBhdGggaWQ9IlNoYXBlIiBjbGFzcz0iY2xzLTIiIGQ9Ik0xMCwxQTEsMSwwLDAsMCw4LjI5My4yOTNMNSwzLjU4NiwxLjcwNy4yOTNBMSwxLDAsMSwwLC4yOTMsMS43MDdsNCw0YTEsMSwwLDAsMCwxLjQxNSwwbDQtNEExLDEsMCwwLDAsMTAsMVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIgOCkgcm90YXRlKC05MCkiLz4KICA8L2c+Cjwvc3ZnPgo=);
-    display: inline-block;
-    width: 25px; 
-    height: 25px;
-    margin: -10px 10px 10px 0;
-    transform: rotate(0deg);
+#supplements {
+    .item .bottom .bottom .description {
+        font-family: Arial;
+        font-size: 15px;
+        margin: 0;
+        padding: 0 10px 10px 10px;
+        text-align: left;
+        color: $sub-title-color;
+    }
+    .item > .bottom > .bottom {
+        text-align: right;
+    }
+    .item .bottom .show {
+        display: none;
+    }
+    .item .bottom .show:not(:checked) ~.description {
+        display: none;
+    }
+    .label img {
+        height: 35px;
+        width: 35px;
+        margin: 0 15px 0 0;        
+    }
+    .show:checked ~img {
+        transform: rotate(90deg);
+    }
 }
 /* endregion : expandable */
 

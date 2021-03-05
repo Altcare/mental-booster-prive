@@ -79,7 +79,7 @@
             win.location.href = nextSlide;
 
             if (current == 1) {
-                $(".slide-item .back").show();
+                $(".slide-item .back").css("visibility", "visible"); 
             }
                         
             $(".progress div").css("width", (_deficiencies.progessStep * current) + '%');            
@@ -96,7 +96,7 @@
         var previousSlide = "#slide-" + previous;
 
         if (current == 2) {
-            $(".slide-item .back").hide();
+            $(".slide-item .back").css("visibility", "hidden");
         }        
 
         win.location.href = previousSlide;

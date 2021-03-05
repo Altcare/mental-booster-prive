@@ -7,7 +7,7 @@
 /* Button BG */
 /* Button Border */
 /* Arial, Bold, Regular : 15pt, 20pt */
-/* #region CSS Slider */
+/* #region  -------------------------------------------- CSS Slider */
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -65,7 +65,11 @@ html, body {
   background: transparent;
 }
 
-/* #endregion */
+/* #endregion -------------------------------------------- CSS Slider */
+#slide-start .section {
+  padding: 50px 15px;
+}
+
 .slide-item {
   width: 95%;
   display: -webkit-box;
@@ -107,13 +111,34 @@ html, body {
   border-radius: 0;
 }
 
+.slide-item.info .intro {
+  width: 80%;
+  margin: 50px auto;
+}
+
 .slide-item.info .logo {
   height: 80px;
   width: 110px;
 }
 
+.slide-item.info ul {
+  margin: 60px 30px;
+  list-style: none;
+}
+
+.slide-item.info ul li {
+  text-align: left;
+}
+
+.slide-item.info ul li:before {
+  content: '✓ ';
+  margin-right: 5px;
+  font-weight: bold;
+}
+
 .slide-item.info .duree {
   font-weight: bold;
+  font-size: 20px;
 }
 
 .slide-item.info .duree span {
@@ -121,7 +146,7 @@ html, body {
 }
 
 .slide-item .back {
-  display: none;
+  visibility: hidden;
   color: #203B72;
   font-weight: bold;
   text-align: left;
@@ -176,18 +201,6 @@ html, body {
 
 .slide-item img {
   width: 90%;
-}
-
-.slide-item ul {
-  list-style: none;
-}
-
-.slide-item ul li {
-  text-align: left;
-}
-
-.slide-item ul li:before {
-  content: '✓ ';
 }
 
 .justify {
