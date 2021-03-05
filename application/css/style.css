@@ -130,6 +130,7 @@ html, body {
   font-weight: bold;
   text-align: left;
   height: 30px;
+  cursor: pointer;
 }
 
 .slide-item .back img {
