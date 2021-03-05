@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* #region Style */
 /* Neuro Title */
 /* Progress*/
@@ -135,7 +134,7 @@ html, body {
 }
 
 .slide-item.info ul li:before {
-  content: '✓ ';
+  content: url("../img/icons/check_icon.svg");
   margin-right: 5px;
   font-weight: bold;
 }

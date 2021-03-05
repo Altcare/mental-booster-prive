@@ -115,8 +115,8 @@ body {
             list-style: none;
             li {
                 text-align: left;
-                &:before {            
-                    content: '✓ ';
+                &:before {
+                    content: url('../img/icons/check_icon.svg');
                     margin-right: 5px;
                     font-weight: bold;
                   }
