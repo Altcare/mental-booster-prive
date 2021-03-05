@@ -76,7 +76,7 @@
         return score;
     }
 
-    function showNature(score) {
+    function showDeficiencies(score) {
         // TODO add display logic to hide unwanted slides
         
         var items = [
@@ -102,35 +102,6 @@
         //console.log( page );
     }
 
-    /**
-     * Resize needs to happen on pageload after questions are bound
-     * And on any resize/hashchange event
-     */
-    function resize(origin) {
-        // comment to deactivate and test via CSS
-        return;
-        
-        // what is the viewport height ?
-        var viewPortHeight = win.innerHeight;
-        
-        // set html/body to correct height
-        $("html, body").height(viewPortHeight);            
-        $("body").css("overflow","hidden");            
-                    
-        // Remove space used by image at the top
-        var header = $(".calc-header:first").outerHeight();
-        var middle = $(".calc-middle:first").outerHeight();
-        var footer = $(".calc-footer:first").outerHeight();
-        
-        // resize the remaining area to be scrollable
-        // need to remove topTitle on normal pages (intro etc)
-        var resizeTo = viewPortHeight - (header + middle + footer);
-        $(".scrollable").css("overflow","auto");
-        $(".scrollable").height(resizeTo - 3); //? where is this comming from ?
-
-        console.log("resize", origin, resizeTo);           
-    }       
-
     // #region Exports
     var public =  {
         nextSlide         : nextSlide,
@@ -142,10 +113,9 @@
 
     // init
     $(doc).ready(function() {                
-        resize("results");
         var score = getDeficiencyScore();
         console.log(score);
-        showNature(score);
+        showDeficiencies(score);
 
         $(doc).keypress(function (event) {
             if (event.keyCode === 37 || event.keyCode === 39) {
@@ -157,11 +127,7 @@
         // get current page
         $(win).on('hashchange', function(e) {            
             pageChanged(window.location.hash);
-
-            resize("hashchange");
         });
-
-        $(win).on("resize", () => resize("resize"));             
     });
 
 })(window, jQuery);

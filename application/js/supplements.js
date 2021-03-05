@@ -25,7 +25,6 @@
         let items = win.localStorage.getItem('supplements');
         if (items == null) {
             $.getJSON("js/" + file, function( data ) {
-                //win.localStorage.setItem('supplements', JSON.stringify(data))
                 dfd.resolve(data);
             });
         }
@@ -83,37 +82,114 @@
         });
     }
 
-    /**
-     * Resize needs to happen on pageload after questions are bound
-     * And on any resize/hashchange event
-     */
-    function resize(origin) {
-        // comment to deactivate and test via CSS
-        return;
 
-        // what is the viewport height ?
-        var viewPortHeight = win.innerHeight;
-        
-        // set html/body to correct height
-        $("html, body").height(viewPortHeight);            
-        $("body").css("overflow","hidden");            
-        
-        // Remove space used by image at the top
-        var header = $(".calc-header").outerHeight();
-        
-        // get the height of the main section title & buttons at bottom
-        var middle = $(".calc-page").outerHeight() - $(".calc-middle").outerHeight();
-        var footer = $(".calc-footer").outerHeight();
-        
-        // resize the remaining area to be scrollable
-        var resizeTo = viewPortHeight - (header + middle + footer);
-        $(".scrollable").css("overflow","auto");
-        $(".scrollable").height(resizeTo - 14); //? where is that 14 comming from ?
+    function filterSupplements() {
+        //? maybe this can be moved to CSS now
+        let supplements = $("#supplements");
+        $(".item", supplements).hide();
 
-        console.log("resize: " + origin);           
-    }      
+        let deficiencyScore = win.localStorage.getItem("DeficiencyScore");
 
-    
+        let items;
+        if (!!deficiencyScore) {
+            items = JSON.parse(deficiencyScore);
+        }
+        else {
+            throw 'localStorage.getItem("DeficiencyScore") cannot be empty';
+        }
+
+        let dopamine      = $("[data-neuro='Dopamine']"     , supplements);
+        let acetylcholine = $("[data-neuro='Acétylcholine']", supplements);
+        let gaba          = $("[data-neuro='GABA']"         , supplements);
+        let serotonine    = $("[data-neuro='Sérotonine']"   , supplements);
+
+        filterDisplay(dopamine     , items.dopamine);
+        filterDisplay(acetylcholine, items.acetylcholine);
+        filterDisplay(gaba         , items.gaba);
+        filterDisplay(serotonine   , items.serotonine);         
+
+        function filterDisplay(ele, data) {
+            // levels: 0 1 2 3
+            if (data.level > 0) {                
+                switch (data.level) {
+                    case 1: {
+                        ele.each(function() {
+                            let item = $(this);
+                            $(".dosage.amount", item).html(item.data("dmin"));
+                        });
+                        break;
+                    }
+                    case 2: {
+                        $(ele).each(function() {
+                            let item = $(this);
+                            $(".dosage.amount", item).html(item.data("dmoy"));
+                        });
+                        break;
+                    }
+                    case 3: {
+                        $(ele).each(function() {
+                            let item = $(this);
+                            $(".dosage.amount", item).html(item.data("dmax"));
+                        });
+                        break;
+                    }
+                }
+                
+                ele.show();
+            }
+        }       
+    }
+
+    function filterProducts() {
+        //? maybe this can be moved to CSS now
+        let products = $("#products");
+        $(".item", products).hide();        
+      
+        let deficiencyScore = win.localStorage.getItem("DeficiencyScore");
+
+        let items;
+        if (!!deficiencyScore) {
+            items = JSON.parse(deficiencyScore);
+        }
+        else {
+            throw 'localStorage.getItem("DeficiencyScore") cannot be empty';
+        }        
+
+        let dopamine      = $("[data-neuro='Dopamine']"     , products);
+        let acetylcholine = $("[data-neuro='Acétylcholine']", products);
+        let gaba          = $("[data-neuro='GABA']"         ,products);
+        let serotonine    = $("[data-neuro='Sérotonine']"   , products);
+
+        filterDisplay(dopamine     , items.dopamine);
+        filterDisplay(acetylcholine, items.acetylcholine);
+        filterDisplay(gaba         , items.gaba);
+        filterDisplay(serotonine   , items.serotonine);          
+
+        function filterDisplay(ele, data) {   
+            // if level is at least > 0
+            if (data.level > 0) {
+
+                // decide if needs to be displayed
+                $(ele).each(function() {
+                    let item = $(this);
+                    
+                    let dMin = !!item.data("dmin");
+                    let dmoy = !!item.data("dmoy");
+                    let dMax = !!item.data("dmax");
+
+                    // only show elements that correspond to my level of deficiency
+                    if (
+                           (dMin && data.level == 1)
+                        || (dmoy && data.level == 2)
+                        || (dMax && data.level == 3)
+                        ) {
+                            item.show();
+                    }
+                });                
+            }
+        }  
+    }    
+
     // #region Exports
     var public =  {
         _supplements: _supplements
@@ -124,14 +200,15 @@
 
     // init
     $(doc).ready(function() {
-        resize("initial");
-
         getSupplements().done(() => {
-            resize("getSupplements");
-            getProducts().done(() => resize("getProducts"));
-        });        
+            //? this could be moved to getSupplements() if resize is not needed
+            filterSupplements();            
 
-        $(win).on("resize", () => resize("resize"));              
+            getProducts().done(() => {
+                //? this could be moved to getProducts() if resize is not needed
+                filterProducts();
+            });
+        });        
     });
 
 })(window, jQuery);
