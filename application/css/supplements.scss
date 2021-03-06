@@ -3,9 +3,15 @@
 body {
     overflow: hidden;
 }
+.header {
+    height: $header-height;
+}
 /* #endregion ----------------------------------------------- SUPPLEMENTS BODY */
 
 /* #region ----------------------------------------------- TABS */
+.tabset {
+    text-align: center;
+}
 .tabset > input[name="tabset"] {
     display: none;
 }
@@ -14,7 +20,7 @@ body {
 }
 #tab1:checked ~ .tab-panels,
 #tab2:checked ~ .tab-panels {
-    height: 88vh;
+    height: $supplement-body-height;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -28,9 +34,10 @@ body {
 .tabset > label {
     position: relative;
     display: inline-block;
-    padding: 10px 20% 0px;
+    padding: 10px 18% 0px;
     cursor: pointer;
     margin: 0 0 0 4px;
+    height: $supplement-tabs-height;
 }
 .tabset > input:checked + label {
     border-bottom: 2px solid $progress-color;

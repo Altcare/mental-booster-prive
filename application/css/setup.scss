@@ -20,3 +20,17 @@ $button-selected-border-color: #000000;
 $font-family: "Arial";
 $font-size-small: 15px;
 $font-size-big: 20px;
+
+/* height */
+// valeur à changer en fontion de la hauteur de leur header
+// height total = 99vh
+
+$header-height: 8vh;
+
+// quizz: il doit y avoir 8vh entre le header et le body
+$quizz-body-height: 91vh;
+
+//supplements: il doit y avoir 12vh entre le header et le body
+$supplement-body-height: 87vh;
+
+$supplement-tabs-height: 5vh;
