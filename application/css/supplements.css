@@ -6,12 +6,16 @@
 /* Button BG */
 /* Button Border */
 /* Arial, Bold, Regular : 15pt, 20pt */
+<<<<<<< HEAD
 /* height */
+=======
+>>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
 /* #region ----------------------------------------------- SUPPLEMENTS BODY */
 body {
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 .header {
   height: 8vh;
 }
@@ -23,6 +27,11 @@ body {
 }
 
 .tabset > input[name=tabset] {
+=======
+/* #endregion ----------------------------------------------- SUPPLEMENTS BODY */
+/* #region ----------------------------------------------- TABS */
+.tabset > input[name="tabset"] {
+>>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
   display: none;
 }
 
@@ -32,10 +41,24 @@ body {
 
 #tab1:checked ~ .tab-panels,
 #tab2:checked ~ .tab-panels {
+<<<<<<< HEAD
   height: 87vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+=======
+  height: 88vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+>>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
 }
 
 #tab1:checked ~ .tab-panels > #supplements,
@@ -48,10 +71,16 @@ body {
 .tabset > label {
   position: relative;
   display: inline-block;
+<<<<<<< HEAD
   padding: 10px 18% 0px;
   cursor: pointer;
   margin: 0 0 0 4px;
   height: 5vh;
+=======
+  padding: 10px 20% 0px;
+  cursor: pointer;
+  margin: 0 0 0 4px;
+>>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
 }
 
 .tabset > input:checked + label {
@@ -73,9 +102,17 @@ section p.title {
 }
 
 .item {
+<<<<<<< HEAD
   box-shadow: 0px 0px 9px 1px #C8C3C3;
   margin-bottom: 20px;
 }
+=======
+  -webkit-box-shadow: 0px 0px 9px 1px #C8C3C3;
+          box-shadow: 0px 0px 9px 1px #C8C3C3;
+  margin-bottom: 20px;
+}
+
+>>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
 .item .top,
 .item .bottom {
   display: block;
@@ -127,6 +164,7 @@ section p.title {
   text-align: left;
   color: #697DA5;
 }
+<<<<<<< HEAD
 #supplements .item > .bottom > .bottom {
   text-align: right;
 }
@@ -136,14 +174,41 @@ section p.title {
 #supplements .item .bottom .show:not(:checked) ~ .description {
   display: none;
 }
+=======
+
+#supplements .item > .bottom > .bottom {
+  text-align: right;
+}
+
+#supplements .item .bottom .show {
+  display: none;
+}
+
+#supplements .item .bottom .show:not(:checked) ~ .description {
+  display: none;
+}
+
+>>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
 #supplements .label img {
   height: 35px;
   width: 35px;
   margin: 0 15px 0 0;
+<<<<<<< HEAD
   transition: transform 0.3s;
 }
 #supplements .show:checked ~ img {
   transform: rotate(90deg);
+=======
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+#supplements .show:checked ~ img {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+>>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
 }
 
 /* endregion : expandable */
@@ -155,13 +220,25 @@ section p.title {
   font-size: 12px;
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
+<<<<<<< HEAD
 .pill.acide-amines {
   background-color: #C8C3C3;
 }
+=======
+
+.pill.acide-amines {
+  background-color: #C8C3C3;
+}
+
+>>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
 .pill.acide-gras {
   background-color: #AE3EC9;
   color: #FFFFFF;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
 .pill.recommendations {
   margin: 0px 0 20px 0;
   background-color: #AE3EC9;
@@ -199,6 +276,10 @@ section p.title {
 .item hr {
   border: 0;
   height: 1px;
+<<<<<<< HEAD
+=======
+  background-image: -webkit-gradient(linear, left top, right top, from(#b7b7b600), color-stop(#C8C3C3), to(#b7b7b700));
+>>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
   background-image: linear-gradient(to right, #b7b7b600, #C8C3C3, #b7b7b700);
 }
 
@@ -207,14 +288,26 @@ section p.title {
   height: auto;
   vertical-align: super;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
 #products .item .bottom .top.right {
   width: 45%;
   height: 50px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
 #products .dosage {
   text-align: left;
   margin-left: 15px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
 #products a.button {
   background-color: #AE3EC9;
   color: #FFFFFF;
@@ -225,4 +318,9 @@ section p.title {
   display: inline-block;
 }
 
+<<<<<<< HEAD
 /* #endregion ----------------------------------------------- Products *//*# sourceMappingURL=supplements.css.map */
+=======
+/* #endregion ----------------------------------------------- Products */
+/*# sourceMappingURL=supplements.css.map */
+>>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
