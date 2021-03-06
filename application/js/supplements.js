@@ -165,7 +165,7 @@
 
         let dopamine      = $("[data-neuro='Dopamine']"     , products);
         let acetylcholine = $("[data-neuro='Acétylcholine']", products);
-        let gaba          = $("[data-neuro='GABA']"         ,products);
+        let gaba          = $("[data-neuro='GABA']"         , products);
         let serotonine    = $("[data-neuro='Sérotonine']"   , products);
 
         filterDisplay(dopamine     , items.dopamine);
@@ -200,7 +200,7 @@
     }   
     
     function saveRecommendations() {    
-        win.localStorage.setItem("recommendations", _recommendations);
+        win.localStorage.setItem("Recommendations", _recommendations);
     }
 
     // #region Exports
