@@ -18,12 +18,12 @@
             <p class="question">{desc}</p>
         </div>
         <div class="slide-radios">
-            <div class="radio-item" onclick="quizz.nextSlide({id}, true, this)">
+            <div class="radio-item" onclick="quizz.nextSlide({id}, true)">
                 <input id="q{id}-true" class="questions" data-text="OUI" name="q{id}" type="radio">
                 <label for="q{id}-true">OUI</label>
             </div>
 
-            <div class="radio-item" onclick="quizz.nextSlide({id}, false, this)">
+            <div class="radio-item" onclick="quizz.nextSlide({id}, false)">
                 <input id="q{id}-false" data-text="NON" name="q{id}" type="radio">
                 <label for="q{id}-false">NON</label>
             </div>

@@ -66,7 +66,7 @@
         });
     }      
 
-    function nextSlide(id, choice, ele) {
+    function nextSlide(id, choice) {
         var current   = parseInt(id);
         var next      = current + 1;      
         var nextSlide = "#slide-" + next;
