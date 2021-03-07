@@ -91,10 +91,6 @@
         })
     }
 
-    function pageChanged(page) {
-        //$(".progress").toggle(/[0-9]]$/.test(page));
-    }
-
     // #region Exports
     var public =  {
         nextSlide         : nextSlide,
@@ -109,17 +105,14 @@
         var score = getDeficiencyScore();
         showDeficiencies(score);
 
-        $(doc).keypress(function (event) {
-            if (event.keyCode === 37 || event.keyCode === 39) {
-                // disable keyboard navigation
-                //event.preventDefault();
-            }
-        });   
-        
-        // get current page
-        $(win).on('hashchange', function(e) {            
-            pageChanged(window.location.hash);
-        });
+        if (!!win.isProduction) {            
+            $(doc).keypress(function (event) {
+                if (event.keyCode === 37 || event.keyCode === 39) {
+                    // disable keyboard navigation
+                    event.preventDefault();
+                }
+            });   
+        }
     });
 
 })(window, jQuery);
