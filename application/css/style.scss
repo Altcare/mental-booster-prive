@@ -18,16 +18,6 @@ html, body {
     font-size: $font-size-small;    
 }
 
-//! N'est pas utilisé en PROD
-img.placeholder {    
-    display: none;
-
-    @if $isDev {
-        height : $header-height;
-        display: block;
-    }    
-}
-
 .slides {
     display: flex;
     align-items: flex-start;

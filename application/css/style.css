@@ -28,10 +28,6 @@ html, body {
   font-size: 15px;
 }
 
-img.placeholder {
-  display: none;
-}
-
 .slides {
   display: -webkit-box;
   display: -ms-flexbox;
