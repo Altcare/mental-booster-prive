@@ -113,6 +113,9 @@
                 }
             });   
         }
+
+        //! Replace with call to save to DataBase
+        console.log("Score is in: deficiencies-result.js -> replace with AJAX call to save to DB", score);
     });
 
 })(window, jQuery);

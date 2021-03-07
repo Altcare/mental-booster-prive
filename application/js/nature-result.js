@@ -72,7 +72,7 @@
 
     // init
     $(doc).ready(function() {
-        var score = getNatureScore();      
+        var score = getNatureScore();
         showScore(score);
         
         if (!!win.isProduction) {            
@@ -81,8 +81,11 @@
                     // disable keyboard navigation
                     event.preventDefault();
                 }
-            });   
+            });
         }
+
+        //! Replace with call to save to DataBase
+        console.log("Score is in: nature-result.js -> replace with AJAX call to save to DB", score);
     });
 
 })(window, jQuery);
