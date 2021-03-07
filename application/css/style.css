@@ -51,12 +51,8 @@ html, body {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   width: 100%;
-<<<<<<< HEAD
-  height: 100%;
-=======
   display: -webkit-box;
   display: -ms-flexbox;
->>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
   display: flex;
   text-align: center;
   -webkit-box-pack: center;
@@ -83,11 +79,6 @@ html, body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-=======
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -96,7 +87,6 @@ html, body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 90vh;
->>>>>>> c7144ed809e1c15f6dec650fe2418e6b0039180f
   /* Overrides for Info slides */
 }
 
