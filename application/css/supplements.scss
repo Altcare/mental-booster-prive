@@ -3,7 +3,9 @@
 body {
     overflow: hidden;
 }
-.header {
+
+.placeholder {
+    //! ne peut etre ultisé car ca va virer a la fin
     height: $header-height;
 }
 /* #endregion ----------------------------------------------- SUPPLEMENTS BODY */
@@ -124,9 +126,9 @@ section p.title {
         display: none;
     }
     .label img {
-        height: 35px;
-        width: 35px;
-        margin: 0 15px 0 0;   
+        height: 36px;
+        width: 36px;
+        margin: -22px 5px 0px 0;   
         transition: transform 0.3s;     
     }
     .show:checked ~img {
@@ -143,10 +145,7 @@ section p.title {
     font-size: 12px;
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 
-    &.acide-amines {
-        background-color: $button-border-color;
-    }
-    &.acide-gras {
+    &.neuro {
         background-color: $progress-color;
         color: $backgground-color;
     }    
