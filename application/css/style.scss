@@ -22,8 +22,9 @@ body {
     // padding-top: 50px;
 }
 
-.header {
-    height: $quizz-header-height;
+.placeholder {
+    //! ne peut etre ultisé car ca va virer a la fin
+    height: $header-height;
 }
 
 .slides {
