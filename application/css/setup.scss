@@ -1,3 +1,6 @@
+//! DEV MODE
+$isDev : true;
+
 /* #region Style */
 $backgground-color: #FFFFFF;
 /* Neuro Title */
@@ -28,8 +31,13 @@ $font-size-big: 20px;
 //! ne peut etre ultisé car ca va virer a la fin
 $header-height: 8vh;
 
-// quizz: il doit y avoir 8vh entre le header et le body
-$quizz-body-height: 91vh;
+//? quizz: il doit y avoir 8vh entre le header et le body
+//! We are in PROD
+$quizz-body-height: 100vh;
+//! We are on DEV
+@if $isDev {
+    $quizz-body-height: 91vh;
+}
 
 //supplements: il doit y avoir 12vh entre le header et le body
 $supplement-body-height: 87vh;

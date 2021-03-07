@@ -30,7 +30,9 @@ html, body {
 }
 
 .placeholder {
+  display: none;
   height: 8vh;
+  display: block;
 }
 
 .slides {
@@ -74,6 +76,16 @@ html, body {
 /* #endregion -------------------------------------------- CSS Slider */
 #slide-start .section {
   padding: 50px 15px;
+}
+
+#slide-info .top-intro {
+  display: inline-block;
+  width: 80px;
+}
+
+#slide-info .top-intro .title {
+  font-size: 11px;
+  color: #AE3EC9;
 }
 
 .slide-item {

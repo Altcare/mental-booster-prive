@@ -18,9 +18,14 @@ html, body {
     font-size: $font-size-small;    
 }
 
-.placeholder {
-    //! ne peut etre ultisé car ca va virer a la fin
-    height: $header-height;
+//! N'est pas utilisé en PROD
+.placeholder {    
+    display: none;
+
+    @if $isDev {
+        height : $header-height;
+        display: block;
+    }    
 }
 
 .slides {
@@ -65,6 +70,16 @@ html, body {
     .section {
         padding: 50px 15px;
     }
+}
+#slide-info {
+    .top-intro {
+        display: inline-block;
+        width  : 80px;                
+    }
+    .top-intro .title {
+        font-size: 11px;
+        color: $progress-color;
+    }       
 }
 
 .slide-item {
