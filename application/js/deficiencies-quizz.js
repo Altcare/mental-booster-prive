@@ -41,12 +41,12 @@
     function getQuestions() {
         return $.when( loadTemplate("questions.tmpl"), loadQuestions("deficiencies.json") )
             .done( function(template, data) {     
+                _deficiencies = data;
                 
-                //! just for testing
-                var slice = 5;//data.items.length;
-
-                _deficiencies       = data;
-                _deficiencies.items = data.items.slice(0, slice);
+                //! declared at bottom of deficiencies-quizz.html
+                if (!!win.nbrQuizzQuestions) {
+                    _deficiencies.items = data.items.slice(0, win.nbrQuizzQuestions);
+                }                
                 
                 var id = 1;                
                 var l  = _deficiencies.items.length;

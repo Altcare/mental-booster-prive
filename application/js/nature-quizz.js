@@ -38,15 +38,15 @@
     /**
      * Load template & questions
      */
-    function getQuestions() {
+    function getQuestions() {        
         return $.when( loadTemplate("questions.tmpl"), loadQuestions("nature.json") )
-            .done( function(template, data) {  
-                
-                //! just for testing
-                var slice = 5;//data.items.length;
+            .done( function(template, data) {                  
+                _nature = data;
 
-                _nature       = data;
-                _nature.items = data.items.slice(0, slice);
+                //! declared at bottom of nature-quizz.html
+                if (!!win.nbrQuizzQuestions) {
+                    _nature.items = data.items.slice(0, win.nbrQuizzQuestions);
+                }
 
                 var id = 1;                
                 var l  = _nature.items.length;
