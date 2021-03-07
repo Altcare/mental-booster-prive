@@ -47,7 +47,7 @@ html, body {
   height: 91vh;
 }
 
-.slides .slide-container {
+.slides > .slide-container {
   scroll-snap-align: start;
   -ms-flex-negative: 0;
       flex-shrink: 0;
