@@ -44,21 +44,20 @@
     }
 
     function showScore(score) {
-        // TODO add display logic to hide unwanted slides
-        
+
         var items = [
-            {n: "dopamine", v: score.dopamine},
-            {n: "serotonine", v: score.serotonine},
-            {n: "gaba", v: score.gaba},
+            {n: "dopamine"     , v: score.dopamine},
+            {n: "serotonine"   , v: score.serotonine},
+            {n: "gaba"         , v: score.gaba},
             {n: "acetylcholine", v: score.acetylcholine},
         ];
 
         const max = items.reduce(function(prev, current) {
-            return (prev.v > current.v) ? prev : current
-        })
+            return (prev.v > current.v) ? prev : current;
+        });
 
-        $(".slide-container").css("display", "none");        
-        $("#slide-"+max.n+".slide-container").css("display", "block");  
+        $(".slide-container").hide();
+        $("#slide-" + max.n).show();
     }
 
     // #region Exports

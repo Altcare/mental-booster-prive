@@ -1,22 +1,8 @@
 (function(win, $) {
     // #region setup
     var doc = win.document;
-    var _deficiencies = {};
     // #endregion
     
-
-    function nextSlide(id, choice) {
-        var current   = parseInt(id);
-        var next      = current + 1;      
-        var nextSlide = "#slide-" + next;
-
-        if (next <= _deficiencies.nbrQuestions) {            
-            win.location.href = nextSlide;           
-        }
-        else {
-            win.location.href = "#slide-finish";
-        }
-    }
 
     // Get number of items cheched as TRUE
     function getDeficiencyScore() {
@@ -77,23 +63,36 @@
     }
 
     function showDeficiencies(score) {
-        // TODO add display logic to hide unwanted slides
-        
+                
         var items = [
-            {n: "dopamine", v: score.dopamine.level},
-            {n: "serotonine", v: score.serotonine.level},
-            {n: "gaba", v: score.gaba.level},
+            {n: "dopamine"     , v: score.dopamine.level},
+            {n: "serotonine"   , v: score.serotonine.level},
+            {n: "gaba"         , v: score.gaba.level},
             {n: "acetylcholine", v: score.acetylcholine.level},
-        ];
+        ];        
 
-        var nature = items.reduce(function(accumulator, currentValue) {
-            return (currentValue.v > 0) ? currentValue : accumulator;
-        })
+        $(".slide-container").hide();
+        
+        const result = items.filter(c => c.v > 0);        
+        result.forEach(c => {
+            $("#slide-" + c.n).show();
+        });
+        
+    }
+
+    function changeSlide(currentSlide, e) {  
+        e = e || win.event; 
+        
+        var items = $(".slide-container:visible").length;
+        if (items > 1) {
+            e.preventDefault();
+            $(currentSlide).remove();
+        }
     }
 
     // #region Exports
     var public =  {
-        nextSlide         : nextSlide,
+        changeSlide       : changeSlide,
         getDeficiencyScore: getDeficiencyScore
     };
 
