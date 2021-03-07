@@ -44,7 +44,6 @@ html, body {
   overflow-x: scroll;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
 }
 
 .slides .slide-container {
@@ -235,12 +234,12 @@ html, body {
   margin: 40px 0;
 }
 
-.slide-item img {
-  width: 90%;
+.slide-item .justify {
+  text-align: justify;
 }
 
-.justify {
-  text-align: justify;
+.slide-item img {
+  width: 90%;
 }
 
 /* #endregion */

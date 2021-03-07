@@ -30,8 +30,7 @@ html, body {
     @if $isDEV {
         touch-action: auto;
         overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-        scroll-behavior: smooth;        
+        scroll-snap-type: x mandatory;     
     }    
 
     .slide-container {
@@ -45,7 +44,6 @@ html, body {
         justify-content: center;
     }    
 }
-
 
 .slides::-webkit-scrollbar {
     width: 0;
@@ -209,15 +207,15 @@ html, body {
         font-weight: normal;
         margin: 40px 0;
     }  
+
+    .justify {
+        text-align: justify;
+    }
+
     img {
         width: 90%;
     }
 }
-
-.justify {
-    text-align: justify;
-}
-
 
 /* #endregion */
 .slide-radios {
