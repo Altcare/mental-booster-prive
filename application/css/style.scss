@@ -19,7 +19,7 @@ html, body {
 }
 
 //! N'est pas utilisé en PROD
-.placeholder {    
+img.placeholder {    
     display: none;
 
     @if $isDev {
@@ -40,7 +40,7 @@ html, body {
     // disable slider (logical only)
     // touch-action: none;
 
-    height: $quizz-body-height;
+    height: 100vh;
 
     > .slide-container {
         scroll-snap-align: start;
@@ -95,7 +95,7 @@ html, body {
 
         .slide-top {
             width: 95%;
-            margin: 0 auto;
+            margin: 20px auto;
             overflow: auto;       
         }
 
@@ -159,6 +159,7 @@ html, body {
         text-align: left;
         height: 30px;
         cursor: pointer;
+        margin-top: 10px;
     }
     .back img {
         width: auto;

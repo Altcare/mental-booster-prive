@@ -6,14 +6,9 @@
 /* Button BG */
 /* Button Border */
 /* Arial, Bold, Regular : 15pt, 20pt */
-/* height */
 /* #region ----------------------------------------------- SUPPLEMENTS BODY */
 body {
   overflow: hidden;
-}
-
-.placeholder {
-  height: 8vh;
 }
 
 /* #endregion ----------------------------------------------- SUPPLEMENTS BODY */
@@ -32,7 +27,6 @@ body {
 
 #tab1:checked ~ .tab-panels,
 #tab2:checked ~ .tab-panels {
-  height: 87vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,6 +37,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 94vh;
 }
 
 #tab1:checked ~ .tab-panels > #supplements,
@@ -180,7 +175,6 @@ section p.title {
 }
 
 .pill.recommendations {
-  margin: 0px 0 20px 0;
   background-color: #AE3EC9;
   color: #FFFFFF;
   border-radius: 0;

@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAGA,mBAAmB;AAEnB,iBAAiB;AAEjB,aAAa;AAEb,eAAe;AAEf,aAAa;AAEb,eAAe;AAEf,mBAAmB;AAMnB,uCAAuC;AAKvC,YAAY",
+    "mappings": "AAGA,mBAAmB;AAEnB,iBAAiB;AAEjB,aAAa;AAEb,eAAe;AAEf,aAAa;AAEb,eAAe;AAEf,mBAAmB;AAMnB,uCAAuC",
     "sources": [
         "setup.scss"
     ],

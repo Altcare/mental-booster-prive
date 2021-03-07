@@ -6,7 +6,6 @@
 /* Button BG */
 /* Button Border */
 /* Arial, Bold, Regular : 15pt, 20pt */
-/* height */
 /* #region  -------------------------------------------- CSS Slider */
 html {
   -webkit-box-sizing: border-box;
@@ -29,10 +28,8 @@ html, body {
   font-size: 15px;
 }
 
-.placeholder {
+img.placeholder {
   display: none;
-  height: 8vh;
-  display: block;
 }
 
 .slides {
@@ -46,7 +43,7 @@ html, body {
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
   /* Enabled: slides scroll from side to side */
-  height: 91vh;
+  height: 100vh;
 }
 
 .slides > .slide-container {
@@ -110,7 +107,7 @@ html, body {
 
 .slide-item.info .slide-top {
   width: 95%;
-  margin: 0 auto;
+  margin: 20px auto;
   overflow: auto;
 }
 
@@ -174,6 +171,7 @@ html, body {
   text-align: left;
   height: 30px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .slide-item .back img {
