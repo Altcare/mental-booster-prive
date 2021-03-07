@@ -1,4 +1,5 @@
 @import "setup.scss";
+
 /* #region  -------------------------------------------- CSS Slider */
 html {
     box-sizing: border-box;
@@ -19,26 +20,25 @@ html, body {
 }
 
 .slides {
+    height: 100vh;
     display: flex;
     align-items: flex-start;
     
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    /* Enabled: slides scroll from side to side */    
-    // scroll-behavior: smooth;
+    touch-action: none;
+    overflow-x: hidden;
 
-    // disable slider (logical only)
-    // touch-action: none;
+    @if $isDEV {
+        touch-action: auto;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;        
+    }    
 
-    height: 100vh;
-
-    > .slide-container {
+    .slide-container {
         scroll-snap-align: start;
         flex-shrink: 0;
         width: 100%;
         height: 100%;
-        // margin-right: 50px;
-        // position: relative;
         display: flex;
 
         text-align: center;
