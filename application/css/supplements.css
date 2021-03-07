@@ -37,7 +37,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 94vh;
+  height: 93.5vh;
 }
 
 #tabSupplements:checked ~ .tab-panels > #supplements,

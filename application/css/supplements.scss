@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 94vh; //! other part of height in .tabset > label
+    height: 93.5vh; //! other part of height in .tabset > label
 }
 #tabSupplements:checked ~ .tab-panels > #supplements,
 #tabProducts:checked    ~ .tab-panels > #products {
