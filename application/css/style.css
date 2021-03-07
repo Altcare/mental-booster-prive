@@ -85,6 +85,13 @@ img.placeholder {
   color: #AE3EC9;
 }
 
+#nature-quizz .slide-item.info .radio-item,
+#nature-result .slide-item.info .radio-item,
+#deficiencies-result .slide-item.info .radio-item,
+#deficiencies-quizz .slide-item.info .radio-item {
+  margin: 0;
+}
+
 .slide-item {
   width: 95%;
   display: -webkit-box;
@@ -106,9 +113,8 @@ img.placeholder {
 }
 
 .slide-item.info .slide-top {
-  width: 95%;
-  margin: 20px auto;
   overflow: auto;
+  padding: 20px 10px 0 10px;
 }
 
 .slide-item.info .slide-radios {
