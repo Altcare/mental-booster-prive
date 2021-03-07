@@ -15,15 +15,15 @@ body {
 .tabset .tab-panel {
     display: none;
 }
-#tab1:checked ~ .tab-panels,
-#tab2:checked ~ .tab-panels {
+#tabSupplements:checked ~ .tab-panels,
+#tabProducts:checked    ~ .tab-panels {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 94vh; //! other part of height in .tabset > label
 }
-#tab1:checked ~ .tab-panels > #supplements,
-#tab2:checked ~ .tab-panels > #products {
+#tabSupplements:checked ~ .tab-panels > #supplements,
+#tabProducts:checked    ~ .tab-panels > #products {
     display: block;
     overflow: auto;
 }

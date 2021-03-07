@@ -25,8 +25,8 @@ body {
   display: none;
 }
 
-#tab1:checked ~ .tab-panels,
-#tab2:checked ~ .tab-panels {
+#tabSupplements:checked ~ .tab-panels,
+#tabProducts:checked ~ .tab-panels {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,8 +40,8 @@ body {
   height: 94vh;
 }
 
-#tab1:checked ~ .tab-panels > #supplements,
-#tab2:checked ~ .tab-panels > #products {
+#tabSupplements:checked ~ .tab-panels > #supplements,
+#tabProducts:checked ~ .tab-panels > #products {
   display: block;
   overflow: auto;
 }
