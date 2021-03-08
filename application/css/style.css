@@ -39,6 +39,8 @@ html, body {
   -ms-touch-action: none;
       touch-action: none;
   overflow-x: hidden;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
 }
 
 .slides .slide-container {
