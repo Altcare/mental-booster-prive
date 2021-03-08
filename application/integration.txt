@@ -153,10 +153,10 @@ Ses products personalisées sont enregistré dans (window.localStorage : Recomme
 
 En bas de chaque page html il y a (a supprimer en prod)
     <script>
-        /*
-            * Reglages Temportaires
-            * A supprimer pour la PROD
-            */
+       /*
+        * Reglages Temportaires
+        * A supprimer pour la PROD
+        */
         var isProduction      = true;
         var nbrQuizzQuestions = 5;
     </script>
