@@ -20,7 +20,6 @@
     function loadQuestions(file) {
         var dfd = jQuery.Deferred();
 
-        // TODO: need to add versioning to localStorage, or not use it
         var nature = null;
         if (nature == null) {
             $.getJSON("js/" + file, function( data ) {

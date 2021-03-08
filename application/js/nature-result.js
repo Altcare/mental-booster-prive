@@ -1,27 +1,10 @@
 (function(win, $) {
     // #region setup
     var doc = win.document;
-    var _nature = {};
     // #endregion
     
-
-    function nextSlide(id, choice) {
-        var current   = parseInt(id);
-        var next      = current + 1;      
-        var nextSlide = "#slide-" + next;
-
-        if (next <= _nature.nbrQuestions) {            
-            win.location.href = nextSlide;         
-        }
-        else {
-            win.location.href = "#slide-finish";
-        }
-    }
-
-
     // Get number of items cheched as TRUE
     function getNatureScore() {
-        // TODO load score from localStorage, if comming back
         var list = JSON.parse(win.sessionStorage.getItem('NatureQuizz'));
 
         var shortList     = list.items.filter(q => q.resp == true);
@@ -61,11 +44,6 @@
         $(".slide-container").hide();
         $("#slide-" + max.n).show();
     }
-
-    // #region Exports
-    var public =  {
-        nextSlide: nextSlide
-    };
 
     win.quizz = public;
     // #endregion

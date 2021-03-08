@@ -6,8 +6,6 @@
 
     // Get number of items cheched as TRUE
     function getDeficiencyScore() {
-
-        //! load score from localStorage, if comming back
         var list = JSON.parse(win.sessionStorage.getItem('DeficiencyQuizz'));
 
         /**
