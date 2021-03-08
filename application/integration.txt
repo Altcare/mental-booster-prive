@@ -109,8 +109,15 @@ Apres les ecrans d'introduction, les questions sont chargé depuis (nature.json)
 A la suite de ses réponses le résultat est enregistré dans (window.sessionStorage)
 
 L'utilisateur arrive sur (nature-results.html), son score est calculé a partir du contenu dans
-(window.sessionStorage), on lui affice les informations par rapport au quizz et le resultat est
+(window.sessionStorage), on lui affiche les informations par rapport au quizz et le resultat est
 maintenant enregistré dans (window.localStorage : NatureScore)
+
+    exemple:
+    {
+        acetylcholine: 4
+        dopamine     : 5
+        gaba         : 15
+    }
 
 L'utilisateur arrive sur (deficienceis-quizz.html)
 Apres les ecrans d'introduction, les questions sont chargé depuis (deficienceis.json)
@@ -119,9 +126,26 @@ L'utilisateur arrive sur (deficienceis-results.html), son score est calculé a p
 (window.sessionStorage), on lui affice les informations par rapport au quizz et le resultat est
 maintenant enregistré dans (window.localStorage : DeficiencyScore)
 
+    exemple:
+    {
+        acetylcholine: {score: 24, level: 3}
+        dopamine     : {score: 25, level: 3}
+        gaba         : {score: 40, level: 3}   
+    }
+
 L'utilisateur arrive sur (supplements.html)
 On récupere le score du quizz des deficiences, et on lui calcule l'affichage des supplements/products
 Ses products personalisées sont enregistré dans (window.localStorage : Recommendations)
+
+    exemple:
+    {
+        carence: 3
+        dosage : "2 gélules/jour"
+        img    : "positirel.jpg"
+        link   : "http://............."
+        name   : "POSITIREL"
+        neuro  : "Dopamine"
+    }
 
 -------
  Tests
