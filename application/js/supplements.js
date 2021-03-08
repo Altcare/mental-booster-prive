@@ -2,9 +2,6 @@
     // #region setup
     var doc = win.document;
 
-    //! https does not work on this machine
-    var _affiliateURL = "http://51.210.245.108:81/mentalbooster/redirect.php?productId={productId}";
-
     var _supplements     = {};
     var _products        = {};   
     var _recommendations = []; 
@@ -52,13 +49,14 @@
                     var l  = _supplements.items.length;
                     for (var i=0; i<l; i++) {
                         var content = template
-                                        .replaceAll("{title}", _supplements.items[i].title)
-                                        .replaceAll("{file}" , _supplements.items[i].file)
-                                        .replaceAll("{desc}" , _supplements.items[i].desc)
-                                        .replaceAll("{dMin}" , _supplements.items[i].dMin)
-                                        .replaceAll("{dMoy}" , _supplements.items[i].dMoy)
-                                        .replaceAll("{dMax}" , _supplements.items[i].dMax)
-                                        .replaceAll("{neuro}", _supplements.items[i].neuro)
+                                        .replaceAll("{neuro}"       , _supplements.items[i].neuro)
+                                        .replaceAll("{title}"       , _supplements.items[i].title)
+                                        .replaceAll("{dMin}"        , _supplements.items[i].dMin)
+                                        .replaceAll("{dMoy}"        , _supplements.items[i].dMoy)
+                                        .replaceAll("{dMax}"        , _supplements.items[i].dMax)
+                                        .replaceAll("{desc}"        , _supplements.items[i].desc)                                        
+                                        .replaceAll("{file}"        , _supplements.items[i].file)
+                                        .replaceAll("{supplementId}", _supplements.items[i].supplementId)
 
                     $("#supplements").append(content);
                 }
@@ -72,18 +70,16 @@
                 
                     var l  = _products.items.length;
                     for (var i=0; i<l; i++) {
-                        let link = _affiliateURL.replaceAll("{productId}" , _products.items[i].productId);
-
                         var content = template
-                                        .replaceAll("{title}"     , _products.items[i].title)
-                                        .replaceAll("{file}"      , _products.items[i].file)
-                                        .replaceAll("{neuro}"     , _products.items[i].neuro)
-                                        .replaceAll("{dMin}"      , _products.items[i].dMin)
-                                        .replaceAll("{dMoy}"      , _products.items[i].dMoy)
-                                        .replaceAll("{dMax}"      , _products.items[i].dMax)
-                                        .replaceAll("{desc}"      , _products.items[i].desc)
-                                        .replaceAll("{productId}" , _products.items[i].productId)                                        
-                                        .replaceAll("{link}"      , link)
+                                        .replaceAll("{neuro}"    , _products.items[i].neuro)
+                                        .replaceAll("{title}"    , _products.items[i].title)
+                                        .replaceAll("{desc}"     , _products.items[i].desc)                                                                                
+                                        .replaceAll("{dMin}"     , _products.items[i].dMin)
+                                        .replaceAll("{dMoy}"     , _products.items[i].dMoy)
+                                        .replaceAll("{dMax}"     , _products.items[i].dMax)
+                                        .replaceAll("{file}"     , _products.items[i].file)
+                                        .replaceAll("{productId}", _products.items[i].productId)                                        
+                                        .replaceAll("{link}"     , _products.items[i].link)
 
                     $("#products").append(content);
                 }
@@ -161,7 +157,7 @@
         }
         else {
             throw 'localStorage.getItem("DeficiencyScore") cannot be empty';
-        }        
+        }
 
         let dopamine      = $("[data-neuro='Dopamine']"     , products);
         let acetylcholine = $("[data-neuro='Acétylcholine']", products);
@@ -171,7 +167,7 @@
         filterDisplay(dopamine     , items.dopamine);
         filterDisplay(acetylcholine, items.acetylcholine);
         filterDisplay(gaba         , items.gaba);
-        filterDisplay(serotonine   , items.serotonine);          
+        filterDisplay(serotonine   , items.serotonine);
 
         function filterDisplay(ele, data) {   
             // if level is at least > 0
@@ -191,8 +187,16 @@
                         || (dmoy && data.level == 2)
                         || (dMax && data.level == 3)
                         ) {
-                            item.show();                            
-                            _recommendations.push(item.data("productid"));
+                            item.show();     
+
+                            _recommendations.push({
+                                neuro  : item.data("neuro"),
+                                name   : item.data("title"),
+                                img    : item.data("file"),
+                                dosage : item.data("desc"),
+                                link   : item.data("link"),
+                                carence: data.level
+                            });
                     }
                 });                
             }
@@ -200,7 +204,7 @@
     }   
     
     function saveRecommendations() {    
-        win.localStorage.setItem("Recommendations", _recommendations);
+        win.localStorage.setItem("Recommendations", JSON.stringify(_recommendations));
     }
 
     // init
