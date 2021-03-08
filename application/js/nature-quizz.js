@@ -44,7 +44,7 @@
                 _nature = data;
 
                 //! declared at bottom of nature-quizz.html
-                if (!!win.nbrQuizzQuestions) {
+                if (!!!win.isProduction && !!win.nbrQuizzQuestions) {
                     var neuroA      = data.items.filter(c => c.na == "Neuro-A");
                     var neuroAItems = neuroA.slice(0, win.nbrQuizzQuestions);
 

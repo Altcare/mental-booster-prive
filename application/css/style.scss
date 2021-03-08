@@ -121,8 +121,8 @@ html, body {
         }
 
         .logo {
-            height: 80px;
-            width: 110px;
+            height: 105px;
+            width: 200px;
         }
 
         ul {
@@ -248,7 +248,9 @@ html, body {
         cursor: pointer;
         display: block;
         background-color: $button-bg-color;
-        padding: 10px 20px;
+        //! test de dimension
+        //padding: 10px 20px;
+        padding: 15px 20px;
 
         font-size: $font-size-small;
         font-weight: bold;

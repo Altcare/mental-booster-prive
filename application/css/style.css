@@ -137,8 +137,8 @@ html, body {
 }
 
 .slide-item.info .logo {
-  height: 80px;
-  width: 110px;
+  height: 105px;
+  width: 200px;
 }
 
 .slide-item.info ul {
@@ -269,7 +269,7 @@ html, body {
   cursor: pointer;
   display: block;
   background-color: #F8F8F8;
-  padding: 10px 20px;
+  padding: 15px 20px;
   font-size: 15px;
   font-weight: bold;
   border: 1px solid #C8C3C3;
