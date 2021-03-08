@@ -99,9 +99,9 @@
     INFO -> contient des parametres en bas de page pour faire des tests en DEV
 
 
------------
- Parcours:
------------
+----------
+ Parcours
+----------
 
 L'utilisateur arrive sur (nature-quizz.html)
 Apres les ecrans d'introduction, les questions sont chargé depuis (nature.json)
@@ -112,12 +112,20 @@ L'utilisateur arrive sur (nature-results.html), son score est calculé a partir 
 (window.sessionStorage), on lui affiche les informations par rapport au quizz et le resultat est
 maintenant enregistré dans (window.localStorage : NatureScore)
 
-    exemple:
+    --------
+     format
+    --------
+
     {
         acetylcholine: 4
         dopamine     : 5
         gaba         : 15
-    }
+    },
+    items [
+        ... contient toutes les quesions, avec la réponse true/false choisi
+    ]
+
+    Chaque element contient le score (Nbr OUI aux questions)
 
 L'utilisateur arrive sur (deficienceis-quizz.html)
 Apres les ecrans d'introduction, les questions sont chargé depuis (deficienceis.json)
@@ -126,18 +134,30 @@ L'utilisateur arrive sur (deficienceis-results.html), son score est calculé a p
 (window.sessionStorage), on lui affice les informations par rapport au quizz et le resultat est
 maintenant enregistré dans (window.localStorage : DeficiencyScore)
 
-    exemple:
+    --------
+     format
+    --------
+
     {
         acetylcholine: {score: 24, level: 3}
         dopamine     : {score: 25, level: 3}
         gaba         : {score: 40, level: 3}   
-    }
+    },
+    items [
+        ... contient toutes les quesions, avec la réponse true/false choisi
+    ]
+
+    score = Nbr OUI aux questions
+    level = carence : 1 = min (5-9), 2 = moy (10-14), 3 = max (15+)
 
 L'utilisateur arrive sur (supplements.html)
 On récupere le score du quizz des deficiences, et on lui calcule l'affichage des supplements/products
 Ses products personalisées sont enregistré dans (window.localStorage : Recommendations)
 
-    exemple:
+    --------
+     format
+    --------
+
     {
         carence: 3
         dosage : "2 gélules/jour"
@@ -146,6 +166,8 @@ Ses products personalisées sont enregistré dans (window.localStorage : Recomme
         name   : "POSITIREL"
         neuro  : "Dopamine"
     }
+
+    carence: 1 = min (5-9), 2 = moy (10-14), 3 = max (15+)
 
 -------
  Tests
@@ -170,6 +192,10 @@ isProduction = true
 nbrQuizzQuestions = x
 
 
+--------
+ Export
+--------
+
 Pour faire des enregistrements en BDD, il suffit d'ajouter un handler sur l'etape voulu
 Toutes les informations sont en window.localStorage()
 
@@ -180,3 +206,15 @@ Toutes les informations sont en window.localStorage()
         data    : { json: JSON.stringify(data) },
         dataType: 'json'
     });
+
+    Disponible en localStorage()
+    * "Recommendations": la liste de toutes les products proposé en fonction de la carence
+
+
+-------
+ Extra
+-------
+Vu que les informations sont enregistré dans le localStorage() du client
+
+Il peut revenir sur la page supplements.html quand il veux pour consulter ses propositions
+sans aucun dev supplemnetaire a faire
