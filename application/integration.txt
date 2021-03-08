@@ -146,10 +146,10 @@ isProduction = true
 nbrQuizzQuestions = x
 
 
-Pour faire des enregistrements en BDD, il suffit de ajouter un handler sur l'etape voulu
+Pour faire des enregistrements en BDD, il suffit d'ajouter un handler sur l'etape voulu
 Toutes les informations sont en window.localStorage()
 
-    var data = window.localStorage.getItem("item");
+    var data = window.localStorage.getItem("Recommendations");
     $.ajax({
         url     : '/webservice.php',
         type    : 'POST',
