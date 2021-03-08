@@ -203,14 +203,6 @@
         win.localStorage.setItem("Recommendations", _recommendations);
     }
 
-    // #region Exports
-    var public =  {
-        _supplements: _supplements
-    };
-
-    win.supplements = public;
-    // #endregion
-
     // init
     $(doc).ready(function() {
         getSupplements().done(() => {
@@ -222,7 +214,12 @@
                 filterProducts();
                 saveRecommendations();
             });
-        });        
+        }); 
+        
+        //! Replace with call to save to DataBase
+        if (!!!win.isProduction) {
+            console.log("Recommendations results are saved to localStorage() : Recommendations, via saveRecommendations()");
+        }        
     });
 
 })(window, jQuery);

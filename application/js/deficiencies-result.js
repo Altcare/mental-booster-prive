@@ -7,7 +7,7 @@
     // Get number of items cheched as TRUE
     function getDeficiencyScore() {
 
-        // TODO load score from localStorage, if comming back
+        //! load score from localStorage, if comming back
         var list = JSON.parse(win.sessionStorage.getItem('DeficiencyQuizz'));
 
         /**
@@ -59,10 +59,12 @@
         };
 
         win.localStorage.setItem("DeficiencyScore", JSON.stringify(score));
+        filterDeficiencies(score);
+
         return score;
     }
 
-    function showDeficiencies(score) {
+    function filterDeficiencies(score) {
                 
         var items = [
             {n: "dopamine"     , v: score.dopamine.level},
@@ -92,8 +94,7 @@
 
     // #region Exports
     var public =  {
-        changeSlide       : changeSlide,
-        getDeficiencyScore: getDeficiencyScore
+        changeSlide: changeSlide
     };
 
     win.quizz = public;
@@ -101,8 +102,7 @@
 
     // init
     $(doc).ready(function() {                
-        var score = getDeficiencyScore();
-        showDeficiencies(score);
+        var score = getDeficiencyScore();        
 
         if (!!win.isProduction) {            
             $(doc).keypress(function (event) {
@@ -114,7 +114,10 @@
         }
 
         //! Replace with call to save to DataBase
-        console.log("Score is in: deficiencies-result.js -> replace with AJAX call to save to DB", score);
+        if (!!!win.isProduction) {
+            console.log("Score is in: deficiencies-result.js -> replace with AJAX call to save to DB", score);
+            console.log("Score results are also saved to localStorage() : DeficiencyScore, via getDeficiencyScore()");
+        }
     });
 
 })(window, jQuery);

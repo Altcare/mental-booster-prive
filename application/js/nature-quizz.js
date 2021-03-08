@@ -118,7 +118,7 @@
     // #region Exports
     var public =  {
         nextSlide    : nextSlide,
-        previousSlide: previousSlide,
+        previousSlide: previousSlide
     };
 
     win.quizz = public;
@@ -136,6 +136,11 @@
                 }
             });   
         }
+
+        //! INFO
+        if (!!!win.isProduction) {
+            console.log("Question results are saved to sessionStorage() : NatureQuizz, via saveQuizz()");
+        }        
     });
 
 })(window, jQuery);

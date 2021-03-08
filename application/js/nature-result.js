@@ -40,10 +40,12 @@
         };
 
         win.localStorage.setItem("NatureScore", JSON.stringify(score));
+        filterNature(score);
+
         return score;
     }
 
-    function showScore(score) {
+    function filterNature(score) {
 
         var items = [
             {n: "dopamine"     , v: score.dopamine},
@@ -62,8 +64,7 @@
 
     // #region Exports
     var public =  {
-        nextSlide         : nextSlide,
-        getNatureScore    : getNatureScore,
+        nextSlide: nextSlide
     };
 
     win.quizz = public;
@@ -72,7 +73,6 @@
     // init
     $(doc).ready(function() {
         var score = getNatureScore();
-        showScore(score);
         
         if (!!win.isProduction) {            
             $(doc).keypress(function (event) {
@@ -84,7 +84,10 @@
         }
 
         //! Replace with call to save to DataBase
-        console.log("Score is in: nature-result.js -> replace with AJAX call to save to DB", score);
+        if (!!!win.isProduction) {
+            console.log("Score is in: nature-result.js -> replace with AJAX call to save to DB", score);
+            console.log("Score results are also saved to localStorage() : NatureScore, via getNatureScore()");
+        }
     });
 
 })(window, jQuery);

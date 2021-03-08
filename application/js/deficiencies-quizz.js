@@ -135,8 +135,13 @@
                     // disable keyboard navigation
                     event.preventDefault();
                 }
-            });   
-        }  
+            }); 
+        }
+
+        //! INFO
+        if (!!!win.isProduction) {
+            console.log("Question results are saved to sessionStorage() : DeficiencyQuizz, via saveQuizz()");
+        }       
     });
 
 })(window, jQuery);
