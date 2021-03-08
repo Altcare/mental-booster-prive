@@ -8,7 +8,7 @@
 
  --- css/
      --- normalize.css / min.css
-         (reset css pour homogeniser les navigateurs)
+         Reset css pour homogeniser les navigateurs
 
      --- setup.scss
          Parametres de configuration de style: ATTENTION: c'est du SCSS
@@ -16,52 +16,54 @@
                  en DEV, permet de faire un swipe sur les fiches
 
      --- style.scss
-         (genere le fichier style.css : ATTENTION: c'est du SCSS)
+         Le style de la page: *-quizz.html, *-result.html, email.html
+         Genere le fichier style.css : ATTENTION: c'est du SCSS
 
      --- supplements.scss
-         (genere le fichier supplements.css : ATTENTION: c'est du SCSS)
+         Le style de la page: supplements.html
+         Genere le fichier supplements.css : ATTENTION: c'est du SCSS
 
  --- img/
      --- icones/
      --- products/
-         (toutes les images des produits)
+         Toutes les images des produits
 
      --- supplements/
-         (toutes les images des supplements)
+         Toutes les images des supplements
 
  --- js/
      --- deficienciens-quizz.js
-         (le code associé a la page: deficienciens-quizz.html)
+         Le code associé a la page: deficienciens-quizz.html
 
      --- deficienciens-result.js
-         (le code associé a la page: deficienciens-quizz.html)
+         Le code associé a la page: deficienciens-quizz.html
 
      --- deficienciens.json
-         (BDD des questions: Quizz Carences)
+         BDD des questions: Quizz Carences
 
      --- jquery2.min.js
-         (jQuery, meme version que utilisé sur mentalbooster.eu)
+         jQuery, meme version que utilisé sur mentalbooster.eu
 
      --- nature-quizz.js
-         (le code associé a la page: nature-quizz.html)
+         Le code associé a la page: nature-quizz.html
 
      --- nature-result.js
-         (le code associé a la page: nature-quizz.html)
+         Le code associé a la page: nature-quizz.html
 
      --- nature.json
-         (BDD des questions: Quizz Dominance)
+         BDD des questions: Quizz Dominance
 
      --- products.json
-         (BDD des products)
+         BDD des products
 
      --- supplements.js
-         (le code associé a la page: supplements.html)
+         Le code associé a la page: supplements.html
 
      --- supplements.json
-         (BDD des supplements)
+         BDD des supplements
 
  --- templates/
-     (ce sont les templates pour chaque catégorie, databindé via les fichiers JSON)
+     Ce sont les templates pour chaque catégorie, databindé via les fichiers JSON
      --- products.tmpl
      --- questions.tmpl
      --- supplements.tmpl
