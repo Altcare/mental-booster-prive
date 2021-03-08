@@ -45,7 +45,20 @@
                 
                 //! declared at bottom of deficiencies-quizz.html
                 if (!!win.nbrQuizzQuestions) {
-                    _deficiencies.items = data.items.slice(0, win.nbrQuizzQuestions);
+
+                    var neuroA      = data.items.filter(c => c.na == "Neuro-A");
+                    var neuroAItems = neuroA.slice(0, win.nbrQuizzQuestions);
+
+                    var neuroB      = data.items.filter(c => c.na == "Neuro-B");
+                    var neuroBItems = neuroAItems.concat(neuroB.slice(0, win.nbrQuizzQuestions));
+                     
+                    var neuroC      = data.items.filter(c => c.na == "Neuro-C");
+                    var neuroCItems = neuroBItems.concat(neuroC.slice(0, win.nbrQuizzQuestions));
+                    
+                    var neuroD      = data.items.filter(c => c.na == "Neuro-D");
+                    var neuroDItems = neuroCItems.concat(neuroD.slice(0, win.nbrQuizzQuestions));
+
+                    _deficiencies.items = neuroDItems;
                 }                
                 
                 var id = 1;                
