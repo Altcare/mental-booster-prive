@@ -75,11 +75,23 @@
 
         $(".slide-container").hide();
         
-        const result = items.filter(c => c.v > 0);        
+        const result = items.filter(c => c.v > 0);  
+        const length = result.length;
+        for (var i=0; i<length; i++) {
+            if (length > 1) {
+                var text = "{slide}/{count} - Suivant".replace("{count}", length).replace("{slide}", (i+1));
+                $("#slide-" + result[i].n + " .button").html(text);
+            }
+
+            $("#slide-" + result[i].n).show();
+        }
+
+        //! a voire si on le garde
+        /*
         result.forEach(c => {
-            $("#slide-" + c.n).show();
+            $("#slide-" + c.n).show();            
         });
-        
+        */        
     }
 
     function changeSlide(currentSlide, e) {  
