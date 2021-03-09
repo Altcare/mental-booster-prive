@@ -44,8 +44,6 @@
         $(".slide-container").hide();
         $("#slide-" + max.n).show();
     }
-
-    win.quizz = public;
     // #endregion
 
     // init
