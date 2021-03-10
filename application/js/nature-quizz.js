@@ -111,7 +111,7 @@
     }
 
     function saveQuizz() {
-        win.sessionStorage.setItem('NatureQuizz', JSON.stringify(_nature))
+        win.localStorage.setItem('NatureQuizz', JSON.stringify(_nature))
     }
 
     // #region Exports
@@ -138,7 +138,7 @@
 
         //! INFO
         if (!!!win.isProduction) {
-            console.log("Question results are saved to sessionStorage() : NatureQuizz, via saveQuizz()");
+            console.log("Question results are saved to localStorage() : NatureQuizz, via saveQuizz()");
         }        
     });
 

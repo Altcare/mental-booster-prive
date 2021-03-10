@@ -106,10 +106,10 @@
 L'utilisateur arrive sur (nature-quizz.html)
 Apres les ecrans d'introduction, les questions sont chargé depuis (nature.json)
 
-A la suite de ses réponses le résultat est enregistré dans (window.sessionStorage)
+A la suite de ses réponses le résultat est enregistré dans (window.localStorage)
 
 L'utilisateur arrive sur (nature-results.html), son score est calculé a partir du contenu dans
-(window.sessionStorage), on lui affiche les informations par rapport au quizz et le resultat est
+(window.localStorage), on lui affiche les informations par rapport au quizz et le resultat est
 maintenant enregistré dans (window.localStorage : NatureScore)
 
     --------
@@ -131,7 +131,7 @@ L'utilisateur arrive sur (deficienceis-quizz.html)
 Apres les ecrans d'introduction, les questions sont chargé depuis (deficienceis.json)
 
 L'utilisateur arrive sur (deficienceis-results.html), son score est calculé a partir du contenu dans
-(window.sessionStorage), on lui affice les informations par rapport au quizz et le resultat est
+(window.localStorage), on lui affice les informations par rapport au quizz et le resultat est
 maintenant enregistré dans (window.localStorage : DeficiencyScore)
 
     --------

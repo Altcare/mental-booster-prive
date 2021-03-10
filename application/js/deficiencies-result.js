@@ -6,7 +6,7 @@
 
     // Get number of items cheched as TRUE
     function getDeficiencyScore() {
-        var list = JSON.parse(win.sessionStorage.getItem('DeficiencyQuizz'));
+        var list = JSON.parse(win.localStorage.getItem('DeficiencyQuizz'));
 
         /**
          * 0-4   : pas de carence : 0

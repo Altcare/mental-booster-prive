@@ -113,7 +113,7 @@
     }    
 
     function saveQuizz() {
-        win.sessionStorage.setItem('DeficiencyQuizz', JSON.stringify(_deficiencies))
+        win.localStorage.setItem('DeficiencyQuizz', JSON.stringify(_deficiencies))
     }
 
     // #region Exports

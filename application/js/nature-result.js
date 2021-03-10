@@ -5,7 +5,7 @@
     
     // Get number of items cheched as TRUE
     function getNatureScore() {
-        var list = JSON.parse(win.sessionStorage.getItem('NatureQuizz'));
+        var list = JSON.parse(win.localStorage.getItem('NatureQuizz'));
 
         var shortList     = list.items.filter(q => q.resp == true);
         var dopamine      = shortList.filter(q => q.neuro == "Dopamine").length;
