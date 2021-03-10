@@ -140,7 +140,7 @@
 
         //! INFO
         if (!!!win.isProduction) {
-            console.log("Question results are saved to sessionStorage() : DeficiencyQuizz, via saveQuizz()");
+            console.log("Question results are saved to localStorage() : DeficiencyQuizz, via saveQuizz()");
         }       
     });
 
