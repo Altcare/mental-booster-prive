@@ -36,8 +36,6 @@
         var acetylcholine = shortList.filter(q => q.neuro == "Acétylcholine").length;
 
         var score = {
-            items: list.items,
-
             dopamine: {
                 score: dopamine,
                 level: getDeficiencyLevel(dopamine)

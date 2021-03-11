@@ -108,6 +108,25 @@ Apres les ecrans d'introduction, les questions sont chargé depuis (nature.json)
 
 A la suite de ses réponses le résultat est enregistré dans (window.localStorage)
 
+    --------
+     format
+    --------
+
+    {
+        "title": "Quizz Nature Dominante",
+        "version": "1.0",
+        "items": [
+            {
+                "title": "Nature Dominante",
+                "neuro": "Dopamine",
+                "na": "Neuro-A",
+                "sect": "Mémoire et attention",
+                "desc": "Je trouve qu'il est facile de traiter mes pensées"
+            },
+            ...........
+        }
+    }
+
 L'utilisateur arrive sur (nature-results.html), son score est calculé a partir du contenu dans
 (window.localStorage), on lui affiche les informations par rapport au quizz et le resultat est
 maintenant enregistré dans (window.localStorage : NatureScore)
@@ -117,18 +136,36 @@ maintenant enregistré dans (window.localStorage : NatureScore)
     --------
 
     {
-        acetylcholine: 4
-        dopamine     : 5
-        gaba         : 15
-    },
-    items [
-        ... contient toutes les quesions, avec la réponse true/false choisi
-    ]
+        acetylcholine: 4,
+        dopamine     : 5,
+        gaba         : 15,
+        serotonine   : 0
+    }
 
     Chaque element contient le score (Nbr OUI aux questions)
 
 L'utilisateur arrive sur (deficienceis-quizz.html)
 Apres les ecrans d'introduction, les questions sont chargé depuis (deficienceis.json)
+
+A la suite de ses réponses le résultat est enregistré dans (window.localStorage)
+    --------
+     format
+    --------
+
+    {
+        "title"  : "Quizz Carences",
+        "version": "1.0",
+        "items": [
+            {
+                "title": "Déficiences",
+                "neuro": "Dopamine",
+                "na"   : "Neuro-A",
+                "sect" : "Mémoire et attention",
+                "desc" : "J'ai du mal à prêter une attention constante et à me concentrer"
+            },
+            ...........
+        ]
+    }    
 
 L'utilisateur arrive sur (deficienceis-results.html), son score est calculé a partir du contenu dans
 (window.localStorage), on lui affice les informations par rapport au quizz et le resultat est
@@ -139,13 +176,11 @@ maintenant enregistré dans (window.localStorage : DeficiencyScore)
     --------
 
     {
-        acetylcholine: {score: 24, level: 3}
-        dopamine     : {score: 25, level: 3}
-        gaba         : {score: 40, level: 3}   
-    },
-    items [
-        ... contient toutes les quesions, avec la réponse true/false choisi
-    ]
+        acetylcholine: {score: 24, level: 3},
+        dopamine     : {score: 25, level: 3},
+        gaba         : {score: 40, level: 3},
+        serotonine   : {score: 13, level: 2}
+    }
 
     score = Nbr OUI aux questions
     level = carence : 1 = min (5-9), 2 = moy (10-14), 3 = max (15+)
@@ -159,11 +194,11 @@ Ses products personalisées sont enregistré dans (window.localStorage : Recomme
     --------
 
     {
-        carence: 3
-        dosage : "2 gélules/jour"
-        img    : "positirel.jpg"
-        link   : "http://............."
-        name   : "POSITIREL"
+        carence: 3,
+        dosage : "2 gélules/jour",
+        img    : "positirel.jpg",
+        link   : "http://.............",
+        name   : "POSITIREL",
         neuro  : "Dopamine"
     }
 

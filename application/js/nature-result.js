@@ -14,8 +14,6 @@
         var acetylcholine = shortList.filter(q => q.neuro == "Acétylcholine").length;
 
         var score = {
-            items: list.items,
-
             dopamine     : dopamine,
             serotonine   : serotonine,
             gaba         : gaba,
