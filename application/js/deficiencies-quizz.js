@@ -121,8 +121,6 @@
                 return item.resp == true;
             });
 
-            console.log(a,d,g,s);
-
             if (count.length == 0) {
                 win.location.href = "#slide-undetermined";
             }
