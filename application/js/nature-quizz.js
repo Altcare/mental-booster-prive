@@ -93,8 +93,17 @@
             $(".progress div").css("width", (_nature.progessStep * current) + '%');            
         }
         else {
-            saveQuizz();
-            win.location.href = "#slide-finish";
+            let count = _nature.items.filter(function(item) {
+                return item.resp == true;
+            });
+
+            if (count.length == 0) {
+                win.location.href = "#slide-undetermined";
+            }
+            else {
+                saveQuizz();
+                win.location.href = "#slide-finish";
+            }
         }
     }
 
