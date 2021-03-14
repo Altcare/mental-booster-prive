@@ -29,7 +29,6 @@ html, body {
 }
 
 .slides {
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,6 +57,10 @@ html, body {
           justify-content: center;
 }
 
+.slides .slide-container.question {
+  height: 80vh;
+}
+
 .slides::-webkit-scrollbar {
   width: 0;
   height: 0;
@@ -69,7 +72,7 @@ html, body {
 
 /* #endregion -------------------------------------------- CSS Slider */
 #slide-start .section {
-  padding: 50px 15px;
+  padding: 50px 15px 0 15px;
 }
 
 #slide-info .top-intro {
@@ -111,7 +114,7 @@ html, body {
 
 .slide-item.info .slide-top {
   overflow: auto;
-  padding: 20px 10px 0 10px;
+  padding: 20px 10px 30px 10px;
 }
 
 .slide-item.info .slide-radios {
@@ -228,7 +231,6 @@ html, body {
   color: #697DA5;
   font-size: 15px;
   font-weight: normal;
-  margin: 40px 0;
 }
 
 .slide-item .justify {

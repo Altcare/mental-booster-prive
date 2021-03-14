@@ -19,8 +19,10 @@ html, body {
     font-size: $font-size-small;    
 }
 
-.slides {
-    height: 100vh;
+.slides {    
+    //! SHAPER: Commenté car problemes d'integration sur la plateforme
+    //height: 100vh;
+
     display: flex;
     align-items: flex-start;
     
@@ -42,6 +44,11 @@ html, body {
 
         text-align: center;
         justify-content: center;
+
+        //! SHAPER: Ajouté car problemes d'integration sur la plateforme
+        &.question {
+            height: 80vh;
+        }
     }    
 }
 
@@ -56,7 +63,9 @@ html, body {
 
 #slide-start {
     .section {
-        padding: 50px 15px;
+        //! SHAPER: Modifié car problemes d'integration sur la plateforme
+        padding: 50px 15px 0 15px;
+        //padding: 50px 15px;
     }
 }
 #slide-info {
@@ -91,8 +100,10 @@ html, body {
         width: 100%;
 
         .slide-top {
-            overflow: auto;       
-            padding: 20px 10px 0 10px;
+            overflow: auto;   
+            //! SHAPER: Modifié car problemes d'integration sur la plateforme
+            padding: 20px 10px 30px 10px;
+            //padding: 20px 10px 0 10px;
         }
 
         .slide-radios {
@@ -205,7 +216,9 @@ html, body {
         color: $sub-title-color;
         font-size: $font-size-small;
         font-weight: normal;
-        margin: 40px 0;
+
+        //! SHAPER: Commenté car problemes d'integration sur la plateforme
+        //margin: 40px 0;
     }  
 
     .justify {
@@ -248,8 +261,6 @@ html, body {
         cursor: pointer;
         display: block;
         background-color: $button-bg-color;
-        //! test de dimension
-        //padding: 10px 20px;
         padding: 15px 20px;
 
         font-size: $font-size-small;

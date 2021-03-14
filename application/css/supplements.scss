@@ -1,7 +1,8 @@
 @import "setup.scss";
 /* #region ----------------------------------------------- SUPPLEMENTS BODY */
 body {
-    overflow: hidden;
+    //! SHAPER: Commenté car problemes d'integration sur la plateforme
+    //overflow: hidden;
 }
 /* #endregion ----------------------------------------------- SUPPLEMENTS BODY */
 
@@ -21,9 +22,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
 
-    //! test de dimension
-    //height: 93.5vh; //! other part of height in .tabset > label
-    height: 91.5vh; //! other part of height in .tabset > label
+    //! SHAPER: Commenté car problemes d'integration sur la plateforme
+    //height: 91.5vh; //! other part of height in .tabset > label
+
+    //! SHAPER: Possibilité de fix
+    //position: absolute;
+    //bottom: 0;
+    //top: 9.5vh;    
 }
 #tabSupplements:checked ~ .tab-panels > #supplements,
 #tabProducts:checked    ~ .tab-panels > #products {
@@ -37,8 +42,6 @@ body {
     padding: 10px 18% 0px;
     cursor: pointer;
 
-    //! test de dimension
-    //height: 5vh; //! other part of height in #tab2:checked ~ .tab-panels
     height: 7.5vh; //! other part of height in #tab2:checked ~ .tab-panels
 }
 .tabset > input:checked + label {
@@ -153,9 +156,7 @@ section p.title {
         background-color: $progress-color;
         color: $backgground-color;
         border-radius: 0;
-        border: none;
-        //! test de dimension
-        //padding: 10px 20px;        
+        border: none;    
         padding: 15px 20px;
         font-size: 15px;
         font-weight: bold;

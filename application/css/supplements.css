@@ -7,10 +7,6 @@
 /* Button Border */
 /* Arial, Bold, Regular : 15pt, 20pt */
 /* #region ----------------------------------------------- SUPPLEMENTS BODY */
-body {
-  overflow: hidden;
-}
-
 /* #endregion ----------------------------------------------- SUPPLEMENTS BODY */
 /* #region ----------------------------------------------- TABS */
 .tabset {
@@ -37,7 +33,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 91.5vh;
 }
 
 #tabSupplements:checked ~ .tab-panels > #supplements,

@@ -95,12 +95,39 @@
             $(".progress div").css("width", (_deficiencies.progessStep * current) + '%');            
         }
         else {
+            let a = 0;
+            let d = 0;
+            let g = 0;
+            let s = 0;
+
             let count = _deficiencies.items.filter(function(item) {
+                if (item.resp == true) {
+                    switch (item.neuro) {
+                        case "Acétylcholine":
+                            a++;
+                            break;
+                        case "Dopamine":
+                            d++;
+                            break;
+                        case "GABA":
+                            g++;
+                            break;
+                        case "Sérotonine":
+                            s++;
+                            break;                                                                        
+                    }
+                }
+
                 return item.resp == true;
             });
 
+            console.log(a,d,g,s);
+
             if (count.length == 0) {
                 win.location.href = "#slide-undetermined";
+            }
+            else if ( (a < 5) && (d < 5) && (g < 5) && (s < 5)) {
+                win.location.href = "#slide-pasdecarence";
             }
             else {
                 saveQuizz();
