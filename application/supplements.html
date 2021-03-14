@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,16 +12,17 @@
         <link rel="stylesheet" href="css/normalize.css" />
         <link rel="stylesheet" href="css/supplements.css" />
     </head>
+
     <body>
         <div class="tabset">
-                   
+
             <!-- Tab 1 -->
-            <input type="radio" name="tabset" id="tabSupplements" checked>
-            <label for="tabSupplements" onclick="$('.tab-panel').scrollTop(0)"><img height="45" width="45" src="img/icons/supplements.svg"></label>
+            <input type="radio" name="tabset" id="tabSupplements" checked />
+            <label for="tabSupplements" onclick="$('.tab-panel').scrollTop(0)"><img height="45" width="45" src="img/icons/supplements.svg" /></label>
             <!-- Tab 2 -->
-            <input type="radio" name="tabset" id="tabProducts">
-            <label for="tabProducts" onclick="$('.tab-panel').scrollTop(0)"><img height="45" width="45" src="img/icons/shop.svg"></label>
-      
+            <input type="radio" name="tabset" id="tabProducts" />
+            <label for="tabProducts" onclick="$('.tab-panel').scrollTop(0)"><img height="45" width="45" src="img/icons/shop.svg" /></label>
+
             <div class="tab-panels">
                 <section id="supplements" class="tab-panel">
                     <p class="title">Mes recommandations personnalisées</p>
@@ -39,9 +41,10 @@
              * Reglages Temportaires
              * A supprimer pour la PROD
              */
-            var isProduction  = true;
-        </script>        
+            var isProduction = true;
+        </script>
         <script src="js/jquery2.min.js"></script>
-        <script src="js/supplements.js"></script>    
+        <script src="js/supplements.js"></script>
     </body>
+
 </html>
