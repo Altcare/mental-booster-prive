@@ -22,13 +22,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
 
-    //! SHAPER: Commenté car problemes d'integration sur la plateforme
+    //! SHAPER: Commenté. Suite aux problemes d'integration sur la plateforme.
     //height: 91.5vh; //! other part of height in .tabset > label
 
-    //! SHAPER: Possibilité de fix
+    //! SHAPER: Possibilité de fix. Suite aux problemes d'integration sur la plateforme.
     //position: absolute;
     //bottom: 0;
-    //top: 9.5vh;    
+    //top: 9vh;    
 }
 #tabSupplements:checked ~ .tab-panels > #supplements,
 #tabProducts:checked    ~ .tab-panels > #products {

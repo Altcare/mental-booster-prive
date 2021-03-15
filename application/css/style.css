@@ -12,12 +12,15 @@ html {
           box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   max-width: 900px;
   margin: 0 auto;
@@ -71,6 +74,20 @@ html, body {
 }
 
 /* #endregion -------------------------------------------- CSS Slider */
+#page-nature-quizz .slide-item.info .radio-item,
+#page-nature-result .slide-item.info .radio-item,
+#page-deficiencies-result .slide-item.info .radio-item,
+#page-deficiencies-quizz .slide-item.info .radio-item {
+  margin: 0;
+}
+
+#page-email .button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 #slide-start .section {
   padding: 50px 15px 0 15px;
 }
@@ -83,13 +100,6 @@ html, body {
 #slide-info .top-intro .title {
   font-size: 11px;
   color: #AE3EC9;
-}
-
-#nature-quizz .slide-item.info .radio-item,
-#nature-result .slide-item.info .radio-item,
-#deficiencies-result .slide-item.info .radio-item,
-#deficiencies-quizz .slide-item.info .radio-item {
-  margin: 0;
 }
 
 .slide-item {
@@ -210,8 +220,8 @@ html, body {
   height: 100%;
   width: 0;
   background-color: #AE3EC9;
-  -webkit-transition: width  0.5s;
-  transition: width  0.5s;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
 }
 
 .slide-item .question {
@@ -269,7 +279,8 @@ html, body {
   border-color: #000000;
 }
 
-.radio-item label, .radio-item .button {
+.radio-item label,
+.radio-item .button {
   cursor: pointer;
   display: block;
   background-color: #F8F8F8;
@@ -283,7 +294,8 @@ html, body {
           text-decoration: auto;
 }
 
-.radio-item label:hover, .radio-item .button:hover {
+.radio-item label:hover,
+.radio-item .button:hover {
   background-color: #e0b6ea;
   border-color: #000000;
 }
