@@ -125,7 +125,7 @@
                 win.location.href = "#slide-undetermined";
             }
             else if ( (a < 5) && (d < 5) && (g < 5) && (s < 5)) {
-                win.location.href = "#slide-pasdecarence";
+                win.location.href = "#slide-undetermined";
             }
             else {
                 saveQuizz();
