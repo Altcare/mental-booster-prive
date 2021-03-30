@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Mes recommandations par email</title>
+        <link rel="manifest" href="manifest.json" />
+        <link rel="icon" type="image/png" href="img/icons/icon-512x512.png" />
+
+        <link rel="stylesheet" href="css/normalize.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body id="page-email">
+        <div class="slides">
+            <!-- Start Slides -->
+            <!-- Slide Finish -->
+            <div id="slide-finish" class="slide-container">
+                <div class="slide-item info">
+                    <div class="slide-top">
+                        <img height="50" src="img/icons/send.svg" style="margin: 20px;" />
+                        <p class="question">Nous avons envoyé vos recommandations personnalisées sur someone@gmail.com</p>
+                        <img src="img/send-email.svg" />
+                    </div>
+                    <div class="slide-radios">
+                        <div class="radio-item">
+                            <a class="button">Découvrir mes programmes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery2.min.js"></script>
+        <script src="js/deficiencies-quizz.js"></script>
+        <script>
+            /**
+             * Pour envoyer un mail il suffis de lire l'objet
+             * Les correspondances sont dans AirTable
+             *
+             * window.localStorage.getItem("Recommendations");
+            */
+
+            //console.log(JSON.parse(window.localStorage.getItem("Recommendations")));
+        </script>
+    </body>
+
+</html>

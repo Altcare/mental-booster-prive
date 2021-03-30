@@ -1,0 +1,296 @@
+@import "setup.scss";
+
+/* #region  -------------------------------------------- CSS Slider */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+html,
+body {
+    height: 100%;
+
+    max-width: 900px;
+    margin: 0 auto;
+
+    overflow-x: hidden;
+    background-color: $backgground-color;
+    color: $question-color;
+    font-family: $font-family;
+    font-size: $font-size-small;
+}
+
+.slides {
+    //! SHAPER: Commenté. Suite aux problemes d'integration sur la plateforme.
+    //height: 100vh;
+
+    display: flex;
+    align-items: flex-start;
+
+    touch-action: none;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+
+    @if $isDEV {
+        touch-action: auto;
+        overflow-x: scroll;
+    }
+
+    .slide-container {
+        scroll-snap-align: start;
+        flex-shrink: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        text-align: center;
+        justify-content: center;
+
+        //! SHAPER: Ajouté. Suite aux problemes d'integration sur la plateforme.
+        &.question {
+            height: 80vh;
+        }
+    }
+}
+
+.slides::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.slides::-webkit-scrollbar-track {
+    background: transparent;
+}
+/* #endregion -------------------------------------------- CSS Slider */
+
+// #region -------------------------------------------- Page Specific Settings
+#page-nature-quizz,
+#page-nature-result,
+#page-deficiencies-result,
+#page-deficiencies-quizz {
+    .slide-item.info .radio-item {
+        margin: 0;
+    }
+}
+
+//! SHAPER: Reglages page par page. Suite aux problemes d'integration sur la plateforme.
+#page-email {
+    .button {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+// #endregion ----------------------------------------- page specific settings
+
+#slide-start {
+    .section {
+        //! SHAPER: Modifié. Suite aux problemes d'integration sur la plateforme.
+        padding: 50px 15px 0 15px;
+        //padding: 50px 15px;
+    }
+}
+#slide-info {
+    .top-intro {
+        display: inline-block;
+        width: 80px;
+    }
+    .top-intro .title {
+        font-size: 11px;
+        color: $progress-color;
+    }
+}
+.slide-item {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    /* Overrides for Info slides */
+    &.info {
+        width: 100%;
+
+        .slide-top {
+            overflow: auto;
+            //! SHAPER: Modifié. Suite aux problemes d'integration sur la plateforme.
+            padding: 20px 10px 30px 10px;
+            //padding: 20px 10px 0 10px;
+        }
+
+        .slide-radios {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .radio-item {
+            margin: 10px 0 0 0;
+
+            .button {
+                background-color: $progress-color;
+                color: $backgground-color;
+                border-radius: 0;
+            }
+        }
+
+        .question {
+            // undo margin set in other pages with .question class
+            margin: revert;
+        }
+
+        .intro {
+            width: 80%;
+            margin: 50px auto;
+        }
+
+        .logo {
+            height: 105px;
+            width: 200px;
+        }
+
+        ul {
+            margin: 60px 30px;
+            list-style: none;
+            li {
+                text-align: left;
+                &:before {
+                    content: url("../img/icons/check_icon.svg");
+                    margin-right: 5px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .duree {
+            font-weight: bold;
+            font-size: $font-size-big;
+
+            span {
+                color: $progress-color;
+            }
+        }
+    }
+
+    .back {
+        visibility: hidden;
+        color: $question-color;
+        font-weight: bold;
+        text-align: left;
+        height: 30px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .back img {
+        width: auto;
+    }
+    .back div {
+        display: inline-block;
+        vertical-align: super;
+    }
+
+    .progress-wrapper {
+        width: 80%;
+        margin: 25px auto;
+
+        .title {
+            text-align: left;
+        }
+
+        .progress {
+            height: 11px;
+            border: 1px solid $progress-color;
+            border-radius: 11px;
+            margin: 10px auto;
+            overflow: hidden;
+
+            div {
+                height: 100%;
+                width: 0;
+                background-color: $progress-color;
+                transition: width 0.5s;
+            }
+        }
+    }
+
+    .question {
+        color: $question-color;
+        font-size: $font-size-big;
+        font-weight: bold;
+        margin: 50px 30px;
+    }
+
+    .title {
+        color: $neurotransmetter-title-color;
+        font-size: $font-size-big;
+        font-weight: bold;
+    }
+    .section {
+        color: $sub-title-color;
+        font-size: $font-size-small;
+        font-weight: normal;
+
+        //! SHAPER: Commenté. Suite aux problemes d'integration sur la plateforme.
+        //margin: 40px 0;
+    }
+
+    .justify {
+        text-align: justify;
+    }
+
+    img {
+        width: 90%;
+    }
+}
+
+/* #endregion */
+.slide-radios {
+    width: 95%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* #region Quizz Buttons */
+.radio-item {
+    margin: 10px;
+    display: block;
+
+    input[type="radio"] {
+        opacity: 0;
+        position: fixed;
+        width: 0;
+
+        &:focus + label {
+            border: 1px solid $button-border-color;
+        }
+
+        &:checked + label {
+            background-color: $button-selected-bg-color;
+            border-color: $button-selected-border-color;
+        }
+    }
+
+    label,
+    .button {
+        cursor: pointer;
+        display: block;
+        background-color: $button-bg-color;
+        padding: 15px 20px;
+
+        font-size: $font-size-small;
+        font-weight: bold;
+        border: 1px solid $button-border-color;
+        border-radius: 3px;
+        color: $question-color;
+
+        text-decoration: auto;
+
+        &:hover {
+            background-color: $button-selected-bg-color;
+            border-color: $button-selected-border-color;
+        }
+    }
+}
+/* #endregion */

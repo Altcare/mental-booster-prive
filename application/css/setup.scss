@@ -1,0 +1,25 @@
+/* #region Style */
+$backgground-color: #FFFFFF;
+/* Neuro Title */
+$neurotransmetter-title-color: #922692;    
+/* Progress*/
+$progress-color:#AE3EC9;
+/* sub-title */
+$sub-title-color:#697DA5;
+/* Question*/
+$question-color:#203B72;
+/* Button BG */
+$button-bg-color: #F8F8F8;
+/* Button Border */
+$button-border-color:#C8C3C3;
+
+$button-selected-bg-color: lighten($progress-color, 30%);
+$button-selected-border-color: #000000;
+
+/* Arial, Bold, Regular : 15pt, 20pt */
+$font-family: "Arial";
+$font-size-small: 15px;
+$font-size-big: 20px;
+
+//! are we on dev ?
+$isDEV: false;

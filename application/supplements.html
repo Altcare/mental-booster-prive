@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Mes compléments</title>
+        <link rel="manifest" href="manifest.json" />
+        <link rel="icon" type="image/png" href="img/icons/icon-512x512.png" />
+
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/supplements.css" />
+    </head>
+
+    <body id="page-supplements">
+        <div class="tabset">
+
+            <!-- Tab 1 -->
+            <input type="radio" name="tabset" id="tabSupplements" checked />
+            <label for="tabSupplements" onclick="$('.tab-panel').scrollTop(0)"><img height="45" width="45" src="img/icons/supplements.svg" /></label>
+            <!-- Tab 2 -->
+            <input type="radio" name="tabset" id="tabProducts" />
+            <label for="tabProducts" onclick="$('.tab-panel').scrollTop(0)"><img height="45" width="45" src="img/icons/shop.svg" /></label>
+
+            <div class="tab-panels">
+                <section id="supplements" class="tab-panel">
+                    <p class="title">Mes recommandations personnalisées</p>
+                </section>
+
+                <section id="products" class="tab-panel">
+                    <p class="title">Mes recommandations personnalisées</p>
+                </section>
+
+                <a class="pill recommendations" href="email.html">Recevoir mes recommandations par email</a>
+            </div>
+        </div>
+
+        <script>
+            /*
+             * Reglages Temportaires
+             * A supprimer pour la PROD
+             */
+            var isProduction = true;
+        </script>
+        <script src="js/jquery2.min.js"></script>
+        <script src="js/supplements.js"></script>
+    </body>
+
+</html>

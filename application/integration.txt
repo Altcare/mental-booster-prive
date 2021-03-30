@@ -1,0 +1,255 @@
+/*
+ * Guide de l'application
+ */
+
+-----------
+ Structure
+-----------
+
+ --- css/
+     --- normalize.css / min.css
+         Reset css pour homogeniser les navigateurs
+
+     --- setup.scss
+         Parametres de configuration de style: ATTENTION: c'est du SCSS
+         INFO -> contient un parametre: $isDEV, pour faire des tests en DEV
+                 en DEV, permet de faire un swipe sur les fiches
+
+     --- style.scss
+         Le style de la page: *-quizz.html, *-result.html, email.html
+         Genere le fichier style.css : ATTENTION: c'est du SCSS
+
+     --- supplements.scss
+         Le style de la page: supplements.html
+         Genere le fichier supplements.css : ATTENTION: c'est du SCSS
+
+ --- img/
+     --- icones/
+     --- products/
+         Toutes les images des produits
+
+     --- supplements/
+         Toutes les images des supplements
+
+ --- js/
+     --- deficienciens-quizz.js
+         Le code associé a la page: deficienciens-quizz.html
+
+     --- deficienciens-result.js
+         Le code associé a la page: deficienciens-quizz.html
+
+     --- deficienciens.json
+         BDD des questions: Quizz Carences
+
+     --- jquery2.min.js
+         jQuery, meme version que utilisé sur mentalbooster.eu
+
+     --- nature-quizz.js
+         Le code associé a la page: nature-quizz.html
+
+     --- nature-result.js
+         Le code associé a la page: nature-quizz.html
+
+     --- nature.json
+         BDD des questions: Quizz Dominance
+
+     --- products.json
+         BDD des products
+
+     --- supplements.js
+         Le code associé a la page: supplements.html
+
+     --- supplements.json
+         BDD des supplements
+
+ --- templates/
+     Ce sont les templates pour chaque catégorie, databindé via les fichiers JSON
+     --- products.tmpl
+     --- questions.tmpl
+     --- supplements.tmpl
+
+--- deficienciens-quizz.html
+    Page de démarrage quizz: carences
+    INFO -> contient des parametres en bas de page pour faire des tests en DEV
+
+--- deficienciens-result.html
+    Page de résultats quizz: carences
+    INFO -> contient des parametres en bas de page pour faire des tests en DEV
+
+--- email.html
+    Page de résultats quizz: carences
+    INFO -> contient des parametres en bas de page pour faire des tests en DEV
+
+--- index.html
+    Page de test pour aller en mode dev sur differentes endroits
+
+--- manifest.json
+    Config de l'appli, mode mobile: plus pour tester en mode réaliste
+
+--- nature-quizz.html
+    Page de démarrage quizz: dominance
+    INFO -> contient des parametres en bas de page pour faire des tests en DEV
+
+--- nature-result.html
+    Page de démarrage quizz: dominance
+    INFO -> contient des parametres en bas de page pour faire des tests en DEV
+
+--- supplements.html
+    Page des supplements/produits
+    INFO -> contient des parametres en bas de page pour faire des tests en DEV
+
+
+----------
+ Parcours
+----------
+
+L'utilisateur arrive sur (nature-quizz.html)
+Apres les ecrans d'introduction, les questions sont chargé depuis (nature.json)
+
+A la suite de ses réponses le résultat est enregistré dans (window.localStorage)
+
+    --------
+     format
+    --------
+
+    {
+        "title": "Quizz Nature Dominante",
+        "version": "1.0",
+        "items": [
+            {
+                "title": "Nature Dominante",
+                "neuro": "Dopamine",
+                "na": "Neuro-A",
+                "sect": "Mémoire et attention",
+                "desc": "Je trouve qu'il est facile de traiter mes pensées"
+            },
+            ...........
+        }
+    }
+
+L'utilisateur arrive sur (nature-results.html), son score est calculé a partir du contenu dans
+(window.localStorage), on lui affiche les informations par rapport au quizz et le resultat est
+maintenant enregistré dans (window.localStorage : NatureScore)
+
+    --------
+     format
+    --------
+
+    {
+        acetylcholine: 4,
+        dopamine     : 5,
+        gaba         : 15,
+        serotonine   : 0
+    }
+
+    Chaque element contient le score (Nbr OUI aux questions)
+
+L'utilisateur arrive sur (deficienceis-quizz.html)
+Apres les ecrans d'introduction, les questions sont chargé depuis (deficienceis.json)
+
+A la suite de ses réponses le résultat est enregistré dans (window.localStorage)
+    --------
+     format
+    --------
+
+    {
+        "title"  : "Quizz Carences",
+        "version": "1.0",
+        "items": [
+            {
+                "title": "Déficiences",
+                "neuro": "Dopamine",
+                "na"   : "Neuro-A",
+                "sect" : "Mémoire et attention",
+                "desc" : "J'ai du mal à prêter une attention constante et à me concentrer"
+            },
+            ...........
+        ]
+    }    
+
+L'utilisateur arrive sur (deficienceis-results.html), son score est calculé a partir du contenu dans
+(window.localStorage), on lui affice les informations par rapport au quizz et le resultat est
+maintenant enregistré dans (window.localStorage : DeficiencyScore)
+
+    --------
+     format
+    --------
+
+    {
+        acetylcholine: {score: 24, level: 3},
+        dopamine     : {score: 25, level: 3},
+        gaba         : {score: 40, level: 3},
+        serotonine   : {score: 13, level: 2}
+    }
+
+    score = Nbr OUI aux questions
+    level = carence : 1 = min (5-9), 2 = moy (10-14), 3 = max (15+)
+
+L'utilisateur arrive sur (supplements.html)
+On récupere le score du quizz des deficiences, et on lui calcule l'affichage des supplements/products
+Ses products personalisées sont enregistré dans (window.localStorage : Recommendations)
+
+    --------
+     format
+    --------
+
+    {
+        carence: 3,
+        dosage : "2 gélules/jour",
+        img    : "positirel.jpg",
+        link   : "http://.............",
+        name   : "POSITIREL",
+        neuro  : "Dopamine"
+    }
+
+    carence: 1 = min (5-9), 2 = moy (10-14), 3 = max (15+)
+
+-------
+ Tests
+-------
+
+En bas de chaque page html il y a (a supprimer en prod)
+    <script>
+       /*
+        * Reglages Temportaires
+        * A supprimer pour la PROD
+        */
+        var isProduction      = true;
+        var nbrQuizzQuestions = 5;
+    </script>
+
+Qui permet de faire des tests divers
+
+(affiche des messages d'information dans la console de Chrome)
+isProduction = true
+
+(permet de que charger une certaine nombre de questions pour chaque neurotransmetteur)
+nbrQuizzQuestions = x
+
+
+--------
+ Export
+--------
+
+Pour faire des enregistrements en BDD, il suffit d'ajouter un handler sur l'etape voulu
+Toutes les informations sont en window.localStorage()
+
+    var data = window.localStorage.getItem("Recommendations");
+    $.ajax({
+        url     : '/webservice.php',
+        type    : 'POST',
+        data    : { json: JSON.stringify(data) },
+        dataType: 'json'
+    });
+
+    Disponible en localStorage()
+    * "Recommendations": la liste de toutes les products proposé en fonction de la carence
+
+
+-------
+ Extra
+-------
+Vu que les informations sont enregistré dans le localStorage() du client
+
+Il peut revenir sur la page supplements.html quand il veux pour consulter ses propositions
+sans aucun dev supplemnetaire a faire

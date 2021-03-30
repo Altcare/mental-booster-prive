@@ -1,0 +1,219 @@
+@import "setup.scss";
+/* #region ----------------------------------------------- SUPPLEMENTS BODY */
+body {
+    //! SHAPER: Commenté car problemes d'integration sur la plateforme
+    //overflow: hidden;
+}
+/* #endregion ----------------------------------------------- SUPPLEMENTS BODY */
+
+/* #region ----------------------------------------------- TABS */
+.tabset {
+    text-align: center;
+}
+.tabset > input[name="tabset"] {
+    display: none;
+}
+.tabset .tab-panel {
+    display: none;
+}
+#tabSupplements:checked ~ .tab-panels,
+#tabProducts:checked    ~ .tab-panels {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    //! SHAPER: Commenté. Suite aux problemes d'integration sur la plateforme.
+    //height: 91.5vh; //! other part of height in .tabset > label
+
+    //! SHAPER: Possibilité de fix. Suite aux problemes d'integration sur la plateforme.
+    //position: absolute;
+    //bottom: 0;
+    //top: 9vh;    
+}
+#tabSupplements:checked ~ .tab-panels > #supplements,
+#tabProducts:checked    ~ .tab-panels > #products {
+    display: block;
+    overflow: auto;
+}
+/* Styling */
+.tabset > label {
+    position: relative;
+    display: inline-block;
+    padding: 10px 18% 0px;
+    cursor: pointer;
+
+    height: 7.5vh; //! other part of height in #tab2:checked ~ .tab-panels
+}
+.tabset > input:checked + label {
+    border-bottom: 2px solid $progress-color;
+}
+.tab-panel {
+    padding: 5px 30px;
+}
+/* #endregion ----------------------------------------------- TABS */
+
+
+/* #region ----------------------------------------------- Products */
+section p.title {
+    color: $question-color;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;     
+    text-align: center;       
+}
+
+.item {
+    box-shadow: 0px 0px 9px 1px $button-border-color;
+    margin-bottom: 20px;
+
+    .top,
+    .bottom
+    {
+        display: block;
+    }
+}
+
+
+
+.item .top.right,
+.item .top.left,
+.item .bottom.right,
+.item .bottom.left
+{
+    display: inline-block;
+}
+
+.item .top .top.left {
+    vertical-align: middle;
+    height: 85px;
+    width: 100px;             
+}
+.item .top .top.right {
+    width: 56%;  
+}
+.item .bottom .top.left {
+    text-align: center; 
+    height: 33px;
+    width: 38%;            
+}
+.item .bottom .top.right {
+    vertical-align: middle;
+    height: 33px;
+    width: 56%;
+    text-align: center;          
+}        
+.item .top .top.right span.title {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;    
+    font-size: 20px;
+    font-weight: bold;
+    color: $sub-title-color;
+}
+
+/* #region : expandable */
+#supplements {
+    .item .bottom .bottom .description {
+        font-family: Arial;
+        font-size: 15px;
+        margin: 0;
+        padding: 0 10px 10px 10px;
+        text-align: left;
+        color: $sub-title-color;
+    }
+    .item > .bottom > .bottom {
+        text-align: right;
+    }
+    .item .bottom .show {
+        display: none;
+    }
+    .item .bottom .show:not(:checked) ~.description {
+        display: none;
+    }
+    .label img {
+        height: 36px;
+        width: 36px;
+        margin: -22px 5px 0px 0;   
+        transition: transform 0.3s;     
+    }
+    .show:checked ~img {
+        transform: rotate(90deg);
+    }
+}
+/* endregion : expandable */
+
+/* region ----------------------------------------------- Pills */
+.pill {
+    padding: 6px 16px;
+    border-radius: 20px;    
+    vertical-align: sub;
+    font-size: 12px;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
+    &.neuro {
+        background-color: $progress-color;
+        color: $backgground-color;
+    }    
+    &.recommendations {
+        background-color: $progress-color;
+        color: $backgground-color;
+        border-radius: 0;
+        border: none;    
+        padding: 15px 20px;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+    }
+}
+/* #endregion ----------------------------------------------- Pills */
+
+.dosage.title {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: $question-color;
+    font-size: 14px;
+    font-weight: bold;
+}
+.dosage.amount {
+    font-family: Assistant;
+    color: $progress-color;
+    font-size: 14px;
+    font-weight: bold;
+}        
+
+
+.item img {
+    height: 64px;
+    width: 64px;      
+    margin: 10px 15px;  
+}
+
+.item hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #b7b7b600, $button-border-color, #b7b7b700)
+} 
+
+#products {
+      .item .bottom .top.left {
+          width: 50%;
+          height: auto;
+          vertical-align: super;          
+      }
+      .item .bottom .top.right {
+          width: 45%;
+          height: 50px;
+      }
+      .dosage {
+          text-align: left;
+          margin-left: 15px;
+      }
+      a.button {
+          background-color: $progress-color;
+          color: $backgground-color;
+          font-size: 14px;
+          border-radius: 7px;
+          padding: 10px 15px;
+          text-decoration: none;
+          display: inline-block;
+      }
+}
+/* #endregion ----------------------------------------------- Products */
