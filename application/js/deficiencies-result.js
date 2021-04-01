@@ -73,13 +73,18 @@
         
         const result = items.filter(c => c.v > 0);  
         const length = result.length;
-        for (var i=0; i<length; i++) {
-            if (length > 1) {
-                var text = "{slide}/{count} - Suivant".replace("{count}", length).replace("{slide}", (i+1));
-                $("#slide-" + result[i].n + " .button").html(text);
-            }
 
-            $("#slide-" + result[i].n).show();
+        if(length === 0) {
+            $("#slide-default").show();
+        } else {
+            for (var i=0; i<length; i++) {
+                if (length > 1) {
+                    var text = "{slide}/{count} - Suivant".replace("{count}", length).replace("{slide}", (i+1));
+                    $("#slide-" + result[i].n + " .button").html(text);
+                }
+
+                $("#slide-" + result[i].n).show();
+            }
         }
 
         //! a voire si on le garde

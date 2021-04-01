@@ -11,7 +11,8 @@
             "dMax": "1",
             "file": "vitaminesb.jpg",
             "productId": "17",
-            "link": "https://pxle.me/Nvq6VRnH"
+            "link": "https://pxle.me/Nvq6VRnH",
+            "displaydup": "1"
         },
         {
             "neuro": "Acétylcholine",
@@ -66,7 +67,8 @@
             "dMax": "1",
             "file": "gingo-biloba.jpg",
             "productId": "3",
-            "link": "https://pxle.me/yPTnLkJs"
+            "link": "https://pxle.me/yPTnLkJs",
+            "displaydup": "1"
         },
         {
             "neuro": "Dopamine",
@@ -121,7 +123,8 @@
             "dMax": "0",
             "file": "vitaminesb.jpg",
             "productId": "17",
-            "link": "https://pxle.me/Nvq6VRnH"
+            "link": "https://pxle.me/Nvq6VRnH",
+            "displaydup": "0"
         },
         {
             "neuro": "GABA",
@@ -176,7 +179,8 @@
             "dMax": "0",
             "file": "vitaminesb.jpg",
             "productId": "17",
-            "link": "https://pxle.me/Nvq6VRnH"
+            "link": "https://pxle.me/Nvq6VRnH",
+            "default": "1"
         },
         {
             "neuro": "Sérotonine",
@@ -220,7 +224,8 @@
             "dMax": "0",
             "file": "omegarel.jpg",
             "productId": "14",
-            "link": "https://pxle.me/IPxZp3qE"
+            "link": "https://pxle.me/IPxZp3qE",
+            "default": "1"
         },
         {
             "neuro": "Sérotonine",
@@ -231,7 +236,8 @@
             "dMax": "0",
             "file": "nuitarel.jpg",
             "productId": "12",
-            "link": "https://pxle.me/AtVExPEx"
+            "link": "https://pxle.me/AtVExPEx",
+            "displaydup": "1"
         },
         {
             "neuro": "Sérotonine",
@@ -253,7 +259,8 @@
             "dMax": "1",
             "file": "magnesium.jpg",
             "productId": "7",
-            "link": "https://pxle.me/HUMcVHzr"
+            "link": "https://pxle.me/HUMcVHzr",
+            "default": "1"
         },
         {
             "neuro": "Sérotonine",
@@ -264,7 +271,8 @@
             "dMax": "1",
             "file": "melatonine.jpg",
             "productId": "8",
-            "link": "https://pxle.me/5d5Wqyo3"
+            "link": "https://pxle.me/5d5Wqyo3",
+            "displaydup": "1"
         }
     ]
 }

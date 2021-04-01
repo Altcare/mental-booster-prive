@@ -57,6 +57,7 @@
                                         .replaceAll("{desc}"        , _supplements.items[i].desc)                                        
                                         .replaceAll("{file}"        , _supplements.items[i].file)
                                         .replaceAll("{supplementId}", _supplements.items[i].supplementId)
+                                        .replaceAll("{default}", _supplements.items[i].default)
 
                     $("#supplements").append(content);
                 }
@@ -80,6 +81,7 @@
                                         .replaceAll("{file}"     , _products.items[i].file)
                                         .replaceAll("{productId}", _products.items[i].productId)                                        
                                         .replaceAll("{link}"     , _products.items[i].link)
+                                        .replaceAll("{default}"  , _products.items[i].default)
 
                     $("#products").append(content);
                 }
@@ -106,13 +108,15 @@
         let acetylcholine = $("[data-neuro='Acétylcholine']", supplements);
         let gaba          = $("[data-neuro='GABA']"         , supplements);
         let serotonine    = $("[data-neuro='Sérotonine']"   , supplements);
+        let _default      = $("[data-default='1']"          , supplements);
 
         filterDisplay(dopamine     , items.dopamine);
         filterDisplay(acetylcholine, items.acetylcholine);
         filterDisplay(gaba         , items.gaba);
         filterDisplay(serotonine   , items.serotonine);         
+        filterDisplay(_default     , items, [items].every(i => i.score < 5));
 
-        function filterDisplay(ele, data) {
+        function filterDisplay(ele, data, isDefault) {
             // levels: 0 1 2 3
             if (data.level > 0) {                
                 switch (data.level) {
@@ -138,10 +142,38 @@
                         break;
                     }
                 }
-                
+
                 ele.show();
+            } else {
+                if(isDefault) {
+                    ele.each(function() {
+                        let item = $(this);
+                        $(".dosage.amount", item).html(item.data("dmin"));
+                    });
+                    ele.show();
+                }
             }
-        }       
+        } 
+        for(let i = 0; i<supplements.children().length; i++) {
+            if(supplements.children()[i].style.display === 'block'){
+                const $div = $('div.'+supplements.children()[i].dataset.supplementid);
+                if ($div.length > 1) {
+                    $($div).each(function(e) {
+                        const item = $(this);
+
+                        let dosage = parseInt($(item).find('.dosage.amount').text().replace ( /[^\d.]/g, '' ));
+                        $($div).each(function(e) {
+                            const _item = $(this);
+                            const _dosage = parseInt($(_item).find('.dosage.amount').text().replace ( /[^\d.]/g, '' ));
+                            if(dosage > _dosage) $(_item).addClass('remove');
+                            else if($(item)[0] != $(_item)[0] && !$(item).hasClass('remove') && dosage >= _dosage)
+                                $(_item).addClass('remove');
+                        });
+                    });
+                    $('.remove').remove();
+                }    
+            }
+        }
     }
 
     function filterProducts() {
@@ -163,13 +195,15 @@
         let acetylcholine = $("[data-neuro='Acétylcholine']", products);
         let gaba          = $("[data-neuro='GABA']"         , products);
         let serotonine    = $("[data-neuro='Sérotonine']"   , products);
+        let _default      = $("[data-default='1']"          , products);
 
         filterDisplay(dopamine     , items.dopamine);
         filterDisplay(acetylcholine, items.acetylcholine);
         filterDisplay(gaba         , items.gaba);
         filterDisplay(serotonine   , items.serotonine);
+        filterDisplay(_default     , items, [items].every(i => i.score < 5));
 
-        function filterDisplay(ele, data) {   
+        function filterDisplay(ele, data, isDefault) {
             // if level is at least > 0
             if (data.level > 0) {
 
@@ -199,6 +233,45 @@
                             });
                     }
                 });                
+            } else {
+                if(isDefault) {
+                    $(ele).each(function() {
+                        let item = $(this);
+                        item.show();     
+    
+                        _recommendations.push({
+                            neuro  : item.data("neuro"),
+                            name   : item.data("title"),
+                            img    : item.data("file"),
+                            dosage : item.data("desc"),
+                            link   : item.data("link"),
+                            carence: data.level
+                        });
+                    });
+                }
+            }
+        }  
+        for(let i = 0; i<products.children().length; i++) {
+            if(products.children()[i].style.display === 'block'){
+                const $div = $('div.'+products.children()[i].dataset.productid);
+                if ($div.length > 1) {
+                    $($div).each(function(e) {
+                        const item = $(this);
+                        
+                        const dosage = parseInt($(item).find('.dosage.title').text());
+                        $($div).each(function(e) {
+                            const _item = $(this);
+                            if(item[0].style.display === 'block') {
+                            const _dosage = parseInt($(_item).find('.dosage.title').text());
+
+                            if(dosage > _dosage) $(_item).addClass('remove');
+                                else if($(item)[0] != $(_item)[0] && !$(item).hasClass('remove') && dosage >= _dosage)
+                                    $(_item).addClass('remove');
+                            }
+                        });
+                    });
+                    $('.remove').remove();
+                }    
             }
         }  
     }   

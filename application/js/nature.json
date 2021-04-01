@@ -7,7 +7,7 @@
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Mémoire et attention",
-            "desc": "Je trouve qu'il est facile de traiter mes pensées"
+            "desc": "Je suis un penseur profond"
         },
         {
             "title": "Nature Dominante",
@@ -21,7 +21,7 @@
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Mémoire et attention",
-            "desc": "Je suis un penseur profond"
+            "desc": "Je trouve qu'il est facile de traiter mes pensées"
         },
         {
             "title": "Nature Dominante",
@@ -42,14 +42,14 @@
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Mémoire et attention",
-            "desc": "J'aime les débats intenses"
+            "desc": "J'ai une bonne imagination"
         },
         {
             "title": "Nature Dominante",
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Mémoire et attention",
-            "desc": "J'ai une bonne imagination"
+            "desc": "J'aime les débats intenses"
         },
         {
             "title": "Nature Dominante",
@@ -70,21 +70,7 @@
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Physique",
-            "desc": "Ma tension artérielle est souvent élevée"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Physique",
-            "desc": "Parfois, dans ma vie, j'ai eu des épisodes d'énergie extrême"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Physique",
-            "desc": "J'ai des insomnies"
+            "desc": "Mes veines sont visibles et ont tendance à donner l'impression de sortir de ma peau"
         },
         {
             "title": "Nature Dominante",
@@ -98,14 +84,21 @@
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Physique",
-            "desc": "Je n'ai généralement pas besoin de café pour démarrer le matin"
+            "desc": "J'ai du caractère"
         },
         {
             "title": "Nature Dominante",
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Physique",
-            "desc": "Mes veines sont visibles et ont tendance à donner l'impression de sortir de ma peau"
+            "desc": "Ma tension artérielle est souvent élevée"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Physique",
+            "desc": "L'exercice me fait sentir puissant"
         },
         {
             "title": "Nature Dominante",
@@ -113,6 +106,41 @@
             "na": "Neuro-A",
             "sect": "Physique",
             "desc": "J'ai tendance à avoir une température corporelle élevée"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Physique",
+            "desc": "Je n'ai généralement pas besoin de café pour démarrer le matin"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Physique",
+            "desc": "J'ai des insomnies"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Physique",
+            "desc": "J'aime les films d'action"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Physique",
+            "desc": "Parfois, dans ma vie, j'ai eu des épisodes d'énergie extrême"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Physique",
+            "desc": "Je ne mange que pour redonner de l'énergie à mon corps"
         },
         {
             "title": "Nature Dominante",
@@ -132,36 +160,15 @@
             "title": "Nature Dominante",
             "neuro": "Dopamine",
             "na": "Neuro-A",
-            "sect": "Physique",
-            "desc": "J'ai du caractère"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Physique",
-            "desc": "Je ne mange que pour redonner de l'énergie à mon corps"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Physique",
-            "desc": "J'aime les films d'action"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Physique",
-            "desc": "L'exercice me fait sentir puissant"
+            "sect": "Caractère",
+            "desc": "Certaines personnes me considèrent comme un dur à cuire"
         },
         {
             "title": "Nature Dominante",
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Caractère",
-            "desc": "Certaines personnes me considèrent comme un dur à cuire"
+            "desc": "Je ferai tout pour atteindre un objectif"
         },
         {
             "title": "Nature Dominante",
@@ -182,7 +189,7 @@
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Caractère",
-            "desc": "Je ferai tout pour atteindre un objectif"
+            "desc": "J'ai des exigences élevées pour moi-même et pour les autres"
         },
         {
             "title": "Nature Dominante",
@@ -202,127 +209,8 @@
             "title": "Nature Dominante",
             "neuro": "Dopamine",
             "na": "Neuro-A",
-            "sect": "Caractère",
-            "desc": "J'ai des exigences élevées pour moi-même et pour les autres"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
             "sect": "Personnalité",
             "desc": "Je suis un individu très dominateur"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "Parfois, je ne remarque pas mes sentiments"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "J'ai souvent du mal à écouter les autres parce que mes propres idées dominent"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "J'ai participé à de nombreux combats"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "J'ai tendance à être tourné vers l'avenir"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "Je suis parfois spéculatif"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "La plupart des gens me considèrent comme un penseur"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "Je rêve et je fantasme souvent"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "J'aime lire des livres d'histoire et autres livres de non-fiction"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "J'admire l'ingéniosité"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "Je peux être lent à identifier comment les gens peuvent causer des problèmes"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "Je n'ai pas l'habitude de me faire piéger par des gens qui disent avoir besoin de mon aide"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "La plupart des gens me considèrent comme un innovateur"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "Les gens pensent que j'avais des idées étranges, mais je peux toujours en expliquer le fondement de façon rationnelle"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "Je suis souvent agité ou irrité"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "Des petites choses me rendent anxieux ou contrarié"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "J'ai des fantasmes de pouvoir illimité"
         },
         {
             "title": "Nature Dominante",
@@ -336,7 +224,105 @@
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Personnalité",
+            "desc": "Je rêve et je fantasme souvent"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
             "desc": "Je domine les autres dans les relations"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "La plupart des gens me considèrent comme un penseur"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "J'ai tendance à être tourné vers l'avenir"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "Les gens pensent que j'avais des idées étranges, mais je peux toujours en expliquer le fondement de façon rationnelle"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "Je n'ai pas l'habitude de me faire piéger par des gens qui disent avoir besoin de mon aide"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "Je réagis de façon agressive aux critiques, et deviens souvent sur la défensive devant les autres"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "Je suis parfois spéculatif"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "La plupart des gens me considèrent comme un innovateur"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "J'ai souvent du mal à écouter les autres parce que mes propres idées dominent"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "Je peux être lent à identifier comment les gens peuvent causer des problèmes"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "J'admire l'ingéniosité"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "J'ai des fantasmes de pouvoir illimité"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "J'aime lire des livres d'histoire et autres livres de non-fiction"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "Des petites choses me rendent anxieux ou contrarié"
         },
         {
             "title": "Nature Dominante",
@@ -350,7 +336,21 @@
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Personnalité",
-            "desc": "Je réagis de façon agressive aux critiques, et deviens souvent sur la défensive devant les autres"
+            "desc": "J'ai participé à de nombreux combats"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "Parfois, je ne remarque pas mes sentiments"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "Je suis souvent agité ou irrité"
         },
         {
             "title": "Nature Dominante",
@@ -364,7 +364,7 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Mémoire et attention",
-            "desc": "Je suis un excellent auditeur"
+            "desc": "J'ai une bonne imagination"
         },
         {
             "title": "Nature Dominante",
@@ -378,21 +378,14 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Mémoire et attention",
+            "desc": "Je suis un excellent auditeur"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Mémoire et attention",
             "desc": "Je n'oublie généralement pas un visage"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Mémoire et attention",
-            "desc": "Je suis très créatif"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Mémoire et attention",
-            "desc": "J'ai une excellente capacité d'attention et je manque rarement des choses"
         },
         {
             "title": "Nature Dominante",
@@ -406,6 +399,13 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Mémoire et attention",
+            "desc": "Je suis très créatif"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Mémoire et attention",
             "desc": "Je remarque tout ce qui se passe autour de moi"
         },
         {
@@ -413,7 +413,7 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Mémoire et attention",
-            "desc": "J'ai une bonne imagination"
+            "desc": "J'ai une excellente capacité d'attention et je manque rarement des choses"
         },
         {
             "title": "Nature Dominante",
@@ -427,7 +427,14 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Physique",
-            "desc": "Mon corps a un excellent tonus"
+            "desc": "Pendant l'acte sexuel, je suis très sensuel"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Physique",
+            "desc": "Quand je mange, j'aime découvrir les arômes et la beauté de la nourriture"
         },
         {
             "title": "Nature Dominante",
@@ -448,21 +455,14 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Physique",
-            "desc": "Quand je mange, j'aime découvrir les arômes et la beauté de la nourriture"
+            "desc": "J'ai essayé de nombreux remèdes alternatifs"
         },
         {
             "title": "Nature Dominante",
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Physique",
-            "desc": "J'aime le yoga et l'étirement des muscles"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Physique",
-            "desc": "Pendant l'acte sexuel, je suis très sensuel"
+            "desc": "Mon corps a un excellent tonus"
         },
         {
             "title": "Nature Dominante",
@@ -476,7 +476,7 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Physique",
-            "desc": "J'ai essayé de nombreux remèdes alternatifs"
+            "desc": "J'aime le yoga et l'étirement des muscles"
         },
         {
             "title": "Nature Dominante",
@@ -484,13 +484,6 @@
             "na": "Neuro-B",
             "sect": "Caractère",
             "desc": "Je prévois un avenir meilleur"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Caractère",
-            "desc": "Je suis inspiré pour aider d'autres personnes"
         },
         {
             "title": "Nature Dominante",
@@ -511,13 +504,6 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Caractère",
-            "desc": "La charité et l'altruisme viennent du cœur, et j'ai beaucoup des deux"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Caractère",
             "desc": "Les autres pensent que j'ai une vision"
         },
         {
@@ -532,7 +518,21 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Caractère",
+            "desc": "Je suis inspiré pour aider d'autres personnes"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Caractère",
             "desc": "Je suis un idéaliste, mais pas un perfectionniste"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Caractère",
+            "desc": "La charité et l'altruisme viennent du cœur, et j'ai beaucoup des deux"
         },
         {
             "title": "Nature Dominante",
@@ -553,98 +553,7 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Personnalité",
-            "desc": "Je suis en contact avec mes sentiments"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "J'ai tendance à prendre des décisions basées sur des intuitions"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "J'aime bien spéculer"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "Certains disent que j'ai la tête dans les nuages"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "J'aime lire de la fiction"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "J'ai une riche vie imaginaire"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "Je suis créatif pour résoudre les problèmes des gens"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "Je suis très expressif ; j'aime parler de ce qui me dérange"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "Je suis plein d'entrain"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "Je crois qu'il est possible de faire une expérience mystique"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "Je crois qu'il faut être une âme soeur"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "Parfois, le mystique peut m'exciter"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "J'ai tendance à réagir de façon excessive à mon corps"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "Je trouve qu'il est facile de changer les choses ; je ne suis pas figé dans mes habitudes"
+            "desc": "Je prends des risques dans ma vie amoureuse"
         },
         {
             "title": "Nature Dominante",
@@ -658,6 +567,13 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Personnalité",
+            "desc": "J'ai tendance à prendre des décisions basées sur des intuitions"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
             "desc": "J'ai tendance à aimer quelqu'un une minute et à le détester la suivante"
         },
         {
@@ -665,7 +581,28 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Personnalité",
-            "desc": "Je flirte"
+            "desc": "J'ai une riche vie imaginaire"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
+            "desc": "Je suis en contact avec mes sentiments"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
+            "desc": "Parfois, le mystique peut m'exciter"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
+            "desc": "Je suis plein d'entrain"
         },
         {
             "title": "Nature Dominante",
@@ -679,7 +616,63 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Personnalité",
+            "desc": "J'adore regarder des films romantiques"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
+            "desc": "J'aime lire de la fiction"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
+            "desc": "Certains disent que j'ai la tête dans les nuages"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
             "desc": "J'ai tendance à fantasmer quand je fais l'amour"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
+            "desc": "Je suis créatif pour résoudre les problèmes des gens"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
+            "desc": "Je flirte"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
+            "desc": "J'aime bien spéculer"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
+            "desc": "Je crois qu'il est possible de faire une expérience mystique"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
+            "desc": "J'ai tendance à réagir de façon excessive à mon corps"
         },
         {
             "title": "Nature Dominante",
@@ -693,14 +686,21 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Personnalité",
-            "desc": "J'adore regarder des films romantiques"
+            "desc": "Je trouve qu'il est facile de changer les choses ; je ne suis pas figé dans mes habitudes"
         },
         {
             "title": "Nature Dominante",
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Personnalité",
-            "desc": "Je prends des risques dans ma vie amoureuse"
+            "desc": "Je suis très expressif ; j'aime parler de ce qui me dérange"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
+            "desc": "Je crois à l'âme soeur"
         },
         {
             "title": "Nature Dominante",
@@ -728,7 +728,7 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Mémoire et attention",
-            "desc": "Je peux me souvenir des faits que les gens me disent"
+            "desc": "Je suis doué pour mémoriser les noms"
         },
         {
             "title": "Nature Dominante",
@@ -742,7 +742,7 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Mémoire et attention",
-            "desc": "Je suis doué pour mémoriser les noms"
+            "desc": "Je peux me souvenir des faits que les gens me disent"
         },
         {
             "title": "Nature Dominante",
@@ -763,6 +763,13 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Physique",
+            "desc": "En ce qui concerne le sexe, je ne suis pas très expérimental"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Physique",
             "desc": "Je suis une personne calme"
         },
         {
@@ -770,21 +777,7 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Physique",
-            "desc": "Je trouve qu'il est facile de s'endormir le soir"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Physique",
-            "desc": "J'ai tendance à avoir une grande endurance physique"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Physique",
-            "desc": "J'ai une pression sanguine basse"
+            "desc": "L'exercice physique est pour moi une habitude bien réglée"
         },
         {
             "title": "Nature Dominante",
@@ -798,21 +791,7 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Physique",
-            "desc": "En ce qui concerne le sexe, je ne suis pas très expérimental"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Physique",
-            "desc": "J'ai peu de tension musculaire"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Physique",
-            "desc": "La caféine a peu d'effet sur moi"
+            "desc": "J'ai tendance à avoir une grande endurance physique"
         },
         {
             "title": "Nature Dominante",
@@ -833,14 +812,35 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Physique",
-            "desc": "Je n'ai pas beaucoup d'envies de nourritures nuisibles telles que le sucre"
+            "desc": "La caféine a peu d'effet sur moi"
         },
         {
             "title": "Nature Dominante",
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Physique",
-            "desc": "L'exercice physique est pour moi une habitude bien réglée"
+            "desc": "J'ai peu de tension musculaire"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Physique",
+            "desc": "Je trouve qu'il est facile de s'endormir le soir"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Physique",
+            "desc": "J'ai une pression sanguine basse"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Physique",
+            "desc": "Je n'ai pas beaucoup d'envies de nourritures nuisibles telles que le sucre"
         },
         {
             "title": "Nature Dominante",
@@ -854,13 +854,6 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Caractère",
-            "desc": "Je crois au respect des délais"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Caractère",
             "desc": "J'essaie de faire plaisir aux autres du mieux que je peux"
         },
         {
@@ -868,7 +861,28 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Caractère",
+            "desc": "Je crois en la participation au service de la communauté"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Caractère",
+            "desc": "Je suis très attentif aux lois, aux principes et aux politiques"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Caractère",
             "desc": "Je suis un perfectionniste"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Caractère",
+            "desc": "Je crois que le monde serait plus pacifique si les gens amélioraient leurs valeurs morales"
         },
         {
             "title": "Nature Dominante",
@@ -889,13 +903,6 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Caractère",
-            "desc": "Je crois que le monde serait plus pacifique si les gens amélioraient leurs valeurs morales"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Caractère",
             "desc": "Je suis très loyal et dévoué à mes proches"
         },
         {
@@ -910,14 +917,7 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Caractère",
-            "desc": "Je suis très attentif aux lois, aux principes et aux politiques"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Caractère",
-            "desc": "Je crois en la participation au service de la communauté"
+            "desc": "Je crois au respect des délais"
         },
         {
             "title": "Nature Dominante",
@@ -931,91 +931,7 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Personnalité",
-            "desc": "Je n'ai pas de tempérament"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "J'ai beaucoup de patience"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "Je n'aime pas la philosophie"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "J'adore regarder les sitcoms sur les familles"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
             "desc": "Je n'aime pas les films sur d'autres mondes ou univers"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "Je ne suis pas quelqu'un qui prend des risques"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "Je prends en compte mes expériences passées avant de prendre des décisions"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "Je suis une personne réaliste"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "Je crois dans la nécessité de tourner la page"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "J'aime les faits et les détails"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "Quand je prends une décision, elle est définitive"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "J'aime planifier ma journée, ma semaine, mon mois, etc."
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "Je collectionne des objets"
         },
         {
             "title": "Nature Dominante",
@@ -1029,14 +945,7 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Personnalité",
-            "desc": "J'ai peur des confrontations et des altercations"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "J'économise beaucoup d'argent en temps de crise"
+            "desc": "Je n'aime pas la philosophie"
         },
         {
             "title": "Nature Dominante",
@@ -1050,7 +959,98 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Personnalité",
+            "desc": "Je suis une personne réaliste"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "Je n'ai pas de tempérament"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
             "desc": "Je suis un pilier stable dans la vie des gens"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "Je prends en compte mes expériences passées avant de prendre des décisions"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "J'ai beaucoup de patience"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "J'économise beaucoup d'argent en temps de crise"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "J'adore regarder les sitcoms sur les familles"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "J'ai peur des confrontations et des altercations"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "Quand je prends une décision, elle est définitive"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "Je ne suis pas quelqu'un qui prend des risques"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "Je crois dans la nécessité de tourner la page"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "Je collectionne des objets"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "J'aime planifier ma journée, ma semaine, mon mois, etc."
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "J'aime les faits et les détails"
         },
         {
             "title": "Nature Dominante",
@@ -1058,6 +1058,13 @@
             "na": "Neuro-D",
             "sect": "Mémoire et attention",
             "desc": "Je peux facilement me concentrer sur les tâches manuelles"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Mémoire et attention",
+            "desc": "Je suis un penseur impulsif"
         },
         {
             "title": "Nature Dominante",
@@ -1078,7 +1085,7 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Mémoire et attention",
-            "desc": "Je suis un penseur impulsif"
+            "desc": "J'ai tendance à dire : \"venons en au bout du compte\"."
         },
         {
             "title": "Nature Dominante",
@@ -1086,13 +1093,6 @@
             "na": "Neuro-D",
             "sect": "Mémoire et attention",
             "desc": "Je vis dans l'ici et maintenant"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Mémoire et attention",
-            "desc": "J'ai tendance à dire : \"venons en au bout du compte\"."
         },
         {
             "title": "Nature Dominante",
@@ -1120,41 +1120,6 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Physique",
-            "desc": "En ce qui concerne le sexe, je suis très expérimental"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Physique",
-            "desc": "J'ai une pression sanguine basse"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Physique",
-            "desc": "Je suis très orienté vers l'action"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Physique",
-            "desc": "Je suis très pratique à la maison"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Physique",
-            "desc": "Je suis très actif à l'extérieur"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Physique",
             "desc": "Je pratique des activités audacieuses telles que le parachutisme et la moto"
         },
         {
@@ -1162,14 +1127,14 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Physique",
-            "desc": "Je peux résoudre des problèmes spontanément"
+            "desc": "Je ne suis généralement pas très cohérent avec mon programme d'exercice ; je peux faire de l'exercice quotidiennement pendant trois semaines et ensuite le sauter pendant un mois"
         },
         {
             "title": "Nature Dominante",
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Physique",
-            "desc": "J'ai rarement des envies de glucides"
+            "desc": "En ce qui concerne le sexe, je suis très expérimental"
         },
         {
             "title": "Nature Dominante",
@@ -1183,7 +1148,42 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Physique",
-            "desc": "Je ne suis généralement pas très cohérent avec mon programme d'exercice ; je peux faire de l'exercice quotidiennement pendant trois semaines et ensuite le sauter pendant un mois"
+            "desc": "J'ai rarement des envies de glucides"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Physique",
+            "desc": "Je peux résoudre des problèmes spontanément"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Physique",
+            "desc": "Je suis très orienté vers l'action"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Physique",
+            "desc": "J'ai une pression sanguine basse"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Physique",
+            "desc": "Je suis très actif à l'extérieur"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Physique",
+            "desc": "Je suis très pratique à la maison"
         },
         {
             "title": "Nature Dominante",
@@ -1197,14 +1197,7 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Caractère",
-            "desc": "Je n'aime pas travailler dur pendant de longues périodes"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Caractère",
-            "desc": "Je crois que les choses devraient avoir une fonction et un but"
+            "desc": "Je vis dans l'instant"
         },
         {
             "title": "Nature Dominante",
@@ -1218,14 +1211,7 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Caractère",
-            "desc": "Je vis dans l'instant"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Caractère",
-            "desc": "Je ne prie que lorsque j'ai besoin d'un soutien spirituel"
+            "desc": "Je crois que les choses devraient avoir une fonction et un but"
         },
         {
             "title": "Nature Dominante",
@@ -1239,7 +1225,14 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Caractère",
-            "desc": "Je fais ce que je veux, quand je veux"
+            "desc": "Je n'aime pas travailler dur pendant de longues périodes"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Caractère",
+            "desc": "Je ne prie que lorsque j'ai besoin d'un soutien spirituel"
         },
         {
             "title": "Nature Dominante",
@@ -1247,6 +1240,13 @@
             "na": "Neuro-D",
             "sect": "Caractère",
             "desc": "Je ne me soucie pas d'être parfait, je vis juste ma vie"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Caractère",
+            "desc": "Je fais ce que je veux, quand je veux"
         },
         {
             "title": "Nature Dominante",
@@ -1267,70 +1267,7 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Personnalité",
-            "desc": "J'aime me produire/se divertir en public"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Personnalité",
-            "desc": "J'ai tendance à rassembler les faits de manière non organisée"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Personnalité",
-            "desc": "Je suis très flexible"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Personnalité",
-            "desc": "Je suis un grand négociateur"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Personnalité",
-            "desc": "J'aime souvent juste \"manger, boire et être joyeux\"."
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Personnalité",
-            "desc": "Je suis dramatique"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Personnalité",
-            "desc": "Je suis très artistique"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Personnalité",
-            "desc": "Je suis un bon artisan"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Personnalité",
-            "desc": "Je prends des risques dans le domaine du sport"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Personnalité",
-            "desc": "Je crois aux voyants"
+            "desc": "J'ai de nombreuses relations frivoles"
         },
         {
             "title": "Nature Dominante",
@@ -1351,6 +1288,13 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Personnalité",
+            "desc": "Je crois aux voyants"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Personnalité",
             "desc": "J'aime m'amuser"
         },
         {
@@ -1358,28 +1302,7 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Personnalité",
-            "desc": "Mes films préférés sont les films d'horreur"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Personnalité",
-            "desc": "Je suis fasciné par les armes"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Personnalité",
-            "desc": "Je m'en tiens rarement à un plan ou à un programme"
-        },
-        {
-            "title": "Nature Dominante",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Personnalité",
-            "desc": "J'ai du mal à rester fidèle"
+            "desc": "Je suis un grand négociateur"
         },
         {
             "title": "Nature Dominante",
@@ -1393,6 +1316,41 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Personnalité",
+            "desc": "Mes films préférés sont les films d'horreur"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Personnalité",
+            "desc": "J'aime souvent juste \"manger, boire et être joyeux\"."
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Personnalité",
+            "desc": "Je suis dramatique"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Personnalité",
+            "desc": "J'aime me produire/se divertir en public"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Personnalité",
+            "desc": "Je m'en tiens rarement à un plan ou à un programme"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Personnalité",
             "desc": "Je ne fais pas très attention à la façon dont je dépense mon argent"
         },
         {
@@ -1400,7 +1358,49 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Personnalité",
-            "desc": "J'ai de nombreuses relations frivoles"
+            "desc": "Je prends des risques dans le domaine du sport"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Personnalité",
+            "desc": "Je suis très flexible"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Personnalité",
+            "desc": "J'ai du mal à rester fidèle"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Personnalité",
+            "desc": "Je suis un bon artisan"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Personnalité",
+            "desc": "Je suis fasciné par les armes"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Personnalité",
+            "desc": "J'ai tendance à rassembler les faits de manière non organisée"
+        },
+        {
+            "title": "Nature Dominante",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Personnalité",
+            "desc": "Je suis très artistique"
         }
     ]
 }

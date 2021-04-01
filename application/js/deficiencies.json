@@ -7,13 +7,6 @@
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Mémoire et attention",
-            "desc": "J'ai du mal à prêter une attention constante et à me concentrer"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Mémoire et attention",
             "desc": "J'ai besoin de caféine pour me réveiller"
         },
         {
@@ -22,6 +15,13 @@
             "na": "Neuro-A",
             "sect": "Mémoire et attention",
             "desc": "Je ne peux pas penser assez vite"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Mémoire et attention",
+            "desc": "J'ai du mal à prêter une attention constante et à me concentrer"
         },
         {
             "title": "Déficiences",
@@ -56,42 +56,7 @@
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Physique",
-            "desc": "J'ai une libido diminuée"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Physique",
-            "desc": "Je dors beaucoup"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Physique",
-            "desc": "J'ai des antécédents d'alcoolisme ou de toxicomanie"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Physique",
-            "desc": "Je me suis senti récemment épuisé sans raison apparente"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Physique",
-            "desc": "Je ressens parfois un épuisement total sans même m'exercer"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Physique",
-            "desc": "J'ai toujours lutté contre les problèmes de poids"
+            "desc": "J'ai eu une envie de drogues (cocaïne, amphétamines, Ecstasy...)"
         },
         {
             "title": "Déficiences",
@@ -105,6 +70,13 @@
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Physique",
+            "desc": "J'ai toujours lutté contre les problèmes de poids"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Physique",
             "desc": "J'ai peu de difficultés à sortir du lit le matin"
         },
         {
@@ -112,7 +84,35 @@
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Physique",
-            "desc": "J'ai eu une envie de drogues (cocaïne, amphétamines, Ecstasy...)"
+            "desc": "Je ressens parfois un épuisement total sans même m'exercer"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Physique",
+            "desc": "Je me suis senti récemment épuisé sans raison apparente"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Physique",
+            "desc": "Je dors beaucoup"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Physique",
+            "desc": "J'ai une libido diminuée"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Physique",
+            "desc": "J'ai des antécédents d'alcoolisme ou de toxicomanie"
         },
         {
             "title": "Déficiences",
@@ -140,6 +140,27 @@
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Personnalité",
+            "desc": "Je laisse les gens me critiquer"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "Les gens m'ont dit que je suis trop doux"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
+            "desc": "Je me tourne toujours vers les autres pour me guider"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Dopamine",
+            "na": "Neuro-A",
+            "sect": "Personnalité",
             "desc": "Les gens semblent profiter de moi"
         },
         {
@@ -154,28 +175,7 @@
             "neuro": "Dopamine",
             "na": "Neuro-A",
             "sect": "Personnalité",
-            "desc": "Les gens m'ont dit que je suis trop doux"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
             "desc": "J'ai peu d'urgences"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "Je laisse les gens me critiquer"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Dopamine",
-            "na": "Neuro-A",
-            "sect": "Personnalité",
-            "desc": "Je me tourne toujours vers les autres pour me guider"
         },
         {
             "title": "Déficiences",
@@ -196,20 +196,6 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Mémoire et attention",
-            "desc": "J'ai remarqué que mes capacités de mémoire diminuent"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Mémoire et attention",
-            "desc": "Mon conjoint me dit que je n'ai pas de pensées romantiques"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Mémoire et attention",
             "desc": "Je ne me souviens pas de l'anniversaire de mes amis proches"
         },
         {
@@ -223,6 +209,20 @@
             "title": "Déficiences",
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
+            "sect": "Mémoire et attention",
+            "desc": "J'ai remarqué que mes capacités de mémoire diminuent"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Mémoire et attention",
+            "desc": "Mon conjoint me dit que je n'ai pas de pensées romantiques"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
             "sect": "Physique",
             "desc": "J'ai des insomnies"
         },
@@ -231,21 +231,14 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Physique",
+            "desc": "Je ne peux pas respirer facilement"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Physique",
             "desc": "J'ai perdu du tonus musculaire"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Physique",
-            "desc": "Je ne fais plus d'exercice"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Physique",
-            "desc": "J'ai envie d'aliments gras"
         },
         {
             "title": "Déficiences",
@@ -266,7 +259,14 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Physique",
-            "desc": "Je ne peux pas respirer facilement"
+            "desc": "Je ne fais plus d'exercice"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Physique",
+            "desc": "J'ai envie d'aliments gras"
         },
         {
             "title": "Déficiences",
@@ -301,7 +301,28 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Personnalité",
+            "desc": "Je me sens rarement passionné par quoi que ce soit"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
+            "desc": "Je cède facilement et j'ai tendance à être soumis"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
             "desc": "Je ressens du désespoir"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Acétylcholine",
+            "na": "Neuro-B",
+            "sect": "Personnalité",
+            "desc": "D'autres personnes s'énervent plus que moi pour les choses qui les ennuient"
         },
         {
             "title": "Déficiences",
@@ -322,27 +343,6 @@
             "neuro": "Acétylcholine",
             "na": "Neuro-B",
             "sect": "Personnalité",
-            "desc": "D'autres personnes s'énervent plus que moi pour les choses qui les ennuient"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "Je cède facilement et j'ai tendance à être soumis"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
-            "desc": "Je me sens rarement passionné par quoi que ce soit"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Acétylcholine",
-            "na": "Neuro-B",
-            "sect": "Personnalité",
             "desc": "J'aime la routine"
         },
         {
@@ -357,14 +357,14 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Mémoire et attention",
-            "desc": "Je n'arrive pas à me souvenir des numéros de téléphone"
+            "desc": "Quand je lis, je me rends compte que je dois revenir plusieurs fois sur le même paragraphe pour absorber l'information"
         },
         {
             "title": "Déficiences",
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Mémoire et attention",
-            "desc": "J'ai du mal à trouver le mot juste"
+            "desc": "Je n'arrive pas à me souvenir des numéros de téléphone"
         },
         {
             "title": "Déficiences",
@@ -378,6 +378,13 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Mémoire et attention",
+            "desc": "Je suis un penseur rapide mais je ne peux pas toujours dire ce que je veux dire"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Mémoire et attention",
             "desc": "Je sais que je suis intelligent, mais il est difficile de montrer aux autres"
         },
         {
@@ -385,21 +392,14 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Mémoire et attention",
+            "desc": "J'ai du mal à trouver le mot juste"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Mémoire et attention",
             "desc": "Ma capacité à me concentrer va et vient"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Mémoire et attention",
-            "desc": "Quand je lis, je me rends compte que je dois revenir plusieurs fois sur le même paragraphe pour absorber l'information"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Mémoire et attention",
-            "desc": "Je suis un penseur rapide mais je ne peux pas toujours dire ce que je veux dire"
         },
         {
             "title": "Déficiences",
@@ -413,7 +413,70 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Physique",
+            "desc": "J'ai envie d'aliments amers"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Physique",
+            "desc": "J'ai tendance à avoir le souffle court"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Physique",
+            "desc": "J'ai souvent des tensions musculaires"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Physique",
+            "desc": "Je transpire parfois beaucoup"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Physique",
+            "desc": "Je me sens souvent fatigué même après une bonne nuit de sommeil"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Physique",
             "desc": "Je tremble parfois"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Physique",
+            "desc": "J'aime le yoga parce qu'il m'aide à me détendre"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Physique",
+            "desc": "Je suis souvent nerveux"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Physique",
+            "desc": "Je suis parfois étourdi"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Physique",
+            "desc": "J'ai tendance à avoir des papillons dans l'estomac"
         },
         {
             "title": "Déficiences",
@@ -427,7 +490,7 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Physique",
-            "desc": "J'ai tendance à avoir le souffle court"
+            "desc": "J'en fais trop"
         },
         {
             "title": "Déficiences",
@@ -447,78 +510,8 @@
             "title": "Déficiences",
             "neuro": "GABA",
             "na": "Neuro-C",
-            "sect": "Physique",
-            "desc": "Je transpire parfois beaucoup"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Physique",
-            "desc": "Je suis parfois étourdi"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Physique",
-            "desc": "J'ai souvent des tensions musculaires"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Physique",
-            "desc": "J'ai tendance à avoir des papillons dans l'estomac"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Physique",
-            "desc": "J'ai envie d'aliments amers"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Physique",
-            "desc": "Je suis souvent nerveux"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Physique",
-            "desc": "J'aime le yoga parce qu'il m'aide à me détendre"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Physique",
-            "desc": "Je me sens souvent fatigué même après une bonne nuit de sommeil"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Physique",
-            "desc": "J'en fais trop"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
             "sect": "Character",
             "desc": "Je ne respecte plus les règles"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Caractère",
-            "desc": "J'ai perdu mes amis"
         },
         {
             "title": "Déficiences",
@@ -532,14 +525,21 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Caractère",
-            "desc": "Je considère que la loi est arbitraire et sans raison"
+            "desc": "Je considère maintenant comme ridicules les règles que j'avais l'habitude de suivre"
         },
         {
             "title": "Déficiences",
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Caractère",
-            "desc": "Je considère maintenant comme ridicules les règles que j'avais l'habitude de suivre"
+            "desc": "J'ai perdu mes amis"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Caractère",
+            "desc": "Je considère que la loi est arbitraire et sans raison"
         },
         {
             "title": "Déficiences",
@@ -547,34 +547,6 @@
             "na": "Neuro-C",
             "sect": "Personnalité",
             "desc": "J'ai des sautes d'humeur"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "J'aime faire beaucoup de choses en même temps, mais j'ai du mal à décider ce qu'il faut faire en premier"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "J'ai tendance à faire des choses juste parce que je pense qu'elles seraient amusantes"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "Quand les choses sont ennuyeuses, j'essaie toujours d'introduire un peu d'enthousiasme"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "J'ai tendance à être inconstant, à changer fréquemment d'humeur et de pensées"
         },
         {
             "title": "Déficiences",
@@ -595,21 +567,7 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Personnalité",
-            "desc": "J'ai tendance à être théâtral et à attirer l'attention sur moi"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
             "desc": "Je dis ce que je pense, quelle que soit la réaction des autres"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "GABA",
-            "na": "Neuro-C",
-            "sect": "Personnalité",
-            "desc": "J'ai parfois des accès de rage et je me sens ensuite terriblement coupable"
         },
         {
             "title": "Déficiences",
@@ -623,7 +581,49 @@
             "neuro": "GABA",
             "na": "Neuro-C",
             "sect": "Personnalité",
+            "desc": "J'ai tendance à être inconstant, à changer fréquemment d'humeur et de pensées"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "J'ai parfois des accès de rage et je me sens ensuite terriblement coupable"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "J'ai tendance à être théâtral et à attirer l'attention sur moi"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
             "desc": "J'ai toujours eu moins d'intérêt que la moyenne des gens pour le sexe"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "Quand les choses sont ennuyeuses, j'essaie toujours d'introduire un peu d'enthousiasme"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "J'aime faire beaucoup de choses en même temps, mais j'ai du mal à décider ce qu'il faut faire en premier"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "GABA",
+            "na": "Neuro-C",
+            "sect": "Personnalité",
+            "desc": "J'ai tendance à faire des choses juste parce que je pense qu'elles seraient amusantes"
         },
         {
             "title": "Déficiences",
@@ -637,14 +637,14 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Mémoire et attention",
-            "desc": "Je ne me souviens pas des choses que j'ai vues dans le passé"
+            "desc": "J'ai un temps de réaction lent"
         },
         {
             "title": "Déficiences",
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Mémoire et attention",
-            "desc": "J'ai un temps de réaction lent"
+            "desc": "Je ne me souviens pas des choses que j'ai vues dans le passé"
         },
         {
             "title": "Déficiences",
@@ -665,14 +665,14 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Physique",
-            "desc": "J'ai des insomnies"
+            "desc": "Je suis triste"
         },
         {
             "title": "Déficiences",
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Physique",
-            "desc": "J'ai tendance à dormir dans de nombreuses positions différentes pour me sentir à l'aise"
+            "desc": "J'ai des insomnies"
         },
         {
             "title": "Déficiences",
@@ -686,28 +686,7 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Physique",
-            "desc": "Je ne peux pas me détendre"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Physique",
             "desc": "Je me réveille au moins deux fois par nuit"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Physique",
-            "desc": "Il m'est difficile de me rendormir lorsque je suis réveillé"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Physique",
-            "desc": "J'ai envie de sel"
         },
         {
             "title": "Déficiences",
@@ -721,7 +700,28 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Physique",
-            "desc": "Je suis triste"
+            "desc": "J'ai envie de sel"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Physique",
+            "desc": "Il m'est difficile de me rendormir lorsque je suis réveillé"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Physique",
+            "desc": "Je ne peux pas me détendre"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Physique",
+            "desc": "J'ai tendance à dormir dans de nombreuses positions différentes pour me sentir à l'aise"
         },
         {
             "title": "Déficiences",
@@ -735,14 +735,14 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Caractère",
-            "desc": "Je ne veux plus prendre de risques"
+            "desc": "Le manque de sens de ma vie me fait souffrir"
         },
         {
             "title": "Déficiences",
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Caractère",
-            "desc": "Le manque de sens de ma vie me fait souffrir"
+            "desc": "Je ne veux plus prendre de risques"
         },
         {
             "title": "Déficiences",
@@ -756,7 +756,7 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Personnalité",
-            "desc": "Je suis facilement irrité"
+            "desc": "Mon imagination prend le dessus"
         },
         {
             "title": "Déficiences",
@@ -770,14 +770,7 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Personnalité",
-            "desc": "J'ai eu des pensées suicidaires dans ma vie"
-        },
-        {
-            "title": "Déficiences",
-            "neuro": "Sérotonine",
-            "na": "Neuro-D",
-            "sect": "Personnalité",
-            "desc": "J'ai tendance à trop m'attarder sur les idées"
+            "desc": "La peur me saisit"
         },
         {
             "title": "Déficiences",
@@ -791,14 +784,21 @@
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Personnalité",
-            "desc": "Mon imagination prend le dessus"
+            "desc": "J'ai eu des pensées suicidaires dans ma vie"
         },
         {
             "title": "Déficiences",
             "neuro": "Sérotonine",
             "na": "Neuro-D",
             "sect": "Personnalité",
-            "desc": "La peur me saisit"
+            "desc": "Je suis facilement irrité"
+        },
+        {
+            "title": "Déficiences",
+            "neuro": "Sérotonine",
+            "na": "Neuro-D",
+            "sect": "Personnalité",
+            "desc": "J'ai tendance à trop m'attarder sur les idées"
         }
     ]
 }
