@@ -114,7 +114,7 @@
         filterDisplay(acetylcholine, items.acetylcholine);
         filterDisplay(gaba         , items.gaba);
         filterDisplay(serotonine   , items.serotonine);         
-        filterDisplay(_default     , items, [items].every(i => i.score < 5));
+        filterDisplay(_default     , items, items.acetylcholine.score < 5 && items.dopamine.score < 5 && items.gaba.score < 5 && items.serotonine.score < 5);
 
         function filterDisplay(ele, data, isDefault) {
             // levels: 0 1 2 3
@@ -146,6 +146,7 @@
                 ele.show();
             } else {
                 if(isDefault) {
+                    console.log('default')
                     ele.each(function() {
                         let item = $(this);
                         $(".dosage.amount", item).html(item.data("dmin"));
@@ -201,7 +202,7 @@
         filterDisplay(acetylcholine, items.acetylcholine);
         filterDisplay(gaba         , items.gaba);
         filterDisplay(serotonine   , items.serotonine);
-        filterDisplay(_default     , items, [items].every(i => i.score < 5));
+        filterDisplay(_default     , items, items.acetylcholine.score < 5 && items.dopamine.score < 5 && items.gaba.score < 5 && items.serotonine.score < 5);
 
         function filterDisplay(ele, data, isDefault) {
             // if level is at least > 0
@@ -273,7 +274,7 @@
                     $('.remove').remove();
                 }    
             }
-        }  
+        }
     }   
     
     function saveRecommendations() {    
