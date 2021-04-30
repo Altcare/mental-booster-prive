@@ -49,15 +49,15 @@
                     var l  = _supplements.items.length;
                     for (var i=0; i<l; i++) {
                         var content = template
-                                        .replaceAll("{neuro}"       , _supplements.items[i].neuro)
-                                        .replaceAll("{title}"       , _supplements.items[i].title)
-                                        .replaceAll("{dMin}"        , _supplements.items[i].dMin)
-                                        .replaceAll("{dMoy}"        , _supplements.items[i].dMoy)
-                                        .replaceAll("{dMax}"        , _supplements.items[i].dMax)
-                                        .replaceAll("{desc}"        , _supplements.items[i].desc)                                        
-                                        .replaceAll("{file}"        , _supplements.items[i].file)
-                                        .replaceAll("{supplementId}", _supplements.items[i].supplementId)
-                                        .replaceAll("{default}", _supplements.items[i].default)
+                                        .split("{neuro}").join(_supplements.items[i].neuro)
+                                        .split("{title}").join(_supplements.items[i].title)
+                                        .split("{dMin}").join(_supplements.items[i].dMin)
+                                        .split("{dMoy}").join(_supplements.items[i].dMoy)
+                                        .split("{dMax}").join(_supplements.items[i].dMax)
+                                        .split("{desc}").join(_supplements.items[i].desc)                                        
+                                        .split("{file}").join(_supplements.items[i].file)
+                                        .split("{supplementId}").join(_supplements.items[i].supplementId)
+                                        .split("{default}").join(_supplements.items[i].default)
 
                     $("#supplements").append(content);
                 }
@@ -72,16 +72,16 @@
                     var l  = _products.items.length;
                     for (var i=0; i<l; i++) {
                         var content = template
-                                        .replaceAll("{neuro}"    , _products.items[i].neuro)
-                                        .replaceAll("{title}"    , _products.items[i].title)
-                                        .replaceAll("{desc}"     , _products.items[i].desc)                                                                                
-                                        .replaceAll("{dMin}"     , _products.items[i].dMin)
-                                        .replaceAll("{dMoy}"     , _products.items[i].dMoy)
-                                        .replaceAll("{dMax}"     , _products.items[i].dMax)
-                                        .replaceAll("{file}"     , _products.items[i].file)
-                                        .replaceAll("{productId}", _products.items[i].productId)                                        
-                                        .replaceAll("{link}"     , _products.items[i].link)
-                                        .replaceAll("{default}"  , _products.items[i].default)
+                                        .split("{neuro}").join(_products.items[i].neuro)
+                                        .split("{title}").join(_products.items[i].title)
+                                        .split("{desc}").join(_products.items[i].desc)                                                                                
+                                        .split("{dMin}").join(_products.items[i].dMin)
+                                        .split("{dMoy}").join(_products.items[i].dMoy)
+                                        .split("{dMax}").join(_products.items[i].dMax)
+                                        .split("{file}").join(_products.items[i].file)
+                                        .split("{productId}").join(_products.items[i].productId)                                        
+                                        .split("{link}").join(_products.items[i].link)
+                                        .split("{default}").join(_products.items[i].default)
 
                     $("#products").append(content);
                 }

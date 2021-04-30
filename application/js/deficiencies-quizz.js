@@ -65,10 +65,10 @@
                 var l  = _deficiencies.items.length;
                 for (var i=0; i<l; i++) {
                     var content = template
-                                    .replaceAll("{na}"   , _deficiencies.items[i].na)
-                                    .replaceAll("{sect}" , _deficiencies.items[i].sect)
-                                    .replaceAll("{desc}" , _deficiencies.items[i].desc)
-                                    .replaceAll("{id}"   , id);
+                                    .split("{na}").join(_deficiencies.items[i].na)
+                                    .split("{sect}").join(_deficiencies.items[i].sect)
+                                    .split("{desc}").join(_deficiencies.items[i].desc)
+                                    .split("{id}").join(id);
 
                     id++;
                     $(".slides").append(content);

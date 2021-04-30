@@ -63,10 +63,10 @@
                 var l  = _nature.items.length;
                 for (var i=0; i<l; i++) {
                     var content = template
-                                    .replaceAll("{na}"   , _nature.items[i].na)
-                                    .replaceAll("{sect}" , _nature.items[i].sect)
-                                    .replaceAll("{desc}" , _nature.items[i].desc)
-                                    .replaceAll("{id}"   , id);
+                                    .split("{na}").join(_nature.items[i].na)
+                                    .split("{sect}").join(_nature.items[i].sect)
+                                    .split("{desc}").join(_nature.items[i].desc)
+                                    .split("{id}").join(id);
 
                     id++;
                     $(".slides").append(content);

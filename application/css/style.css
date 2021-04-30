@@ -8,15 +8,13 @@
 /* Arial, Bold, Regular : 15pt, 20pt */
 /* #region  -------------------------------------------- CSS Slider */
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 html,
@@ -32,34 +30,22 @@ body {
 }
 
 .slides {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-touch-action: none;
-      touch-action: none;
+  align-items: flex-start;
+  touch-action: none;
   overflow-x: hidden;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
 }
-
 .slides .slide-container {
   scroll-snap-align: start;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .slides .slide-container.question {
   height: 80vh;
 }
@@ -96,7 +82,6 @@ body {
   display: inline-block;
   width: 80px;
 }
-
 #slide-info .top-intro .title {
   font-size: 11px;
   color: #AE3EC9;
@@ -104,82 +89,61 @@ body {
 
 .slide-item {
   width: 95%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100%;
   /* Overrides for Info slides */
 }
-
 .slide-item.info {
   width: 100%;
 }
-
 .slide-item.info .slide-top {
   overflow: auto;
   padding: 20px 10px 30px 10px;
 }
-
 .slide-item.info .slide-radios {
   width: 100%;
   margin: 0 auto;
 }
-
 .slide-item.info .radio-item {
   margin: 10px 0 0 0;
 }
-
 .slide-item.info .radio-item .button {
   background-color: #AE3EC9;
   color: #FFFFFF;
   border-radius: 0;
 }
-
 .slide-item.info .question {
   margin: revert;
 }
-
 .slide-item.info .intro {
   width: 80%;
   margin: 50px auto;
 }
-
 .slide-item.info .logo {
   height: 105px;
   width: 200px;
 }
-
 .slide-item.info ul {
   margin: 60px 30px;
   list-style: none;
 }
-
 .slide-item.info ul li {
   text-align: left;
 }
-
 .slide-item.info ul li:before {
   content: url("../img/icons/check_icon.svg");
   margin-right: 5px;
   font-weight: bold;
 }
-
 .slide-item.info .duree {
   font-weight: bold;
   font-size: 20px;
 }
-
 .slide-item.info .duree span {
   color: #AE3EC9;
 }
-
 .slide-item .back {
   visibility: hidden;
   color: #203B72;
@@ -189,25 +153,20 @@ body {
   cursor: pointer;
   margin-top: 10px;
 }
-
 .slide-item .back img {
   width: auto;
 }
-
 .slide-item .back div {
   display: inline-block;
   vertical-align: super;
 }
-
 .slide-item .progress-wrapper {
   width: 80%;
   margin: 25px auto;
 }
-
 .slide-item .progress-wrapper .title {
   text-align: left;
 }
-
 .slide-item .progress-wrapper .progress {
   height: 11px;
   border: 1px solid #AE3EC9;
@@ -215,38 +174,31 @@ body {
   margin: 10px auto;
   overflow: hidden;
 }
-
 .slide-item .progress-wrapper .progress div {
   height: 100%;
   width: 0;
   background-color: #AE3EC9;
-  -webkit-transition: width 0.5s;
   transition: width 0.5s;
 }
-
 .slide-item .question {
   color: #203B72;
-  font-size: 20px;
+  font-size: medium;
   font-weight: bold;
   margin: 50px 30px;
 }
-
 .slide-item .title {
   color: #922692;
   font-size: 20px;
   font-weight: bold;
 }
-
 .slide-item .section {
   color: #697DA5;
   font-size: 15px;
   font-weight: normal;
 }
-
 .slide-item .justify {
   text-align: justify;
 }
-
 .slide-item img {
   width: 90%;
 }
@@ -263,22 +215,18 @@ body {
   margin: 10px;
   display: block;
 }
-
-.radio-item input[type="radio"] {
+.radio-item input[type=radio] {
   opacity: 0;
   position: fixed;
   width: 0;
 }
-
-.radio-item input[type="radio"]:focus + label {
+.radio-item input[type=radio]:focus + label {
   border: 1px solid #C8C3C3;
 }
-
-.radio-item input[type="radio"]:checked + label {
+.radio-item input[type=radio]:checked + label {
   background-color: #e0b6ea;
   border-color: #000000;
 }
-
 .radio-item label,
 .radio-item .button {
   cursor: pointer;
@@ -293,12 +241,10 @@ body {
   -webkit-text-decoration: auto;
           text-decoration: auto;
 }
-
 .radio-item label:hover,
 .radio-item .button:hover {
   background-color: #e0b6ea;
   border-color: #000000;
 }
 
-/* #endregion */
-/*# sourceMappingURL=style.css.map */
+/* #endregion *//*# sourceMappingURL=style.css.map */
